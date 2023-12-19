@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-19T12:50:39.664Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="JjBE0Afv6f-rjqd9kIkt" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-19T12:52:09.030Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="_gQU43mRBk0yhMp8l2Bs" version="22.1.11" type="github">
   <diagram name="Page-1" id="58cdce13-f638-feb5-8d6f-7d28b1aa9fa0">
     <mxGraphModel dx="880" dy="540" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -19,7 +19,7 @@
           <mxGeometry x="390" y="320" width="120" height="100" as="geometry" />
         </mxCell>
         <mxCell id="qSFb_at1WJNyLGFc-N33-9" value="12V Li-ion Battery / Power&amp;nbsp; Button" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="370" y="490" width="170" height="60" as="geometry" />
+          <mxGeometry x="365" y="470" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qSFb_at1WJNyLGFc-N33-10" value="Display" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="590" y="210" width="120" height="60" as="geometry" />
