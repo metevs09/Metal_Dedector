@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-19T14:28:29.658Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="sy1RcD3_roMe1kSNyhBW" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-19T14:28:59.978Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="nLSVD0OKnqls6bsTxKuP" version="22.1.11" type="github">
   <diagram name="Page-1" id="58cdce13-f638-feb5-8d6f-7d28b1aa9fa0">
     <mxGraphModel dx="1100" dy="675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -156,7 +156,7 @@
         <mxCell id="qSFb_at1WJNyLGFc-N33-70" value="Power Unit" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;strokeWidth=3;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="332.5" y="540" width="327.5" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="qSFb_at1WJNyLGFc-N33-71" value="Power Button" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="qSFb_at1WJNyLGFc-N33-71" value="Power Switch" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="500" y="570" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="qSFb_at1WJNyLGFc-N33-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="qSFb_at1WJNyLGFc-N33-72" target="qSFb_at1WJNyLGFc-N33-71">
