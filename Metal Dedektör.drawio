@@ -1,11 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2023-12-19T12:58:08.685Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="sBL7t4HaZneOJVyxJong" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-19T13:05:05.383Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="7gW2DRdXhIzBLr_eS8cd" version="22.1.11" type="github">
   <diagram name="Page-1" id="58cdce13-f638-feb5-8d6f-7d28b1aa9fa0">
     <mxGraphModel dx="880" dy="540" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="qSFb_at1WJNyLGFc-N33-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qSFb_at1WJNyLGFc-N33-1" target="qSFb_at1WJNyLGFc-N33-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="qSFb_at1WJNyLGFc-N33-1" value="Metal Detector Antenna" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="90" y="200" width="120" height="60" as="geometry" />
+          <mxGeometry x="90" y="210" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qSFb_at1WJNyLGFc-N33-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qSFb_at1WJNyLGFc-N33-5" target="qSFb_at1WJNyLGFc-N33-11">
           <mxGeometry relative="1" as="geometry">
@@ -22,34 +25,34 @@
           <mxGeometry x="365" y="470" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qSFb_at1WJNyLGFc-N33-10" value="Display" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="590" y="210" width="120" height="60" as="geometry" />
+          <mxGeometry x="620" y="210" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qSFb_at1WJNyLGFc-N33-11" value="Buffer/Earphone" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="590" y="340" width="120" height="60" as="geometry" />
+          <mxGeometry x="620" y="340" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qSFb_at1WJNyLGFc-N33-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qSFb_at1WJNyLGFc-N33-14" target="qSFb_at1WJNyLGFc-N33-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qSFb_at1WJNyLGFc-N33-14" value="SPI / LCD&lt;br&gt;Interface" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="390" y="210" width="120" height="60" as="geometry" />
+          <mxGeometry x="420" y="210" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qSFb_at1WJNyLGFc-N33-18" value="AI" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="230" y="210" width="30" height="30" as="geometry" />
+          <mxGeometry x="230" y="220" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qSFb_at1WJNyLGFc-N33-19" value="AI" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="230" y="290" width="30" height="30" as="geometry" />
+          <mxGeometry x="230" y="300" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qSFb_at1WJNyLGFc-N33-20" value="AO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="520" y="360" width="60" height="10" as="geometry" />
         </mxCell>
         <mxCell id="qSFb_at1WJNyLGFc-N33-21" value="DO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="520" y="230" width="60" height="10" as="geometry" />
+          <mxGeometry x="550" y="230" width="60" height="10" as="geometry" />
         </mxCell>
         <mxCell id="qSFb_at1WJNyLGFc-N33-24" value="DI/DO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="440" y="290" width="60" height="10" as="geometry" />
+          <mxGeometry x="470" y="290" width="60" height="10" as="geometry" />
         </mxCell>
         <mxCell id="qSFb_at1WJNyLGFc-N33-25" value="Volume Up/Down&lt;br&gt;Potantiometer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="90" y="280" width="120" height="60" as="geometry" />
+          <mxGeometry x="90" y="290" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qSFb_at1WJNyLGFc-N33-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qSFb_at1WJNyLGFc-N33-26">
           <mxGeometry relative="1" as="geometry">
@@ -61,13 +64,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="qSFb_at1WJNyLGFc-N33-26" value="Sensitivity Potantiometer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="90" y="360" width="120" height="60" as="geometry" />
+          <mxGeometry x="90" y="365" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qSFb_at1WJNyLGFc-N33-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="qSFb_at1WJNyLGFc-N33-25" target="qSFb_at1WJNyLGFc-N33-5">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="332" y="320" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="270" y="310" />
+              <mxPoint x="270" y="320" />
               <mxPoint x="270" y="345" />
             </Array>
           </mxGeometry>
@@ -79,6 +82,10 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="590" y="490" as="sourcePoint" />
             <mxPoint x="640" y="440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="450" y="300" />
+              <mxPoint x="480" y="300" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="qSFb_at1WJNyLGFc-N33-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.008;entryY=0.61;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qSFb_at1WJNyLGFc-N33-37" target="qSFb_at1WJNyLGFc-N33-5">
@@ -113,14 +120,24 @@
         <mxCell id="qSFb_at1WJNyLGFc-N33-44" value="Metal Detector&amp;nbsp;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
           <mxGeometry x="30" y="140" width="770" height="460" as="geometry" />
         </mxCell>
-        <mxCell id="qSFb_at1WJNyLGFc-N33-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.12;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qSFb_at1WJNyLGFc-N33-1" target="qSFb_at1WJNyLGFc-N33-5">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="qSFb_at1WJNyLGFc-N33-49" value="I/O definition" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="660" y="500" width="140" height="100" as="geometry" />
         </mxCell>
         <mxCell id="qSFb_at1WJNyLGFc-N33-48" value="&amp;nbsp; AI: Analog Input&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; AO: Analog Output&lt;br&gt;DI: Digital Input&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;DO: Digital Output" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="qSFb_at1WJNyLGFc-N33-49">
           <mxGeometry y="30" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qSFb_at1WJNyLGFc-N33-53" value="Signal Filtering" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="270" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qSFb_at1WJNyLGFc-N33-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qSFb_at1WJNyLGFc-N33-53" target="qSFb_at1WJNyLGFc-N33-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qSFb_at1WJNyLGFc-N33-57" value="AI" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="280" width="20" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
