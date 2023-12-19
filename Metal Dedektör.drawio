@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-19T18:12:48.365Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="lHZZrBFlkqjO-DTt5x9C" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-19T18:23:37.883Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="ii4fRr-8CH3drTmTMGYJ" version="22.1.11" type="github">
   <diagram name="Page-1" id="58cdce13-f638-feb5-8d6f-7d28b1aa9fa0">
     <mxGraphModel dx="1035" dy="595" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -18,7 +18,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="qSFb_at1WJNyLGFc-N33-5" value="&lt;b&gt;MCU &lt;br&gt;(Microcontroller Unit)&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="qSFb_at1WJNyLGFc-N33-5" value="&lt;b&gt;ESP32-MCU&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="490" y="280" width="120" height="100" as="geometry" />
         </mxCell>
         <mxCell id="qSFb_at1WJNyLGFc-N33-9" value="12V Li-ion Battery&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
