@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-22T11:50:48.235Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="JiQ5xl0zgdg7EBdXWtAl" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-22T11:52:19.978Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="mAYCXayvxvnMln8b86WU" version="22.1.11" type="github">
   <diagram name="Page-1" id="58cdce13-f638-feb5-8d6f-7d28b1aa9fa0">
     <mxGraphModel dx="880" dy="506" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -21,7 +21,7 @@
         <mxCell id="qSFb_at1WJNyLGFc-N33-5" value="&lt;b&gt;ESP32-MCU&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="490" y="280" width="120" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="qSFb_at1WJNyLGFc-N33-9" value="12V Li-ion Battery&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+        <mxCell id="qSFb_at1WJNyLGFc-N33-9" value="Li-ion Battery Charger&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="590" y="740" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="qSFb_at1WJNyLGFc-N33-10" value="Display" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
@@ -129,10 +129,10 @@
         <mxCell id="qSFb_at1WJNyLGFc-N33-71" value="Power Switch" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="600" y="530" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="qSFb_at1WJNyLGFc-N33-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="qSFb_at1WJNyLGFc-N33-72" target="qSFb_at1WJNyLGFc-N33-71" edge="1">
+        <mxCell id="zXncX_5XtboGSbMR2yyh-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qSFb_at1WJNyLGFc-N33-72" target="zXncX_5XtboGSbMR2yyh-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qSFb_at1WJNyLGFc-N33-72" value="Li-ion charger" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+        <mxCell id="qSFb_at1WJNyLGFc-N33-72" value="12 V Li-ion Battery" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="590" y="670" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="qSFb_at1WJNyLGFc-N33-73" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="qSFb_at1WJNyLGFc-N33-9" target="qSFb_at1WJNyLGFc-N33-72" edge="1">
@@ -160,13 +160,11 @@
         <mxCell id="qSFb_at1WJNyLGFc-N33-86" value="Power Bus Line" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="600" y="410" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qSFb_at1WJNyLGFc-N33-90" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="qSFb_at1WJNyLGFc-N33-72" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="560" y="689.9705882352941" as="sourcePoint" />
-          </mxGeometry>
+        <mxCell id="zXncX_5XtboGSbMR2yyh-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qSFb_at1WJNyLGFc-N33-89" target="qSFb_at1WJNyLGFc-N33-9">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qSFb_at1WJNyLGFc-N33-89" value="Power Connector" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="450" y="670" width="110" height="40" as="geometry" />
+          <mxGeometry x="450" y="740" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="qSFb_at1WJNyLGFc-N33-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.663;entryY=-0.02;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="qSFb_at1WJNyLGFc-N33-71" target="qSFb_at1WJNyLGFc-N33-70" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -179,6 +177,12 @@
         </mxCell>
         <mxCell id="qSFb_at1WJNyLGFc-N33-96" value="External Power supply Unit" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=100;height=30;strokeWidth=3;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="580" width="250" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="zXncX_5XtboGSbMR2yyh-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zXncX_5XtboGSbMR2yyh-1" target="qSFb_at1WJNyLGFc-N33-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zXncX_5XtboGSbMR2yyh-1" value="Buck Conventer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="590" y="600" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
