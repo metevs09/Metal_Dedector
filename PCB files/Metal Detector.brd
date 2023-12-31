@@ -1544,6 +1544,23 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="-0.5" y1="-0.25" x2="-0.3" y2="0.25" layer="51"/>
 <rectangle x1="0.3" y1="-0.25" x2="0.5" y2="0.25" layer="51" rot="R180"/>
 </package>
+<package name="1206" urn="urn:adsk.eagle:footprint:41385043/1" library_version="2">
+<description>&lt;p&gt;&lt;b&gt;Generic 3216 (1206) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
+<wire x1="-2.4" y1="1.1" x2="2.4" y2="1.1" width="0.0508" layer="39"/>
+<wire x1="2.4" y1="-1.1" x2="-2.4" y2="-1.1" width="0.0508" layer="39"/>
+<wire x1="-2.4" y1="-1.1" x2="-2.4" y2="1.1" width="0.0508" layer="39"/>
+<wire x1="2.4" y1="1.1" x2="2.4" y2="-1.1" width="0.0508" layer="39"/>
+<wire x1="-0.965" y1="0.787" x2="0.965" y2="0.787" width="0.1016" layer="51"/>
+<wire x1="-0.965" y1="-0.787" x2="0.965" y2="-0.787" width="0.1016" layer="51"/>
+<rectangle x1="-1.7018" y1="-0.8509" x2="-0.9517" y2="0.8491" layer="51"/>
+<rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+<smd name="1" x="-1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
+<smd name="2" x="1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
+<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="0402" urn="urn:adsk.eagle:package:41385089/1" type="box" library_version="2">
@@ -1556,6 +1573,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <package3d name="0402-TIGHT" urn="urn:adsk.eagle:package:41385069/1" type="box" library_version="2">
 <packageinstances>
 <packageinstance name="0402-TIGHT"/>
+</packageinstances>
+</package3d>
+<package3d name="1206" urn="urn:adsk.eagle:package:41385095/1" type="box" library_version="2">
+<description>&lt;p&gt;&lt;b&gt;Generic 3216 (1206) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="1206"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -2481,6 +2505,35 @@ single carbon potentiometer, 16 mm</description>
 </package>
 </packages>
 </library>
+<library name="MMBD717">
+<description>&lt;Small Signal Schottky (IF&lt;1A) - MMBD717 , 20V, 1mA, SOT-23&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="SOT95P240X110-3N">
+<description>&lt;b&gt;SOT-23&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="K1" x="-1.25" y="0.95" dx="0.85" dy="0.6" layer="1"/>
+<smd name="K2" x="-1.25" y="-0.95" dx="0.85" dy="0.6" layer="1"/>
+<smd name="A" x="1.25" y="0" dx="0.85" dy="0.6" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1.925" y1="1.77" x2="1.925" y2="1.77" width="0.05" layer="51"/>
+<wire x1="1.925" y1="1.77" x2="1.925" y2="-1.77" width="0.05" layer="51"/>
+<wire x1="1.925" y1="-1.77" x2="-1.925" y2="-1.77" width="0.05" layer="51"/>
+<wire x1="-1.925" y1="-1.77" x2="-1.925" y2="1.77" width="0.05" layer="51"/>
+<wire x1="-0.65" y1="1.46" x2="0.65" y2="1.46" width="0.1" layer="51"/>
+<wire x1="0.65" y1="1.46" x2="0.65" y2="-1.46" width="0.1" layer="51"/>
+<wire x1="0.65" y1="-1.46" x2="-0.65" y2="-1.46" width="0.1" layer="51"/>
+<wire x1="-0.65" y1="-1.46" x2="-0.65" y2="1.46" width="0.1" layer="51"/>
+<wire x1="-0.65" y1="0.51" x2="0.3" y2="1.46" width="0.1" layer="51"/>
+<wire x1="-0.475" y1="1.46" x2="0.475" y2="1.46" width="0.2" layer="21"/>
+<wire x1="0.475" y1="1.46" x2="0.475" y2="-1.46" width="0.2" layer="21"/>
+<wire x1="0.475" y1="-1.46" x2="-0.475" y2="-1.46" width="0.2" layer="21"/>
+<wire x1="-0.475" y1="-1.46" x2="-0.475" y2="1.46" width="0.2" layer="21"/>
+<wire x1="-1.675" y1="1.5" x2="-0.825" y2="1.5" width="0.2" layer="21"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -3109,12 +3162,6 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-114.34" y="-165.1" size="1.27" layer="25" align="center"/>
 <attribute name="VALUE" x="-114.34" y="-165.1" size="1.27" layer="27" align="center"/>
 </element>
-<element name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF/16v" x="-120.65" y="-175.26" smashed="yes">
-<attribute name="NAME" x="-121.285" y="-174.625" size="1.27" layer="25"/>
-<attribute name="POPULARITY" value="73" x="-120.65" y="-175.26" size="1.778" layer="27" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="-120.65" y="-175.26" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-121.285" y="-177.165" size="1.27" layer="27"/>
-</element>
 <element name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="2R2" x="-119.38" y="-232.41" smashed="yes">
 <attribute name="NAME" x="-122.555" y="-230.505" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="3" x="-119.38" y="-232.41" size="1.778" layer="27" display="off"/>
@@ -3126,6 +3173,28 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="41" x="-120.65" y="-240.03" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="-120.65" y="-240.03" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-121.92" y="-242.57" size="1.27" layer="27"/>
+</element>
+<element name="C9" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="1206" package3d_urn="urn:adsk.eagle:package:41385095/1" value="1.0uF/25 VDC/XR7" x="-120.65" y="-259.08" smashed="yes">
+<attribute name="NAME" x="-120.65" y="-257.937" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="CAP-09822" x="-120.65" y="-259.08" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-120.65" y="-260.223" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="D5" library="MMBD717" package="SOT95P240X110-3N" value="MMBD717" x="-120.65" y="-262.89" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="" x="-120.65" y="-262.89" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="-120.65" y="-262.89" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Small Signal Schottky (IF&lt;1A) - MMBD717 , 20V, 1mA, SOT-23" x="-120.65" y="-262.89" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.1mm" x="-120.65" y="-262.89" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="PANJIT" x="-120.65" y="-262.89" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MMBD717" x="-120.65" y="-262.89" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="-120.65" y="-262.89" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="-120.65" y="-262.89" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-120.65" y="-262.89" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-120.65" y="-262.89" size="1.27" layer="27" align="center"/>
+</element>
+<element name="C6" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="1206" package3d_urn="urn:adsk.eagle:package:41385095/1" value="2.2uF/25 VDC/XR7" x="-121.92" y="-267.97" smashed="yes">
+<attribute name="NAME" x="-121.92" y="-266.827" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="CAP-09822" x="-121.92" y="-267.97" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-121.92" y="-269.113" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 </elements>
 <signals>
@@ -3209,6 +3278,8 @@ design rules under a new name.</description>
 <contactref element="X2" pad="3"/>
 <contactref element="IC6" pad="1"/>
 <contactref element="IC3" pad="1"/>
+<contactref element="C9" pad="2"/>
+<contactref element="C6" pad="2"/>
 <wire x1="-75.102" y1="-86.995" x2="-67.25" y2="-98.805" width="0" layer="19" extent="1-1"/>
 <wire x1="-73.66" y1="-79.5528" x2="-75.102" y2="-86.995" width="0" layer="19" extent="1-1"/>
 <wire x1="-68.6562" y1="-76.5556" x2="-73.66" y2="-79.5528" width="0" layer="19" extent="1-1"/>
@@ -3259,6 +3330,8 @@ design rules under a new name.</description>
 <wire x1="-34.98" y1="77.47" x2="-42.49" y2="77.47" width="0" layer="19" extent="1-1"/>
 <wire x1="-31.17" y1="77.47" x2="-34.98" y2="77.47" width="0" layer="19" extent="1-1"/>
 <wire x1="-26.67" y1="66.04" x2="-31.17" y2="77.47" width="0" layer="19" extent="1-1"/>
+<wire x1="-119.25" y1="-259.08" x2="-67.25" y2="-98.805" width="0" layer="19" extent="1-1"/>
+<wire x1="-120.52" y1="-267.97" x2="-119.25" y2="-259.08" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VCC">
 <contactref element="Q1" pad="S"/>
@@ -3579,15 +3652,104 @@ design rules under a new name.</description>
 <contactref element="X2" pad="2"/>
 <contactref element="IC3" pad="4"/>
 <contactref element="IC6" pad="3"/>
+<contactref element="R15" pad="2"/>
+<contactref element="D5" pad="K1"/>
 <wire x1="-67.25" y1="-94.235" x2="-75.102" y2="-90.805" width="0" layer="19" extent="1-1"/>
 <wire x1="-68.6562" y1="-82.55" x2="-75.102" y2="-90.805" width="0" layer="19" extent="1-1"/>
+<wire x1="-117.18" y1="-232.41" x2="-67.25" y2="-94.235" width="0" layer="19" extent="1-1"/>
+<wire x1="-121.9" y1="-261.94" x2="-117.18" y2="-232.41" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$16">
+<contactref element="C6" pad="1"/>
+<contactref element="R15" pad="1"/>
+<wire x1="-121.58" y1="-232.41" x2="-123.32" y2="-267.97" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="AVCC">
+<contactref element="IC2" pad="4"/>
+<contactref element="R13" pad="2"/>
+<contactref element="C9" pad="1"/>
+<wire x1="-119.228" y1="-240.03" x2="-71.1" y2="-66.495" width="0" layer="19" extent="1-1"/>
+<wire x1="-122.05" y1="-259.08" x2="-119.228" y2="-240.03" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="VBATT">
+<contactref element="D5" pad="K2"/>
 </signal>
 <signal name="N$14">
-<contactref element="IC2" pad="4"/>
-<contactref element="C6" pad="2"/>
-<contactref element="R13" pad="2"/>
-<wire x1="-119.8" y1="-175.26" x2="-71.1" y2="-66.495" width="0" layer="19" extent="1-1"/>
-<wire x1="-119.228" y1="-240.03" x2="-119.8" y2="-175.26" width="0" layer="19" extent="1-1"/>
+<contactref element="D5" pad="A"/>
+<contactref element="R13" pad="1"/>
+<wire x1="-122.072" y1="-240.03" x2="-119.4" y2="-262.89" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="PVCC_1">
+<contactref element="IC2" pad="2"/>
+</signal>
+<signal name="PVCC_2">
+<contactref element="IC2" pad="3"/>
+</signal>
+<signal name="ACN">
+<contactref element="IC2" pad="5"/>
+</signal>
+<signal name="ACP">
+<contactref element="IC2" pad="6"/>
+</signal>
+<signal name="CMSRC">
+<contactref element="IC2" pad="7"/>
+</signal>
+<signal name="ACDRV">
+<contactref element="IC2" pad="8"/>
+</signal>
+<signal name="STAT">
+<contactref element="IC2" pad="9"/>
+</signal>
+<signal name="TS">
+<contactref element="IC2" pad="10"/>
+</signal>
+<signal name="TTC">
+<contactref element="IC2" pad="11"/>
+</signal>
+<signal name="VREF">
+<contactref element="IC2" pad="12"/>
+</signal>
+<signal name="ISET">
+<contactref element="IC2" pad="13"/>
+</signal>
+<signal name="CELL">
+<contactref element="IC2" pad="14"/>
+</signal>
+<signal name="SRN">
+<contactref element="IC2" pad="15"/>
+</signal>
+<signal name="SRP">
+<contactref element="IC2" pad="16"/>
+</signal>
+<signal name="ACSET">
+<contactref element="IC2" pad="17"/>
+</signal>
+<signal name="OVPSET">
+<contactref element="IC2" pad="18"/>
+</signal>
+<signal name="BATDRV">
+<contactref element="IC2" pad="19"/>
+</signal>
+<signal name="REGN">
+<contactref element="IC2" pad="20"/>
+</signal>
+<signal name="BTST">
+<contactref element="IC2" pad="21"/>
+</signal>
+<signal name="PGND_1">
+<contactref element="IC2" pad="22"/>
+</signal>
+<signal name="PGND_2">
+<contactref element="IC2" pad="23"/>
+</signal>
+<signal name="AGND">
+<contactref element="IC2" pad="25"/>
+</signal>
+<signal name="SW_1">
+<contactref element="IC2" pad="1"/>
+</signal>
+<signal name="SW_2">
+<contactref element="IC2" pad="24"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
