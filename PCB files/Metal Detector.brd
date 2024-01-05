@@ -3909,6 +3909,35 @@ diameter 2.54 mm, horizontal, grid 10.16 mm</description>
 </package>
 </packages>
 </library>
+<library name="BC847AE6327HTSA1">
+<description>&lt;TRANS NPN 45V 0.1A SOT-23&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="SOT95P240X110-3N">
+<description>&lt;b&gt;SOT23(1.1mm)&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-1.25" y="0.95" dx="0.85" dy="0.6" layer="1"/>
+<smd name="2" x="-1.25" y="-0.95" dx="0.85" dy="0.6" layer="1"/>
+<smd name="3" x="1.25" y="0" dx="0.85" dy="0.6" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1.925" y1="1.75" x2="1.925" y2="1.75" width="0.05" layer="51"/>
+<wire x1="1.925" y1="1.75" x2="1.925" y2="-1.75" width="0.05" layer="51"/>
+<wire x1="1.925" y1="-1.75" x2="-1.925" y2="-1.75" width="0.05" layer="51"/>
+<wire x1="-1.925" y1="-1.75" x2="-1.925" y2="1.75" width="0.05" layer="51"/>
+<wire x1="-0.65" y1="1.45" x2="0.65" y2="1.45" width="0.1" layer="51"/>
+<wire x1="0.65" y1="1.45" x2="0.65" y2="-1.45" width="0.1" layer="51"/>
+<wire x1="0.65" y1="-1.45" x2="-0.65" y2="-1.45" width="0.1" layer="51"/>
+<wire x1="-0.65" y1="-1.45" x2="-0.65" y2="1.45" width="0.1" layer="51"/>
+<wire x1="-0.65" y1="0.5" x2="0.3" y2="1.45" width="0.1" layer="51"/>
+<wire x1="-0.475" y1="1.45" x2="0.475" y2="1.45" width="0.2" layer="21"/>
+<wire x1="0.475" y1="1.45" x2="0.475" y2="-1.45" width="0.2" layer="21"/>
+<wire x1="0.475" y1="-1.45" x2="-0.475" y2="-1.45" width="0.2" layer="21"/>
+<wire x1="-0.475" y1="-1.45" x2="-0.475" y2="1.45" width="0.2" layer="21"/>
+<wire x1="-1.675" y1="1.5" x2="-0.825" y2="1.5" width="0.2" layer="21"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -4897,6 +4926,36 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="4" x="-154.94" y="-560.07" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-145.04" y="-559.55" size="1.27" layer="27" rot="R90"/>
 </element>
+<element name="Q7" library="BC847AE6327HTSA1" package="SOT95P240X110-3N" value="BC847AE6327HTSA1" x="-160.02" y="-608.33" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="BC847AE6327HTSA1" x="-160.02" y="-608.33" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/bc847ae6327htsa1/infineon-technologies-ag?region=nac" x="-160.02" y="-608.33" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="TRANS NPN 45V 0.1A SOT-23" x="-160.02" y="-608.33" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.1mm" x="-160.02" y="-608.33" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Infineon" x="-160.02" y="-608.33" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="BC847AE6327HTSA1" x="-160.02" y="-608.33" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="726-BC847AE6327HTSA1" x="-160.02" y="-608.33" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BC847AE6327HTSA1?qs=K00xGehIljsR0IXot1V2vQ%3D%3D" x="-160.02" y="-608.33" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-160.02" y="-608.33" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-160.02" y="-608.33" size="1.27" layer="27" align="center"/>
+</element>
+<element name="R45" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1KΩ" x="-167.64" y="-613.41" smashed="yes">
+<attribute name="NAME" x="-168.275" y="-612.775" size="1.27" layer="25"/>
+<attribute name="POPULARITY" value="70" x="-167.64" y="-613.41" size="1.778" layer="27" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="-167.64" y="-613.41" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-168.275" y="-615.315" size="1.27" layer="27"/>
+</element>
+<element name="R46" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="150Ω" x="-167.64" y="-618.49" smashed="yes">
+<attribute name="NAME" x="-168.275" y="-617.855" size="1.27" layer="25"/>
+<attribute name="POPULARITY" value="70" x="-167.64" y="-618.49" size="1.778" layer="27" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="-167.64" y="-618.49" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-168.275" y="-620.395" size="1.27" layer="27"/>
+</element>
+<element name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nF" x="-167.64" y="-623.57" smashed="yes">
+<attribute name="NAME" x="-168.275" y="-622.935" size="1.27" layer="25"/>
+<attribute name="POPULARITY" value="73" x="-167.64" y="-623.57" size="1.778" layer="27" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="-167.64" y="-623.57" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-168.275" y="-625.475" size="1.27" layer="27"/>
+</element>
 </elements>
 <signals>
 <signal name="N$1">
@@ -5009,6 +5068,7 @@ design rules under a new name.</description>
 <contactref element="DS1" pad="20"/>
 <contactref element="DS1" pad="2"/>
 <contactref element="R44" pad="1E"/>
+<contactref element="Q7" pad="2"/>
 <wire x1="-119.06" y1="-351.79" x2="-125.31" y2="-381" width="0" layer="19" extent="1-1"/>
 <wire x1="-123.9" y1="-335.28" x2="-119.06" y2="-351.79" width="0" layer="19" extent="1-1"/>
 <wire x1="-125.41" y1="-317.5" x2="-123.9" y2="-335.28" width="0" layer="19" extent="1-1"/>
@@ -5035,6 +5095,7 @@ design rules under a new name.</description>
 <wire x1="-138.43" y1="-593.09" x2="-141.39" y2="-580.39" width="0" layer="19" extent="1-1"/>
 <wire x1="-141.39" y1="-598.17" x2="-138.43" y2="-593.09" width="0" layer="19" extent="1-1"/>
 <wire x1="-141.39" y1="-603.25" x2="-141.39" y2="-598.17" width="0" layer="19" extent="1-1"/>
+<wire x1="-161.27" y1="-609.28" x2="-141.39" y2="-603.25" width="0" layer="19" extent="1-1"/>
 <wire x1="-62.23" y1="-153.67" x2="-119.25" y2="-259.08" width="0" layer="19" extent="1-1"/>
 <wire x1="-16.51" y1="-153.67" x2="-62.23" y2="-153.67" width="0" layer="19" extent="1-1"/>
 <wire x1="-73.66" y1="-79.5528" x2="-62.23" y2="-153.67" width="0" layer="19" extent="1-1"/>
@@ -5130,8 +5191,12 @@ design rules under a new name.</description>
 <contactref element="DS1" pad="1"/>
 <contactref element="DS1" pad="19"/>
 <contactref element="R44" pad="1A"/>
+<contactref element="R46" pad="1"/>
+<contactref element="C8" pad="1"/>
 <wire x1="-143.09" y1="-598.17" x2="-143.09" y2="-603.25" width="0" layer="19" extent="1-1"/>
 <wire x1="-143.09" y1="-585.47" x2="-143.09" y2="-598.17" width="0" layer="19" extent="1-1"/>
+<wire x1="-168.49" y1="-618.49" x2="-143.09" y2="-603.25" width="0" layer="19" extent="1-1"/>
+<wire x1="-168.49" y1="-623.57" x2="-168.49" y2="-618.49" width="0" layer="19" extent="1-1"/>
 <wire x1="-159.94" y1="-553.57" x2="-143.09" y2="-585.47" width="0" layer="19" extent="1-1"/>
 <wire x1="-141.82" y1="-544.83" x2="-159.94" y2="-553.57" width="0" layer="19" extent="1-1"/>
 <wire x1="-140.12" y1="-534.67" x2="-141.82" y2="-544.83" width="0" layer="19" extent="1-1"/>
@@ -5698,6 +5763,26 @@ design rules under a new name.</description>
 <contactref element="DS1" pad="3"/>
 <contactref element="R44" pad="1S"/>
 <wire x1="-154.94" y1="-553.57" x2="-59.69" y2="-153.67" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$26">
+<contactref element="LS1" pad="2"/>
+<contactref element="Q7" pad="3"/>
+<wire x1="-158.77" y1="-608.33" x2="-111.84" y2="-165.1" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$29">
+<contactref element="R45" pad="1"/>
+<contactref element="Q7" pad="1"/>
+<wire x1="-161.27" y1="-607.38" x2="-168.49" y2="-613.41" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$30">
+<contactref element="R46" pad="2"/>
+<contactref element="LS1" pad="1"/>
+<contactref element="C8" pad="2"/>
+<wire x1="-166.79" y1="-618.49" x2="-116.84" y2="-165.1" width="0" layer="19" extent="1-1"/>
+<wire x1="-166.79" y1="-623.57" x2="-166.79" y2="-618.49" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$31">
+<contactref element="R45" pad="2"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
