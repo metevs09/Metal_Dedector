@@ -53,7 +53,7 @@
 <layer number="58" name="bCAD" color="7" fill="1" visible="no" active="no"/>
 <layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="no" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
@@ -21892,6 +21892,7 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device="" value="SYS_VCC"/>
 <part name="J2" library="DG128-7.5-02P-14-00AH" deviceset="DG128-7.5-02P-14-00AH" device="" value="DG128-7.5"/>
 <part name="C3" library="2200uF capacitor" deviceset="EEUFR1C222" device="" value="2200uF"/>
+<part name="GND37" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -22666,6 +22667,9 @@ DTR  RTS--&gt;EN IO0
 <attribute name="VALUE" x="300.6598" y="453.6948" size="1.016" layer="96" ratio="10" rot="SR0"/>
 <attribute name="NAME" x="300.7106" y="457.5048" size="1.016" layer="95" ratio="10" rot="SR0"/>
 </instance>
+<instance part="GND37" gate="1" x="347.98" y="457.2" smashed="yes">
+<attribute name="VALUE" x="345.44" y="454.66" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -23069,6 +23073,18 @@ DTR  RTS--&gt;EN IO0
 <pinref part="GND36" gate="1" pin="GND"/>
 <wire x1="299.72" y1="452.12" x2="299.72" y2="441.96" width="0.1524" layer="91"/>
 <pinref part="C3" gate="A" pin="2"/>
+</segment>
+<segment>
+<pinref part="D3" gate="G$1" pin="C"/>
+<wire x1="355.6" y1="467.36" x2="355.6" y2="464.82" width="0.1524" layer="91"/>
+<wire x1="355.6" y1="464.82" x2="347.98" y2="464.82" width="0.1524" layer="91"/>
+<pinref part="D2" gate="G$1" pin="A"/>
+<wire x1="347.98" y1="464.82" x2="347.98" y2="467.36" width="0.1524" layer="91"/>
+<junction x="347.98" y="464.82"/>
+<pinref part="TR1" gate="G$1" pin="S"/>
+<wire x1="335.28" y1="464.82" x2="347.98" y2="464.82" width="0.1524" layer="91"/>
+<pinref part="GND37" gate="1" pin="GND"/>
+<wire x1="347.98" y1="459.74" x2="347.98" y2="464.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -24372,18 +24388,6 @@ DTR  RTS--&gt;EN IO0
 <pinref part="R12" gate="G$1" pin="1E"/>
 <pinref part="LS1" gate="G$1" pin="+"/>
 <wire x1="307.34" y1="342.9" x2="307.34" y2="337.82" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$32" class="0">
-<segment>
-<pinref part="D3" gate="G$1" pin="C"/>
-<wire x1="355.6" y1="467.36" x2="355.6" y2="464.82" width="0.1524" layer="91"/>
-<wire x1="355.6" y1="464.82" x2="347.98" y2="464.82" width="0.1524" layer="91"/>
-<pinref part="D2" gate="G$1" pin="A"/>
-<wire x1="347.98" y1="464.82" x2="347.98" y2="467.36" width="0.1524" layer="91"/>
-<junction x="347.98" y="464.82"/>
-<pinref part="TR1" gate="G$1" pin="S"/>
-<wire x1="335.28" y1="464.82" x2="347.98" y2="464.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
