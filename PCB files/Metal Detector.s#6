@@ -22086,14 +22086,14 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <plain>
 <text x="401.32" y="543.56" size="6.4516" layer="94">MCU AND UART CONNECTOR</text>
 <text x="381" y="518.16" size="2.54" layer="94" align="top-left">ESP32-WROOM-32UE-N4</text>
-<text x="119.38" y="548.64" size="6.4516" layer="94">BATTERY CHARGE CIRCUIT</text>
+<text x="129.54" y="561.34" size="6.4516" layer="94">BATTERY CHARGE CIRCUIT</text>
 <text x="396.24" y="398.78" size="6.4516" layer="94">SIGNAL PROCESSING CIRCUIT</text>
 <text x="424.18" y="279.4" size="6.4516" layer="94">USER INTERFACE</text>
 <text x="121.92" y="533.146" size="2.54" layer="94" align="top-left">Power Input &amp; Battery Charge Circuit</text>
-<text x="541.02" y="271.526" size="2.54" layer="94" align="top-left">Power On-Off Button</text>
+<text x="541.02" y="268.986" size="2.54" layer="94" align="top-left">Power On-Off Button</text>
 <text x="386.08" y="271.526" size="2.54" layer="94" align="top-left">128 x 64 Graphic Display Circuit &amp; Connector</text>
 <text x="314.96" y="271.526" size="2.54" layer="94" align="top-left">Headphone &amp; Speaker Circuit</text>
-<wire x1="304.546" y1="563.88" x2="304.8" y2="414.274" width="0.1524" layer="94" style="longdash"/>
+<wire x1="304.546" y1="571.5" x2="304.8" y2="414.274" width="0.1524" layer="94" style="longdash"/>
 <text x="106.68" y="329.946" size="2.54" layer="94" align="top-left">5V Buck Conventer Circuit</text>
 <wire x1="304.8" y1="414.274" x2="304.8" y2="375.666" width="0.1524" layer="94" style="longdash"/>
 <wire x1="304.8" y1="375.666" x2="304.8" y2="289.814" width="0.1524" layer="94" style="longdash"/>
@@ -22101,13 +22101,13 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <wire x1="304.8" y1="414.274" x2="595.63" y2="414.274" width="0.1524" layer="94" style="longdash"/>
 <wire x1="304.8" y1="289.814" x2="595.63" y2="289.814" width="0.1524" layer="94" style="longdash"/>
 <text x="116.84" y="350.52" size="6.4516" layer="94">5V &amp; 3.3V BUCK CONVENTER</text>
-<wire x1="594.36" y1="563.88" x2="44.704" y2="563.88" width="0.1524" layer="94" style="longdash"/>
+<wire x1="594.36" y1="571.5" x2="44.704" y2="571.5" width="0.1524" layer="94" style="longdash"/>
 <wire x1="304.8" y1="375.666" x2="44.704" y2="375.666" width="0.1524" layer="94" style="longdash"/>
 <text x="203.2" y="574.04" size="12.7" layer="94">PI METAL DETECTOR CIRCUIT</text>
 <text x="322.58" y="218.186" size="2.54" layer="94" align="top-left">Encoder connector</text>
 <text x="495.3" y="513.08" size="2.54" layer="94">Serial Signal Connection</text>
 <text x="231.14" y="317.246" size="2.54" layer="94" align="top-left">3.3V Linear Voltage Regulator</text>
-<text x="482.6" y="271.526" size="2.54" layer="94" align="top-left">Power Supply Connector</text>
+<text x="482.6" y="268.986" size="2.54" layer="94" align="top-left">Power Supply Connector</text>
 </plain>
 <instances>
 <instance part="IC1" gate="A" x="472.44" y="355.6" smashed="yes">

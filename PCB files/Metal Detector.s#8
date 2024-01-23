@@ -22076,7 +22076,7 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <part name="SPEAKER" library="con-amp-mt" library_urn="urn:adsk.eagle:library:123" deviceset="L02P" device="" package3d_urn="urn:adsk.eagle:package:5777/1"/>
 <part name="DISPLAY" library="con-amp-mt" library_urn="urn:adsk.eagle:library:123" deviceset="L09P" device="" package3d_urn="urn:adsk.eagle:package:5779/1"/>
 <part name="ENCODER" library="con-amp-mt" library_urn="urn:adsk.eagle:library:123" deviceset="L05P" device="" package3d_urn="urn:adsk.eagle:package:5784/1"/>
-<part name="SERIAL" library="con-amp-mt" library_urn="urn:adsk.eagle:library:123" deviceset="L06P" device="" package3d_urn="urn:adsk.eagle:package:5771/1"/>
+<part name="SV5" library="con-amp-mt" library_urn="urn:adsk.eagle:library:123" deviceset="L06P" device="" package3d_urn="urn:adsk.eagle:package:5771/1"/>
 <part name="BATTERYPIN" library="con-ptr500" library_urn="urn:adsk.eagle:library:181" deviceset="AK300/4" device="" package3d_urn="urn:adsk.eagle:package:9879/1"/>
 <part name="GND12" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 </parts>
@@ -22086,14 +22086,14 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <plain>
 <text x="401.32" y="543.56" size="6.4516" layer="94">MCU AND UART CONNECTOR</text>
 <text x="381" y="518.16" size="2.54" layer="94" align="top-left">ESP32-WROOM-32UE-N4</text>
-<text x="119.38" y="548.64" size="6.4516" layer="94">BATTERY CHARGE CIRCUIT</text>
+<text x="129.54" y="561.34" size="6.4516" layer="94">BATTERY CHARGE CIRCUIT</text>
 <text x="396.24" y="398.78" size="6.4516" layer="94">SIGNAL PROCESSING CIRCUIT</text>
 <text x="424.18" y="279.4" size="6.4516" layer="94">USER INTERFACE</text>
 <text x="121.92" y="533.146" size="2.54" layer="94" align="top-left">Power Input &amp; Battery Charge Circuit</text>
-<text x="541.02" y="271.526" size="2.54" layer="94" align="top-left">Power On-Off Button</text>
+<text x="541.02" y="268.986" size="2.54" layer="94" align="top-left">Power On-Off Button</text>
 <text x="386.08" y="271.526" size="2.54" layer="94" align="top-left">128 x 64 Graphic Display Circuit &amp; Connector</text>
 <text x="314.96" y="271.526" size="2.54" layer="94" align="top-left">Headphone &amp; Speaker Circuit</text>
-<wire x1="304.546" y1="563.88" x2="304.8" y2="414.274" width="0.1524" layer="94" style="longdash"/>
+<wire x1="304.546" y1="571.5" x2="304.8" y2="414.274" width="0.1524" layer="94" style="longdash"/>
 <text x="106.68" y="329.946" size="2.54" layer="94" align="top-left">5V Buck Conventer Circuit</text>
 <wire x1="304.8" y1="414.274" x2="304.8" y2="375.666" width="0.1524" layer="94" style="longdash"/>
 <wire x1="304.8" y1="375.666" x2="304.8" y2="289.814" width="0.1524" layer="94" style="longdash"/>
@@ -22101,13 +22101,13 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <wire x1="304.8" y1="414.274" x2="595.63" y2="414.274" width="0.1524" layer="94" style="longdash"/>
 <wire x1="304.8" y1="289.814" x2="595.63" y2="289.814" width="0.1524" layer="94" style="longdash"/>
 <text x="116.84" y="350.52" size="6.4516" layer="94">5V &amp; 3.3V BUCK CONVENTER</text>
-<wire x1="594.36" y1="563.88" x2="44.704" y2="563.88" width="0.1524" layer="94" style="longdash"/>
+<wire x1="594.36" y1="571.5" x2="44.704" y2="571.5" width="0.1524" layer="94" style="longdash"/>
 <wire x1="304.8" y1="375.666" x2="44.704" y2="375.666" width="0.1524" layer="94" style="longdash"/>
 <text x="203.2" y="574.04" size="12.7" layer="94">PI METAL DETECTOR CIRCUIT</text>
 <text x="322.58" y="218.186" size="2.54" layer="94" align="top-left">Encoder connector</text>
 <text x="495.3" y="513.08" size="2.54" layer="94">Serial Signal Connection</text>
 <text x="231.14" y="317.246" size="2.54" layer="94" align="top-left">3.3V Linear Voltage Regulator</text>
-<text x="482.6" y="271.526" size="2.54" layer="94" align="top-left">Power Supply Connector</text>
+<text x="482.6" y="268.986" size="2.54" layer="94" align="top-left">Power Supply Connector</text>
 </plain>
 <instances>
 <instance part="IC1" gate="A" x="472.44" y="355.6" smashed="yes">
@@ -22771,27 +22771,27 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <attribute name="NAME" x="356.108" y="204.724" size="1.778" layer="95"/>
 <attribute name="VALUE" x="355.346" y="208.153" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="SERIAL" gate="-1" x="530.86" y="472.44" smashed="yes" rot="R180">
+<instance part="SV5" gate="-1" x="530.86" y="472.44" smashed="yes" rot="R180">
 <attribute name="NAME" x="531.368" y="471.424" size="1.778" layer="95"/>
 <attribute name="VALUE" x="530.606" y="474.853" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="SERIAL" gate="-2" x="530.86" y="477.52" smashed="yes" rot="R180">
+<instance part="SV5" gate="-2" x="530.86" y="477.52" smashed="yes" rot="R180">
 <attribute name="NAME" x="531.368" y="476.504" size="1.778" layer="95"/>
 <attribute name="VALUE" x="530.606" y="479.933" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="SERIAL" gate="-3" x="530.86" y="482.6" smashed="yes" rot="R180">
+<instance part="SV5" gate="-3" x="530.86" y="482.6" smashed="yes" rot="R180">
 <attribute name="NAME" x="531.368" y="481.584" size="1.778" layer="95"/>
 <attribute name="VALUE" x="530.606" y="485.013" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="SERIAL" gate="-4" x="530.86" y="487.68" smashed="yes" rot="R180">
+<instance part="SV5" gate="-4" x="530.86" y="487.68" smashed="yes" rot="R180">
 <attribute name="NAME" x="531.368" y="486.664" size="1.778" layer="95"/>
 <attribute name="VALUE" x="530.606" y="490.093" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="SERIAL" gate="-5" x="530.86" y="492.76" smashed="yes" rot="R180">
+<instance part="SV5" gate="-5" x="530.86" y="492.76" smashed="yes" rot="R180">
 <attribute name="NAME" x="531.368" y="491.744" size="1.778" layer="95"/>
 <attribute name="VALUE" x="530.606" y="495.173" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="SERIAL" gate="-6" x="530.86" y="497.84" smashed="yes" rot="R180">
+<instance part="SV5" gate="-6" x="530.86" y="497.84" smashed="yes" rot="R180">
 <attribute name="NAME" x="531.368" y="496.824" size="1.778" layer="95"/>
 <attribute name="VALUE" x="530.606" y="500.253" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -23179,12 +23179,11 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <pinref part="HEADPHONE" gate="-1" pin="S"/>
 <wire x1="353.06" y1="248.92" x2="345.44" y2="248.92" width="0.1524" layer="91"/>
 <wire x1="345.44" y1="248.92" x2="345.44" y2="236.22" width="0.1524" layer="91"/>
-<junction x="345.44" y="236.22"/>
 </segment>
 <segment>
 <pinref part="GND58" gate="1" pin="GND"/>
 <wire x1="515.62" y1="469.9" x2="515.62" y2="472.44" width="0.1524" layer="91"/>
-<pinref part="SERIAL" gate="-1" pin="S"/>
+<pinref part="SV5" gate="-1" pin="S"/>
 <wire x1="515.62" y1="472.44" x2="525.78" y2="472.44" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -23419,7 +23418,7 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 </segment>
 <segment>
 <label x="515.62" y="487.68" size="1.778" layer="95" rot="R180"/>
-<pinref part="SERIAL" gate="-4" pin="S"/>
+<pinref part="SV5" gate="-4" pin="S"/>
 <wire x1="515.62" y1="487.68" x2="525.78" y2="487.68" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -23707,7 +23706,7 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 </segment>
 <segment>
 <label x="515.62" y="482.6" size="1.778" layer="95" rot="R180"/>
-<pinref part="SERIAL" gate="-3" pin="S"/>
+<pinref part="SV5" gate="-3" pin="S"/>
 <wire x1="515.62" y1="482.6" x2="525.78" y2="482.6" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -23718,7 +23717,7 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <label x="502.92" y="487.68" size="1.778" layer="95"/>
 <wire x1="525.78" y1="492.76" x2="502.92" y2="492.76" width="0.1524" layer="91"/>
 <wire x1="502.92" y1="492.76" x2="502.92" y2="487.68" width="0.1524" layer="91"/>
-<pinref part="SERIAL" gate="-5" pin="S"/>
+<pinref part="SV5" gate="-5" pin="S"/>
 </segment>
 </net>
 <net name="N$16" class="0">
@@ -24232,7 +24231,7 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 </segment>
 <segment>
 <label x="515.62" y="477.52" size="1.778" layer="95" rot="R180"/>
-<pinref part="SERIAL" gate="-2" pin="S"/>
+<pinref part="SV5" gate="-2" pin="S"/>
 <wire x1="515.62" y1="477.52" x2="525.78" y2="477.52" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -24259,7 +24258,7 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <pinref part="R16" gate="G$1" pin="2"/>
 <label x="502.92" y="497.84" size="1.778" layer="95"/>
 <wire x1="525.78" y1="497.84" x2="495.3" y2="497.84" width="0.1524" layer="91"/>
-<pinref part="SERIAL" gate="-6" pin="S"/>
+<pinref part="SV5" gate="-6" pin="S"/>
 </segment>
 </net>
 <net name="VCCINT" class="0">
@@ -24394,32 +24393,15 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 </sheet>
 </sheets>
 <errors>
-<approved hash="102,1,111.76,513.08,V+,VBATT,,,,"/>
-<approved hash="102,1,259.08,457.2,V+,VBATT,,,,"/>
-<approved hash="104,1,469.9,363.22,IC1,V+,VCC,,,"/>
-<approved hash="104,1,469.9,347.98,IC1,V-,GND,,,"/>
-<approved hash="104,1,505.46,241.3,X2,1,GND,,,"/>
-<approved hash="104,1,505.46,251.46,X2,2,12V_IN,,,"/>
-<approved hash="104,1,495.3,261.62,X2,3,GND,,,"/>
-<approved hash="106,1,378.46,449.58,IO2,,,,,"/>
-<approved hash="106,1,378.46,474.98,IO12,,,,,"/>
-<approved hash="106,1,378.46,469.9,IO13,,,,,"/>
-<approved hash="106,1,378.46,477.52,IO14,,,,,"/>
-<approved hash="106,1,378.46,452.12,IO15,,,,,"/>
-<approved hash="106,1,416.56,502.92,IO16,,,,,"/>
-<approved hash="106,1,416.56,500.38,IO17,,,,,"/>
-<approved hash="106,1,416.56,492.76,IO19,,,,,"/>
-<approved hash="106,1,416.56,487.68,IO21,,,,,"/>
-<approved hash="106,1,378.46,490.22,IO32,,,,,"/>
+<approved hash="102,1,132.08,518.16,V+,VBATT,,,,"/>
+<approved hash="102,1,279.4,462.28,V+,VBATT,,,,"/>
+<approved hash="104,1,472.44,355.6,IC1,V+,VCC,,,"/>
+<approved hash="104,1,472.44,340.36,IC1,V-,GND,,,"/>
+<approved hash="104,1,104.14,513.08,X2,1,GND,,,"/>
+<approved hash="104,1,104.14,523.24,X2,2,12V_IN,,,"/>
+<approved hash="104,1,93.98,533.4,X2,3,GND,,,"/>
 <approved hash="113,1,319.936,380.896,FRAME1,,,,,"/>
-<approved hash="113,1,363.185,248.92,HEADPHONE,,,,,"/>
-<approved hash="113,1,361.132,236.22,SPEAKER,,,,,"/>
-<approved hash="113,1,406.4,218.831,DISPLAY,,,,,"/>
-<approved hash="113,1,358.949,185.42,ENCODER,,,,,"/>
-<approved hash="113,1,532.37,472.44,SERIAL,,,,,"/>
-<approved hash="113,1,264.314,421.64,BATTERYPIN,,,,,"/>
-<approved hash="115,1,486.41,355.6,IO4,,,,,"/>
-<approved hash="115,1,95.25,444.5,IO35,,,,,"/>
+<approved hash="113,1,399.178,447.04,X7,,,,,"/>
 </errors>
 </schematic>
 </drawing>
