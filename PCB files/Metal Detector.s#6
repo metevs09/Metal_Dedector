@@ -22156,8 +22156,8 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/IRF9630.pdf"&
 <attribute name="NAME" x="163.83" y="487.299" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="163.83" y="492.379" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND4" gate="1" x="165.354" y="482.346" smashed="yes">
-<attribute name="VALUE" x="162.814" y="479.806" size="1.778" layer="96"/>
+<instance part="GND4" gate="1" x="165.354" y="479.806" smashed="yes">
+<attribute name="VALUE" x="162.814" y="477.266" size="1.778" layer="96"/>
 </instance>
 <instance part="C28" gate="G$1" x="213.36" y="505.46" smashed="yes">
 <attribute name="NAME" x="208.661" y="511.556" size="1.778" layer="95" font="vector" rot="R270"/>
@@ -22844,7 +22844,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/IRF9630.pdf"&
 <segment>
 <pinref part="C27" gate="G$1" pin="1"/>
 <pinref part="GND4" gate="1" pin="GND"/>
-<wire x1="165.354" y1="485.14" x2="165.354" y2="484.886" width="0.1524" layer="91"/>
+<wire x1="165.354" y1="485.14" x2="165.354" y2="482.346" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="X2" gate="G$1" pin="3"/>

@@ -3138,10 +3138,10 @@ Your PCBWay Team
 <attribute name="NAME" x="50.8" y="87.884" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-09822" x="49.657" y="87.884" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R32" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1kΩ" x="49.53" y="81.28" smashed="yes" rot="R180">
-<attribute name="NAME" x="48.895" y="81.915" size="1.27" layer="25"/>
-<attribute name="POPULARITY" value="70" x="49.53" y="81.28" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="49.53" y="81.28" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="R32" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1kΩ" x="46.99" y="81.28" smashed="yes" rot="R180">
+<attribute name="NAME" x="46.355" y="81.915" size="1.27" layer="25"/>
+<attribute name="POPULARITY" value="70" x="46.99" y="81.28" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="46.99" y="81.28" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R34" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0Ω" x="40.386" y="64.135" smashed="yes">
 <attribute name="NAME" x="38.481" y="62.23" size="1.27" layer="25"/>
@@ -3192,9 +3192,9 @@ Your PCBWay Team
 <attribute name="POPULARITY" value="70" x="35.306" y="67.945" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="35.306" y="67.945" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C35" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="1206" package3d_urn="urn:adsk.eagle:package:41385095/1" value="10uF/25V/XR7" x="64.77" y="72.39" smashed="yes">
-<attribute name="NAME" x="63.5" y="71.247" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
-<attribute name="PROD_ID" value="CAP-09822" x="64.77" y="72.39" size="1.778" layer="27" display="off"/>
+<element name="C35" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="1206" package3d_urn="urn:adsk.eagle:package:41385095/1" value="10uF/25V/XR7" x="64.77" y="68.58" smashed="yes">
+<attribute name="NAME" x="63.5" y="67.437" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
+<attribute name="PROD_ID" value="CAP-09822" x="64.77" y="68.58" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C36" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF/16V/XR7" x="21.59" y="72.39" smashed="yes" rot="R270">
 <attribute name="NAME" x="19.05" y="74.93" size="1.27" layer="25" rot="R270"/>
@@ -3615,16 +3615,16 @@ Your PCBWay Team
 <attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=552701&amp;manufacturer=Vishay&amp;part_name=IRF740&amp;search_term=None" x="16.51" y="92.71" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/IRF740/Vishay+Siliconix/view-part/?ref=snap" x="16.51" y="92.71" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="Q3" library="IRF9630" package="TO254P465X1024X2050-3P" value="IRF9630" x="54.61" y="76.2" smashed="yes">
-<attribute name="ARROW_PART_NUMBER" value="" x="54.61" y="76.2" size="1.778" layer="27" display="off"/>
-<attribute name="ARROW_PRICE-STOCK" value="" x="54.61" y="76.2" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="Trans MOSFET P-CH 200V 6.5A 3-Pin(3+Tab) TO-220AB - Bulk" x="54.61" y="76.2" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="4.65mm" x="54.61" y="76.2" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Vishay" x="54.61" y="76.2" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="IRF9630" x="54.61" y="76.2" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="844-IRF9630" x="54.61" y="76.2" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Vishay-Siliconix/IRF9630?qs=ehM%252BESVsXgyTXowvYem%2FGA%3D%3D" x="54.61" y="76.2" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="60.96" y="73.66" size="1.27" layer="25" align="center"/>
+<element name="Q3" library="IRF9630" package="TO254P465X1024X2050-3P" value="IRF9630" x="53.34" y="73.66" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="" x="53.34" y="73.66" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="53.34" y="73.66" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Trans MOSFET P-CH 200V 6.5A 3-Pin(3+Tab) TO-220AB - Bulk" x="53.34" y="73.66" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="4.65mm" x="53.34" y="73.66" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay" x="53.34" y="73.66" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="IRF9630" x="53.34" y="73.66" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="844-IRF9630" x="53.34" y="73.66" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Vishay-Siliconix/IRF9630?qs=ehM%252BESVsXgyTXowvYem%2FGA%3D%3D" x="53.34" y="73.66" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="59.69" y="71.12" size="1.27" layer="25" align="center"/>
 </element>
 <element name="Q4" library="IRF740" package="TO220BV" value="IRF740" x="33.02" y="92.71" smashed="yes" rot="R90">
 <attribute name="AVAILABILITY" value="In Stock" x="33.02" y="92.71" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3811,7 +3811,7 @@ Your PCBWay Team
 <wire x1="22.987" y1="55.369" x2="19.177" y2="55.369" width="0" layer="19" extent="1-1"/>
 <wire x1="6.35" y1="64.7954" x2="15.24" y2="63.92" width="0" layer="19" extent="1-1"/>
 <wire x1="49.657" y1="86.484" x2="30.48" y2="82.13" width="0" layer="19" extent="1-1"/>
-<wire x1="66.17" y1="72.39" x2="49.657" y2="86.484" width="0" layer="19" extent="1-1"/>
+<wire x1="66.17" y1="68.58" x2="49.657" y2="86.484" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VCC">
 <contactref element="IC2" pad="12"/>
@@ -4084,7 +4084,12 @@ Your PCBWay Team
 <wire x1="30.48" y1="77.47" x2="30.099" y2="77.851" width="0.3048" layer="1"/>
 <wire x1="30.099" y1="77.851" x2="29.34" y2="77.851" width="0.3048" layer="1"/>
 <wire x1="29.19" y1="74.041" x2="30.48" y2="75.331" width="0.3048" layer="1"/>
-<wire x1="21.59" y1="78.461" x2="29.34" y2="77.851" width="0" layer="19" extent="1-1"/>
+<wire x1="21.59" y1="78.461" x2="21.869" y2="78.74" width="0.508" layer="1"/>
+<wire x1="21.869" y1="78.74" x2="24.13" y2="78.74" width="0.508" layer="1"/>
+<wire x1="24.13" y1="78.74" x2="25.4" y2="80.01" width="0.508" layer="1"/>
+<wire x1="29.34" y1="79.245" x2="29.34" y2="77.851" width="0.508" layer="1"/>
+<wire x1="25.4" y1="80.01" x2="28.575" y2="80.01" width="0.508" layer="1"/>
+<wire x1="28.575" y1="80.01" x2="29.34" y2="79.245" width="0.508" layer="1"/>
 </signal>
 <signal name="N$14">
 <contactref element="R13" pad="1"/>
@@ -4125,7 +4130,6 @@ Your PCBWay Team
 <wire x1="32.092" y1="82.13" x2="31.75" y2="81.788" width="0.3048" layer="1"/>
 <wire x1="31.75" y1="81.788" x2="31.75" y2="80.772" width="0.3048" layer="1"/>
 <wire x1="31.75" y1="80.772" x2="31.408" y2="80.43" width="0.3048" layer="1"/>
-<wire x1="28.19" y1="72.845" x2="28.19" y2="74.799" width="0.1524" layer="1"/>
 <wire x1="28.19" y1="74.799" x2="28.321" y2="74.93" width="0.1524" layer="1"/>
 <via x="28.321" y="74.93" extent="1-16" drill="0.3"/>
 <wire x1="28.321" y1="74.93" x2="29.845" y2="76.454" width="0.1524" layer="16"/>
@@ -4143,26 +4147,34 @@ Your PCBWay Team
 <wire x1="44.958" y1="92.71" x2="43.52" y2="92.71" width="0.3048" layer="1"/>
 <wire x1="34.29" y1="85.09" x2="40.64" y2="85.09" width="0.3048" layer="1"/>
 <wire x1="40.64" y1="85.09" x2="45.466" y2="89.916" width="0.3048" layer="1"/>
+<wire x1="28.19" y1="72.845" x2="28.19" y2="74.799" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CMSRC">
 <contactref element="IC2" pad="7"/>
 <contactref element="R27" pad="1"/>
-<wire x1="30.48" y1="90.59" x2="30.48" y2="88.9" width="0.3048" layer="1"/>
-<wire x1="27.69" y1="72.845" x2="27.69" y2="75.90911875" width="0.254" layer="1"/>
-<wire x1="27.69" y1="75.90911875" x2="28.144603125" y2="76.363721875" width="0.254" layer="1"/>
-<wire x1="28.144603125" y1="76.363721875" x2="28.144603125" y2="80.111996875" width="0.254" layer="1"/>
-<wire x1="28.144603125" y1="80.111996875" x2="26.289" y2="81.9676" width="0.254" layer="1"/>
-<wire x1="26.289" y1="81.9676" x2="30.48" y2="88.9" width="0" layer="19" extent="1-1"/>
+<wire x1="27.69" y1="72.845" x2="27.69" y2="75.95" width="0.254" layer="1"/>
+<wire x1="27.69" y1="75.95" x2="27.94" y2="76.2" width="0.254" layer="1"/>
+<via x="27.94" y="76.2" extent="1-16" drill="0.4"/>
+<wire x1="27.94" y1="76.2" x2="28.448" y2="76.708" width="0.254" layer="16"/>
+<wire x1="28.448" y1="88.138" x2="28.448" y2="76.708" width="0.254" layer="16"/>
+<wire x1="28.448" y1="88.138" x2="29.21" y2="88.9" width="0.254" layer="16"/>
+<via x="29.21" y="88.9" extent="1-16" drill="0.4"/>
+<wire x1="30.48" y1="90.59" x2="30.48" y2="89.662" width="0.254" layer="1"/>
+<wire x1="29.718" y1="88.9" x2="29.21" y2="88.9" width="0.254" layer="1"/>
+<wire x1="30.48" y1="89.662" x2="29.718" y2="88.9" width="0.254" layer="1"/>
 </signal>
 <signal name="ACDRV">
 <contactref element="IC2" pad="8"/>
 <contactref element="R28" pad="1"/>
 <wire x1="27.19" y1="72.845" x2="27.19" y2="75.807" width="0.254" layer="1"/>
-<wire x1="26.67" y1="76.327" x2="25.019" y2="76.327" width="0.254" layer="1"/>
-<wire x1="25.019" y1="76.327" x2="24.13" y2="77.216" width="0.254" layer="1"/>
 <wire x1="27.19" y1="75.807" x2="26.67" y2="76.327" width="0.254" layer="1"/>
-<wire x1="24.13" y1="77.216" x2="24.13" y2="78.74" width="0.254" layer="1"/>
-<wire x1="24.13" y1="78.74" x2="26.67" y2="84.24" width="0" layer="19" extent="1-1"/>
+<via x="26.67" y="76.327" extent="1-16" drill="0.35"/>
+<wire x1="26.67" y1="76.327" x2="25.4" y2="77.597" width="0.254" layer="16"/>
+<wire x1="25.4" y1="77.597" x2="25.4" y2="81.28" width="0.254" layer="16"/>
+<via x="25.4" y="81.28" extent="1-16" drill="0.4"/>
+<wire x1="25.4" y1="81.28" x2="25.4" y2="81.915" width="0.254" layer="1"/>
+<wire x1="25.4" y1="81.915" x2="26.67" y2="83.185" width="0.254" layer="1"/>
+<wire x1="26.67" y1="83.185" x2="26.67" y2="84.24" width="0.254" layer="1"/>
 </signal>
 <signal name="TS">
 <contactref element="IC2" pad="10"/>
@@ -4297,21 +4309,18 @@ Your PCBWay Team
 <wire x1="30.353" y1="64.77" x2="31.242" y2="65.659" width="0.1524" layer="16"/>
 <wire x1="31.242" y1="65.659" x2="31.242" y2="69.215" width="0.1524" layer="16"/>
 <wire x1="29.718" y1="72.009" x2="29.972" y2="72.263" width="0.1524" layer="16"/>
-<wire x1="32.893" y1="74.549" x2="34.29" y2="74.549" width="0.1524" layer="16"/>
-<wire x1="34.29" y1="74.549" x2="35.179" y2="75.438" width="0.1524" layer="16"/>
-<wire x1="35.179" y1="75.438" x2="35.179" y2="76.073" width="0.1524" layer="16"/>
+<wire x1="30.607" y1="72.263" x2="38.227" y2="79.883" width="0.1524" layer="16"/>
+<wire x1="38.227" y1="79.883" x2="40.259" y2="79.883" width="0.1524" layer="16"/>
 <wire x1="31.242" y1="69.215" x2="30.5435" y2="69.9135" width="0.1524" layer="16"/>
 <wire x1="30.5435" y1="69.9135" x2="30.48" y2="69.977" width="0.1524" layer="16"/>
 <wire x1="29.972" y1="72.263" x2="30.607" y2="72.263" width="0.1524" layer="16"/>
-<wire x1="30.607" y1="72.263" x2="32.893" y2="74.549" width="0.1524" layer="16"/>
 <wire x1="30.5435" y1="69.9135" x2="30.1625" y2="69.9135" width="0.1524" layer="16"/>
 <wire x1="30.1625" y1="69.9135" x2="29.718" y2="70.358" width="0.1524" layer="16"/>
 <wire x1="29.718" y1="70.358" x2="29.718" y2="72.009" width="0.1524" layer="16"/>
-<via x="35.179" y="76.073" extent="1-16" drill="0.3"/>
-<wire x1="35.179" y1="76.327" x2="40.005" y2="81.153" width="0.1524" layer="1"/>
-<wire x1="35.179" y1="76.073" x2="35.179" y2="76.327" width="0.1524" layer="1"/>
-<wire x1="48.553" y1="81.153" x2="48.68" y2="81.28" width="0.1524" layer="1"/>
-<wire x1="40.005" y1="81.153" x2="48.553" y2="81.153" width="0.1524" layer="1"/>
+<via x="40.259" y="79.883" extent="1-16" drill="0.3"/>
+<wire x1="42.33" y1="81.28" x2="46.14" y2="81.28" width="0.1524" layer="1"/>
+<wire x1="42.33" y1="81.28" x2="40.933" y2="79.883" width="0.1524" layer="1"/>
+<wire x1="40.259" y1="79.883" x2="40.933" y2="79.883" width="0.1524" layer="1"/>
 </signal>
 <signal name="REGN">
 <contactref element="IC2" pad="20"/>
@@ -4366,9 +4375,9 @@ Your PCBWay Team
 <wire x1="42.164" y1="64.135" x2="43.434" y2="65.405" width="0.1524" layer="1"/>
 <wire x1="43.434" y1="65.405" x2="44.831" y2="65.405" width="0.1524" layer="1"/>
 <wire x1="44.831" y1="65.405" x2="45.085" y2="65.151" width="0.1524" layer="1"/>
-<wire x1="45.72" y1="59.817" x2="52.197" y2="59.817" width="1.78" layer="1"/>
-<wire x1="52.197" y1="59.817" x2="57.15" y2="64.77" width="1.78" layer="1"/>
-<wire x1="57.15" y1="64.77" x2="57.15" y2="76.2" width="1.78" layer="1"/>
+<wire x1="45.72" y1="59.817" x2="49.657" y2="59.817" width="1.78" layer="1"/>
+<wire x1="49.657" y1="59.817" x2="55.88" y2="66.04" width="1.78" layer="1"/>
+<wire x1="55.88" y1="66.04" x2="55.88" y2="73.66" width="1.78" layer="1"/>
 <wire x1="15.367" y1="57.719" x2="6.35" y2="59.817" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$21">
@@ -4405,9 +4414,9 @@ Your PCBWay Team
 <signal name="N$23">
 <contactref element="R32" pad="1"/>
 <contactref element="Q3" pad="1"/>
-<wire x1="54.61" y1="80.01" x2="53.34" y2="81.28" width="0.3048" layer="1"/>
-<wire x1="53.34" y1="81.28" x2="50.38" y2="81.28" width="0.3048" layer="1"/>
-<wire x1="54.61" y1="76.2" x2="54.61" y2="80.01" width="0.3048" layer="1"/>
+<wire x1="52.07" y1="81.28" x2="47.84" y2="81.28" width="0.3048" layer="1"/>
+<wire x1="52.07" y1="81.28" x2="53.34" y2="80.01" width="0.3048" layer="1"/>
+<wire x1="53.34" y1="80.01" x2="53.34" y2="73.66" width="0.3048" layer="1"/>
 </signal>
 <signal name="SW">
 <contactref element="IC2" pad="24"/>
@@ -4588,8 +4597,6 @@ Your PCBWay Team
 <contactref element="R21" pad="1"/>
 <contactref element="R14" pad="2"/>
 <wire x1="50.292" y1="92.71" x2="51.181" y2="91.821" width="1.78" layer="1"/>
-<wire x1="51.181" y1="91.821" x2="59.69" y2="83.312" width="1.78" layer="1"/>
-<wire x1="59.69" y1="83.312" x2="59.69" y2="76.2" width="1.78" layer="1"/>
 <wire x1="47.92" y1="92.71" x2="50.292" y2="92.71" width="1.78" layer="1"/>
 <wire x1="36.195" y1="82.13" x2="36.195" y2="83.439" width="0.3048" layer="1"/>
 <wire x1="36.5742" y1="83.8182" x2="40.08916875" y2="83.8182" width="0.3048" layer="1"/>
@@ -4615,8 +4622,10 @@ Your PCBWay Team
 <wire x1="49.53" y1="90.17" x2="51.181" y2="91.821" width="0.508" layer="1"/>
 <wire x1="46.99" y1="89.789" x2="49.403" y2="89.789" width="0.3048" layer="1"/>
 <wire x1="49.403" y1="89.789" x2="49.53" y2="89.662" width="0.3048" layer="1"/>
-<wire x1="59.69" y1="76.2" x2="63.37" y2="72.39" width="0" layer="19" extent="1-1"/>
-<wire x1="-209.67" y1="-1073.15" x2="63.37" y2="72.39" width="0" layer="19" extent="1-1"/>
+<wire x1="51.181" y1="91.821" x2="58.42" y2="84.582" width="1.78" layer="1"/>
+<wire x1="58.42" y1="84.582" x2="58.42" y2="73.66" width="1.78" layer="1"/>
+<wire x1="58.42" y1="73.66" x2="63.37" y2="68.58" width="0" layer="19" extent="1-1"/>
+<wire x1="-209.67" y1="-1073.15" x2="63.37" y2="68.58" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$49">
 <contactref element="IC6" pad="3"/>
