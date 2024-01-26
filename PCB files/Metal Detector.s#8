@@ -21792,82 +21792,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/IRF9630.pdf"&
 </deviceset>
 </devicesets>
 </library>
-<library name="WSK1206R0200FEA18">
-<description>&lt;Power Metal Strip Resistors, High Power,Surface Mount, 4-Terminal&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
-<packages>
-<package name="WSK1206R0200FEA18">
-<description>&lt;b&gt;WSK1206R0200FEA18-1&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-0.508" y="-1.394" dx="1.01" dy="0.762" layer="1" rot="R90"/>
-<smd name="2" x="0.508" y="-1.394" dx="1.01" dy="0.762" layer="1" rot="R90"/>
-<smd name="3" x="0.508" y="1.394" dx="1.01" dy="0.762" layer="1" rot="R90"/>
-<smd name="4" x="-0.508" y="1.394" dx="1.01" dy="0.762" layer="1" rot="R90"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-0.8" y1="1.6" x2="0.8" y2="1.6" width="0.1" layer="51"/>
-<wire x1="0.8" y1="1.6" x2="0.8" y2="-1.6" width="0.1" layer="51"/>
-<wire x1="0.8" y1="-1.6" x2="-0.8" y2="-1.6" width="0.1" layer="51"/>
-<wire x1="-0.8" y1="-1.6" x2="-0.8" y2="1.6" width="0.1" layer="51"/>
-<wire x1="-1.889" y1="2.899" x2="1.889" y2="2.899" width="0.1" layer="51"/>
-<wire x1="1.889" y1="2.899" x2="1.889" y2="-2.899" width="0.1" layer="51"/>
-<wire x1="1.889" y1="-2.899" x2="-1.889" y2="-2.899" width="0.1" layer="51"/>
-<wire x1="-1.889" y1="-2.899" x2="-1.889" y2="2.899" width="0.1" layer="51"/>
-<wire x1="-0.8" y1="0.5" x2="-0.8" y2="-0.5" width="0.2" layer="21"/>
-<wire x1="0.8" y1="-0.5" x2="0.8" y2="0.5" width="0.2" layer="21"/>
-<wire x1="-0.508" y1="-2.4" x2="-0.508" y2="-2.4" width="0.2" layer="21"/>
-<wire x1="-0.508" y1="-2.4" x2="-0.508" y2="-2.3" width="0.2" layer="21" curve="180"/>
-<wire x1="-0.508" y1="-2.3" x2="-0.508" y2="-2.3" width="0.2" layer="21"/>
-<wire x1="-0.508" y1="-2.3" x2="-0.508" y2="-2.4" width="0.2" layer="21" curve="180"/>
-<wire x1="-0.508" y1="-2.4" x2="-0.508" y2="-2.3" width="0.2" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="WSK1206R0200FEA18">
-<wire x1="5.08" y1="2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-5.08" x2="15.24" y2="2.54" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
-<text x="16.51" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="16.51" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="1" x="0" y="-2.54" length="middle"/>
-<pin name="2" x="20.32" y="-2.54" length="middle" rot="R180"/>
-<pin name="3" x="20.32" y="0" length="middle" rot="R180"/>
-<pin name="4" x="0" y="0" length="middle"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="WSK1206R0200FEA18" prefix="R">
-<description>&lt;b&gt;Power Metal Strip Resistors, High Power,Surface Mount, 4-Terminal&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://www.vishay.com/docs/30325/wsk120618.pdf"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="WSK1206R0200FEA18" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="WSK1206R0200FEA18">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="ARROW_PART_NUMBER" value="WSK1206R0200FEA18" constant="no"/>
-<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/wsk1206r0200fea18/vishay" constant="no"/>
-<attribute name="DESCRIPTION" value="Power Metal Strip Resistors, High Power,Surface Mount, 4-Terminal" constant="no"/>
-<attribute name="HEIGHT" value="0.889mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Vishay" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="WSK1206R0200FEA18" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="71-WSK1206R0200FEA18" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Vishay-Dale/WSK1206R0200FEA18?qs=GtWAI9k6EVh%2FDAEvZjPd0Q%3D%3D" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -21941,7 +21865,6 @@ Source: &lt;a href="https://www.vishay.com/docs/30325/wsk120618.pdf"&gt; Datashe
 <part name="C28" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="1.0UF" device="-1206-50V-10%" package3d_urn="urn:adsk.eagle:package:41385095/1" value="10uF/25 VDC/XR7"/>
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R32" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1kΩ"/>
-<part name="R33" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="0.01RΩ"/>
 <part name="R34" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0Ω"/>
 <part name="C29" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
 <part name="C30" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
@@ -22068,7 +21991,9 @@ Source: &lt;a href="https://www.vishay.com/docs/30325/wsk120618.pdf"&gt; Datashe
 <part name="Q2" library="IRF740" deviceset="IRF740" device=""/>
 <part name="Q3" library="IRF9630" deviceset="IRF9630" device=""/>
 <part name="Q4" library="IRF740" deviceset="IRF740" device=""/>
-<part name="R14" library="WSK1206R0200FEA18" deviceset="WSK1206R0200FEA18" device=""/>
+<part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R2012" package3d_urn="urn:adsk.eagle:package:23543/2" value="0.02Ω"/>
+<part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R2012" package3d_urn="urn:adsk.eagle:package:23543/2" value="0.01RΩ"/>
+<part name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0Ω"/>
 </parts>
 <sheets>
 <sheet>
@@ -22244,10 +22169,6 @@ Source: &lt;a href="https://www.vishay.com/docs/30325/wsk120618.pdf"&gt; Datashe
 <instance part="R32" gate="G$1" x="233.68" y="495.3" smashed="yes">
 <attribute name="NAME" x="229.87" y="496.7986" size="1.778" layer="95"/>
 <attribute name="VALUE" x="229.87" y="491.998" size="1.778" layer="96"/>
-</instance>
-<instance part="R33" gate="G$1" x="210.82" y="480.06" smashed="yes">
-<attribute name="NAME" x="207.01" y="481.5586" size="1.778" layer="95"/>
-<attribute name="VALUE" x="207.01" y="476.758" size="1.778" layer="96"/>
 </instance>
 <instance part="R34" gate="G$1" x="218.44" y="472.44" smashed="yes" rot="R90">
 <attribute name="NAME" x="216.9414" y="468.63" size="1.778" layer="95" rot="R90"/>
@@ -22793,9 +22714,17 @@ Source: &lt;a href="https://www.vishay.com/docs/30325/wsk120618.pdf"&gt; Datashe
 <attribute name="NAME" x="172.72" y="525.78" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="172.72" y="523.24" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="R14" gate="G$1" x="177.8" y="520.7" smashed="yes">
-<attribute name="NAME" x="184.15" y="528.32" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="184.15" y="525.78" size="1.778" layer="96" align="center-left"/>
+<instance part="R19" gate="G$1" x="187.96" y="518.16" smashed="yes">
+<attribute name="NAME" x="184.15" y="519.6586" size="1.778" layer="95"/>
+<attribute name="VALUE" x="184.15" y="514.858" size="1.778" layer="96"/>
+</instance>
+<instance part="R20" gate="G$1" x="210.82" y="480.06" smashed="yes">
+<attribute name="NAME" x="207.01" y="481.5586" size="1.778" layer="95"/>
+<attribute name="VALUE" x="207.01" y="476.758" size="1.778" layer="96"/>
+</instance>
+<instance part="R21" gate="G$1" x="195.58" y="505.46" smashed="yes" rot="R270">
+<attribute name="NAME" x="197.0786" y="509.27" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="192.278" y="509.27" size="1.778" layer="96" rot="R270"/>
 </instance>
 </instances>
 <busses>
@@ -23747,13 +23676,10 @@ Source: &lt;a href="https://www.vishay.com/docs/30325/wsk120618.pdf"&gt; Datashe
 <pinref part="C16" gate="G$1" pin="1"/>
 <wire x1="195.58" y1="495.3" x2="192.024" y2="495.3" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="495.3" x2="195.58" y2="490.22" width="0.1524" layer="91"/>
-<junction x="195.58" y="495.3"/>
 <label x="195.58" y="490.22" size="1.778" layer="95"/>
-<wire x1="195.58" y1="510.54" x2="200.66" y2="510.54" width="0.1524" layer="91"/>
-<pinref part="R14" gate="G$1" pin="2"/>
-<wire x1="198.12" y1="518.16" x2="200.66" y2="518.16" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="518.16" x2="200.66" y2="510.54" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="510.54" x2="195.58" y2="495.3" width="0.1524" layer="91"/>
+<pinref part="R21" gate="G$1" pin="2"/>
+<wire x1="195.58" y1="500.38" x2="195.58" y2="495.3" width="0.1524" layer="91"/>
+<junction x="195.58" y="495.3"/>
 </segment>
 </net>
 <net name="ACP" class="0">
@@ -23771,11 +23697,12 @@ Source: &lt;a href="https://www.vishay.com/docs/30325/wsk120618.pdf"&gt; Datashe
 <wire x1="165.354" y1="495.3" x2="177.8" y2="495.3" width="0.1524" layer="91"/>
 <junction x="177.8" y="495.3"/>
 <label x="177.8" y="490.22" size="1.778" layer="95"/>
-<wire x1="175.26" y1="520.7" x2="175.26" y2="497.84" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="497.84" x2="177.8" y2="497.84" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="497.84" x2="177.8" y2="495.3" width="0.1524" layer="91"/>
-<pinref part="R14" gate="G$1" pin="4"/>
-<wire x1="175.26" y1="520.7" x2="177.8" y2="520.7" width="0.1524" layer="91"/>
+<pinref part="Q4" gate="G$1" pin="D"/>
+<pinref part="R19" gate="G$1" pin="1"/>
+<wire x1="182.88" y1="518.16" x2="177.8" y2="518.16" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="518.16" x2="175.26" y2="518.16" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="495.3" x2="177.8" y2="518.16" width="0.1524" layer="91"/>
+<junction x="177.8" y="518.16"/>
 </segment>
 </net>
 <net name="CMSRC" class="0">
@@ -23857,13 +23784,9 @@ Source: &lt;a href="https://www.vishay.com/docs/30325/wsk120618.pdf"&gt; Datashe
 <label x="147.32" y="447.04" size="1.778" layer="95" rot="MR180"/>
 </segment>
 <segment>
-<pinref part="R33" gate="G$1" pin="1"/>
-<wire x1="205.74" y1="480.06" x2="203.2" y2="480.06" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="480.06" x2="203.2" y2="459.74" width="0.1524" layer="91"/>
 <pinref part="C29" gate="G$1" pin="2"/>
 <wire x1="203.2" y1="459.74" x2="207.264" y2="459.74" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="459.74" x2="203.2" y2="449.58" width="0.1524" layer="91"/>
-<junction x="203.2" y="459.74"/>
 <wire x1="203.2" y1="449.58" x2="203.2" y2="436.88" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="449.58" x2="203.2" y2="449.58" width="0.1524" layer="91"/>
 <junction x="203.2" y="449.58"/>
@@ -23871,8 +23794,12 @@ Source: &lt;a href="https://www.vishay.com/docs/30325/wsk120618.pdf"&gt; Datashe
 <wire x1="208.28" y1="448.564" x2="208.28" y2="449.58" width="0.1524" layer="91"/>
 <label x="203.2" y="436.88" size="1.778" layer="95" rot="R180"/>
 <pinref part="L1" gate="G$1" pin="2"/>
+<wire x1="205.74" y1="480.06" x2="203.2" y2="480.06" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="480.06" x2="198.12" y2="480.06" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="459.74" x2="203.2" y2="480.06" width="0.1524" layer="91"/>
+<junction x="203.2" y="459.74"/>
 <junction x="203.2" y="480.06"/>
+<pinref part="R20" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="ACSET" class="0">
@@ -23959,7 +23886,6 @@ Source: &lt;a href="https://www.vishay.com/docs/30325/wsk120618.pdf"&gt; Datashe
 <wire x1="248.92" y1="452.12" x2="248.92" y2="462.28" width="0.1524" layer="91"/>
 <junction x="248.92" y="462.28"/>
 <junction x="248.92" y="452.12"/>
-<pinref part="R33" gate="G$1" pin="2"/>
 <wire x1="248.92" y1="436.88" x2="248.92" y2="452.12" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="480.06" x2="215.9" y2="480.06" width="0.1524" layer="91"/>
 <junction x="218.44" y="480.06"/>
@@ -23974,6 +23900,7 @@ Source: &lt;a href="https://www.vishay.com/docs/30325/wsk120618.pdf"&gt; Datashe
 <pinref part="BATTERYPIN" gate="-1" pin="KL"/>
 <wire x1="248.92" y1="436.88" x2="254" y2="436.88" width="0.1524" layer="91"/>
 <pinref part="Q3" gate="G$1" pin="D"/>
+<pinref part="R20" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$21" class="0">
@@ -24276,10 +24203,13 @@ Source: &lt;a href="https://www.vishay.com/docs/30325/wsk120618.pdf"&gt; Datashe
 <pinref part="VCC4" gate="G$1" pin="VCCINT"/>
 <wire x1="248.92" y1="523.24" x2="248.92" y2="518.16" width="0.1524" layer="91"/>
 <pinref part="Q3" gate="G$1" pin="S"/>
-<pinref part="R14" gate="G$1" pin="3"/>
-<wire x1="198.12" y1="520.7" x2="203.2" y2="520.7" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="520.7" x2="203.2" y2="518.16" width="0.1524" layer="91"/>
+<pinref part="R21" gate="G$1" pin="1"/>
+<wire x1="195.58" y1="510.54" x2="195.58" y2="518.16" width="0.1524" layer="91"/>
+<pinref part="R19" gate="G$1" pin="2"/>
+<wire x1="195.58" y1="518.16" x2="193.04" y2="518.16" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="518.16" x2="195.58" y2="518.16" width="0.1524" layer="91"/>
 <junction x="203.2" y="518.16"/>
+<junction x="195.58" y="518.16"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="PVCC_1"/>
@@ -24373,13 +24303,6 @@ Source: &lt;a href="https://www.vishay.com/docs/30325/wsk120618.pdf"&gt; Datashe
 <wire x1="350.52" y1="264.16" x2="350.52" y2="241.3" width="0.1524" layer="91"/>
 <pinref part="SPEAKER" gate="-2" pin="S"/>
 <wire x1="350.52" y1="241.3" x2="353.06" y2="241.3" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$17" class="0">
-<segment>
-<pinref part="R14" gate="G$1" pin="1"/>
-<pinref part="Q4" gate="G$1" pin="D"/>
-<wire x1="177.8" y1="518.16" x2="175.26" y2="518.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

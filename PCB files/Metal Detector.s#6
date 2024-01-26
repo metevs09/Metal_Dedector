@@ -21991,9 +21991,9 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/IRF9630.pdf"&
 <part name="Q2" library="IRF740" deviceset="IRF740" device=""/>
 <part name="Q3" library="IRF9630" deviceset="IRF9630" device=""/>
 <part name="Q4" library="IRF740" deviceset="IRF740" device=""/>
-<part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R2012" package3d_urn="urn:adsk.eagle:package:23543/2" value="0.02Ω"/>
 <part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R2012" package3d_urn="urn:adsk.eagle:package:23543/2" value="0.01RΩ"/>
 <part name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0Ω"/>
+<part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="0.02Ω"/>
 </parts>
 <sheets>
 <sheet>
@@ -22152,12 +22152,12 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/IRF9630.pdf"&
 <attribute name="NAME" x="189.865" y="493.776" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="184.785" y="493.776" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="C27" gate="G$1" x="165.354" y="490.22" smashed="yes" rot="R180">
-<attribute name="NAME" x="163.83" y="489.839" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="163.83" y="494.919" size="1.778" layer="96" rot="R180"/>
+<instance part="C27" gate="G$1" x="165.354" y="487.68" smashed="yes" rot="R180">
+<attribute name="NAME" x="163.83" y="487.299" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="163.83" y="492.379" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND4" gate="1" x="165.354" y="484.886" smashed="yes">
-<attribute name="VALUE" x="162.814" y="482.346" size="1.778" layer="96"/>
+<instance part="GND4" gate="1" x="165.354" y="482.346" smashed="yes">
+<attribute name="VALUE" x="162.814" y="479.806" size="1.778" layer="96"/>
 </instance>
 <instance part="C28" gate="G$1" x="213.36" y="505.46" smashed="yes">
 <attribute name="NAME" x="208.661" y="511.556" size="1.778" layer="95" font="vector" rot="R270"/>
@@ -22714,10 +22714,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/IRF9630.pdf"&
 <attribute name="NAME" x="172.72" y="525.78" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="172.72" y="523.24" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="R19" gate="G$1" x="187.96" y="518.16" smashed="yes">
-<attribute name="NAME" x="184.15" y="519.6586" size="1.778" layer="95"/>
-<attribute name="VALUE" x="184.15" y="514.858" size="1.778" layer="96"/>
-</instance>
 <instance part="R20" gate="G$1" x="210.82" y="480.06" smashed="yes">
 <attribute name="NAME" x="207.01" y="481.5586" size="1.778" layer="95"/>
 <attribute name="VALUE" x="207.01" y="476.758" size="1.778" layer="96"/>
@@ -22725,6 +22721,10 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/IRF9630.pdf"&
 <instance part="R21" gate="G$1" x="195.58" y="505.46" smashed="yes" rot="R270">
 <attribute name="NAME" x="197.0786" y="509.27" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="192.278" y="509.27" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="R14" gate="G$1" x="187.96" y="518.16" smashed="yes">
+<attribute name="NAME" x="184.15" y="519.6586" size="1.778" layer="95"/>
+<attribute name="VALUE" x="184.15" y="514.858" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -22844,7 +22844,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/IRF9630.pdf"&
 <segment>
 <pinref part="C27" gate="G$1" pin="1"/>
 <pinref part="GND4" gate="1" pin="GND"/>
-<wire x1="165.354" y1="487.68" x2="165.354" y2="487.426" width="0.1524" layer="91"/>
+<wire x1="165.354" y1="485.14" x2="165.354" y2="484.886" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="X2" gate="G$1" pin="3"/>
@@ -23692,17 +23692,19 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/IRF9630.pdf"&
 <pinref part="C16" gate="G$1" pin="2"/>
 <wire x1="184.404" y1="495.3" x2="177.8" y2="495.3" width="0.1524" layer="91"/>
 <junction x="177.8" y="495.3"/>
-<pinref part="C27" gate="G$1" pin="2"/>
 <wire x1="177.8" y1="495.3" x2="177.8" y2="490.22" width="0.1524" layer="91"/>
-<wire x1="165.354" y1="495.3" x2="177.8" y2="495.3" width="0.1524" layer="91"/>
 <junction x="177.8" y="495.3"/>
 <label x="177.8" y="490.22" size="1.778" layer="95"/>
 <pinref part="Q4" gate="G$1" pin="D"/>
-<pinref part="R19" gate="G$1" pin="1"/>
-<wire x1="182.88" y1="518.16" x2="177.8" y2="518.16" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="518.16" x2="175.26" y2="518.16" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="495.3" x2="177.8" y2="518.16" width="0.1524" layer="91"/>
 <junction x="177.8" y="518.16"/>
+<pinref part="R14" gate="G$1" pin="1"/>
+<wire x1="182.88" y1="518.16" x2="177.8" y2="518.16" width="0.1524" layer="91"/>
+<pinref part="C27" gate="G$1" pin="2"/>
+<wire x1="165.354" y1="492.76" x2="165.1" y2="492.76" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="492.76" x2="165.1" y2="495.3" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="495.3" x2="177.8" y2="495.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CMSRC" class="0">
@@ -24205,11 +24207,11 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/IRF9630.pdf"&
 <pinref part="Q3" gate="G$1" pin="S"/>
 <pinref part="R21" gate="G$1" pin="1"/>
 <wire x1="195.58" y1="510.54" x2="195.58" y2="518.16" width="0.1524" layer="91"/>
-<pinref part="R19" gate="G$1" pin="2"/>
-<wire x1="195.58" y1="518.16" x2="193.04" y2="518.16" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="518.16" x2="195.58" y2="518.16" width="0.1524" layer="91"/>
 <junction x="203.2" y="518.16"/>
 <junction x="195.58" y="518.16"/>
+<pinref part="R14" gate="G$1" pin="2"/>
+<wire x1="193.04" y1="518.16" x2="195.58" y2="518.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="PVCC_1"/>

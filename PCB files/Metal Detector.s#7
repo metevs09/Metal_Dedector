@@ -21865,7 +21865,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/IRF9630.pdf"&
 <part name="C28" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="1.0UF" device="-1206-50V-10%" package3d_urn="urn:adsk.eagle:package:41385095/1" value="10uF/25 VDC/XR7"/>
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R32" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1kΩ"/>
-<part name="R33" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="0.01RΩ"/>
 <part name="R34" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0Ω"/>
 <part name="C29" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
 <part name="C30" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
@@ -21992,9 +21991,9 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/IRF9630.pdf"&
 <part name="Q2" library="IRF740" deviceset="IRF740" device=""/>
 <part name="Q3" library="IRF9630" deviceset="IRF9630" device=""/>
 <part name="Q4" library="IRF740" deviceset="IRF740" device=""/>
-<part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R2012" package3d_urn="urn:adsk.eagle:package:23543/2" value="0.02Ω"/>
-<part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R2012" package3d_urn="urn:adsk.eagle:package:23543/2"/>
+<part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R2012" package3d_urn="urn:adsk.eagle:package:23543/2" value="0.01RΩ"/>
 <part name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0Ω"/>
+<part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="0.02Ω"/>
 </parts>
 <sheets>
 <sheet>
@@ -22170,10 +22169,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/IRF9630.pdf"&
 <instance part="R32" gate="G$1" x="233.68" y="495.3" smashed="yes">
 <attribute name="NAME" x="229.87" y="496.7986" size="1.778" layer="95"/>
 <attribute name="VALUE" x="229.87" y="491.998" size="1.778" layer="96"/>
-</instance>
-<instance part="R33" gate="G$1" x="210.82" y="480.06" smashed="yes">
-<attribute name="NAME" x="207.01" y="481.5586" size="1.778" layer="95"/>
-<attribute name="VALUE" x="207.01" y="476.758" size="1.778" layer="96"/>
 </instance>
 <instance part="R34" gate="G$1" x="218.44" y="472.44" smashed="yes" rot="R90">
 <attribute name="NAME" x="216.9414" y="468.63" size="1.778" layer="95" rot="R90"/>
@@ -22719,17 +22714,17 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/IRF9630.pdf"&
 <attribute name="NAME" x="172.72" y="525.78" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="172.72" y="523.24" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="R19" gate="G$1" x="187.96" y="518.16" smashed="yes">
-<attribute name="NAME" x="184.15" y="519.6586" size="1.778" layer="95"/>
-<attribute name="VALUE" x="184.15" y="514.858" size="1.778" layer="96"/>
-</instance>
-<instance part="R20" gate="G$1" x="208.28" y="472.44" smashed="yes">
-<attribute name="NAME" x="204.47" y="473.9386" size="1.778" layer="95"/>
-<attribute name="VALUE" x="204.47" y="469.138" size="1.778" layer="96"/>
+<instance part="R20" gate="G$1" x="210.82" y="480.06" smashed="yes">
+<attribute name="NAME" x="207.01" y="481.5586" size="1.778" layer="95"/>
+<attribute name="VALUE" x="207.01" y="476.758" size="1.778" layer="96"/>
 </instance>
 <instance part="R21" gate="G$1" x="195.58" y="505.46" smashed="yes" rot="R270">
 <attribute name="NAME" x="197.0786" y="509.27" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="192.278" y="509.27" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="R14" gate="G$1" x="187.96" y="518.16" smashed="yes">
+<attribute name="NAME" x="184.15" y="519.6586" size="1.778" layer="95"/>
+<attribute name="VALUE" x="184.15" y="514.858" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -23703,11 +23698,11 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/IRF9630.pdf"&
 <junction x="177.8" y="495.3"/>
 <label x="177.8" y="490.22" size="1.778" layer="95"/>
 <pinref part="Q4" gate="G$1" pin="D"/>
-<pinref part="R19" gate="G$1" pin="1"/>
-<wire x1="182.88" y1="518.16" x2="177.8" y2="518.16" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="518.16" x2="175.26" y2="518.16" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="495.3" x2="177.8" y2="518.16" width="0.1524" layer="91"/>
 <junction x="177.8" y="518.16"/>
+<pinref part="R14" gate="G$1" pin="1"/>
+<wire x1="182.88" y1="518.16" x2="177.8" y2="518.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CMSRC" class="0">
@@ -23789,14 +23784,9 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/IRF9630.pdf"&
 <label x="147.32" y="447.04" size="1.778" layer="95" rot="MR180"/>
 </segment>
 <segment>
-<pinref part="R33" gate="G$1" pin="1"/>
-<wire x1="205.74" y1="480.06" x2="203.2" y2="480.06" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="480.06" x2="203.2" y2="472.44" width="0.1524" layer="91"/>
 <pinref part="C29" gate="G$1" pin="2"/>
-<wire x1="203.2" y1="472.44" x2="203.2" y2="459.74" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="459.74" x2="207.264" y2="459.74" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="459.74" x2="203.2" y2="449.58" width="0.1524" layer="91"/>
-<junction x="203.2" y="459.74"/>
 <wire x1="203.2" y1="449.58" x2="203.2" y2="436.88" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="449.58" x2="203.2" y2="449.58" width="0.1524" layer="91"/>
 <junction x="203.2" y="449.58"/>
@@ -23804,10 +23794,12 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/IRF9630.pdf"&
 <wire x1="208.28" y1="448.564" x2="208.28" y2="449.58" width="0.1524" layer="91"/>
 <label x="203.2" y="436.88" size="1.778" layer="95" rot="R180"/>
 <pinref part="L1" gate="G$1" pin="2"/>
+<wire x1="205.74" y1="480.06" x2="203.2" y2="480.06" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="480.06" x2="198.12" y2="480.06" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="459.74" x2="203.2" y2="480.06" width="0.1524" layer="91"/>
+<junction x="203.2" y="459.74"/>
 <junction x="203.2" y="480.06"/>
 <pinref part="R20" gate="G$1" pin="1"/>
-<junction x="203.2" y="472.44"/>
 </segment>
 </net>
 <net name="ACSET" class="0">
@@ -23894,7 +23886,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/IRF9630.pdf"&
 <wire x1="248.92" y1="452.12" x2="248.92" y2="462.28" width="0.1524" layer="91"/>
 <junction x="248.92" y="462.28"/>
 <junction x="248.92" y="452.12"/>
-<pinref part="R33" gate="G$1" pin="2"/>
 <wire x1="248.92" y1="436.88" x2="248.92" y2="452.12" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="480.06" x2="215.9" y2="480.06" width="0.1524" layer="91"/>
 <junction x="218.44" y="480.06"/>
@@ -23909,6 +23900,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/IRF9630.pdf"&
 <pinref part="BATTERYPIN" gate="-1" pin="KL"/>
 <wire x1="248.92" y1="436.88" x2="254" y2="436.88" width="0.1524" layer="91"/>
 <pinref part="Q3" gate="G$1" pin="D"/>
+<pinref part="R20" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$21" class="0">
@@ -24213,11 +24205,11 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/IRF9630.pdf"&
 <pinref part="Q3" gate="G$1" pin="S"/>
 <pinref part="R21" gate="G$1" pin="1"/>
 <wire x1="195.58" y1="510.54" x2="195.58" y2="518.16" width="0.1524" layer="91"/>
-<pinref part="R19" gate="G$1" pin="2"/>
-<wire x1="195.58" y1="518.16" x2="193.04" y2="518.16" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="518.16" x2="195.58" y2="518.16" width="0.1524" layer="91"/>
 <junction x="203.2" y="518.16"/>
 <junction x="195.58" y="518.16"/>
+<pinref part="R14" gate="G$1" pin="2"/>
+<wire x1="193.04" y1="518.16" x2="195.58" y2="518.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="PVCC_1"/>

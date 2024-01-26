@@ -21792,6 +21792,70 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/IRF9630.pdf"&
 </deviceset>
 </devicesets>
 </library>
+<library name="WSL1206R0100FEK18">
+<description>&lt;Res Metal Strip 1206 0.01 Ohm 1% 0.5W(1/2W) +/-75ppm/C Molded SMD Bulk&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="RESC3216X89N">
+<description>&lt;b&gt;)0000000&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-1.5" y="0" dx="1.85" dy="1.2" layer="1" rot="R90"/>
+<smd name="2" x="1.5" y="0" dx="1.85" dy="1.2" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2.35" y1="1.2" x2="2.35" y2="1.2" width="0.05" layer="51"/>
+<wire x1="2.35" y1="1.2" x2="2.35" y2="-1.2" width="0.05" layer="51"/>
+<wire x1="2.35" y1="-1.2" x2="-2.35" y2="-1.2" width="0.05" layer="51"/>
+<wire x1="-2.35" y1="-1.2" x2="-2.35" y2="1.2" width="0.05" layer="51"/>
+<wire x1="-1.6" y1="0.8" x2="1.6" y2="0.8" width="0.1" layer="51"/>
+<wire x1="1.6" y1="0.8" x2="1.6" y2="-0.8" width="0.1" layer="51"/>
+<wire x1="1.6" y1="-0.8" x2="-1.6" y2="-0.8" width="0.1" layer="51"/>
+<wire x1="-1.6" y1="-0.8" x2="-1.6" y2="0.8" width="0.1" layer="51"/>
+<wire x1="0" y1="0.7" x2="0" y2="-0.7" width="0.2" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="WSL1206R0100FEK18">
+<wire x1="5.08" y1="1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="5.08" y1="1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
+<text x="13.97" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="13.97" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="0" visible="pad" length="middle"/>
+<pin name="2" x="17.78" y="0" visible="pad" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="WSL1206R0100FEK18" prefix="R">
+<description>&lt;b&gt;Res Metal Strip 1206 0.01 Ohm 1% 0.5W(1/2W) +/-75ppm/C Molded SMD Bulk&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.arrow.com/en/products/wsl1206r0100fek18/vishay"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="WSL1206R0100FEK18" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC3216X89N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="ARROW_PART_NUMBER" value="WSL1206R0100FEK18" constant="no"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/wsl1206r0100fek18/vishay" constant="no"/>
+<attribute name="DESCRIPTION" value="Res Metal Strip 1206 0.01 Ohm 1% 0.5W(1/2W) +/-75ppm/C Molded SMD Bulk" constant="no"/>
+<attribute name="HEIGHT" value="0.889mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="WSL1206R0100FEK18" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="71-WSL1206R0100FEK18" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Vishay-Dale/WSL1206R0100FEK18?qs=chgxS0gduQ54D2t1c1PRvA%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -21993,7 +22057,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/IRF9630.pdf"&
 <part name="Q4" library="IRF740" deviceset="IRF740" device=""/>
 <part name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0Ω"/>
 <part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="0.02Ω"/>
-<part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="0.01Ω"/>
+<part name="R20" library="WSL1206R0100FEK18" deviceset="WSL1206R0100FEK18" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -22197,17 +22261,17 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/IRF9630.pdf"&
 <attribute name="NAME" x="247.396" y="449.199" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="247.396" y="446.659" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="L1" gate="G$1" x="177.8" y="480.06" smashed="yes">
-<attribute name="NAME" x="179.07" y="483.87" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="179.07" y="478.79" size="1.778" layer="96" align="center-left"/>
+<instance part="L1" gate="G$1" x="175.26" y="480.06" smashed="yes">
+<attribute name="NAME" x="176.53" y="483.87" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="176.53" y="478.79" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="C34" gate="G$1" x="178.816" y="472.44" smashed="yes" rot="R90">
-<attribute name="NAME" x="177.165" y="470.916" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="176.784" y="474.345" size="1.778" layer="96"/>
+<instance part="C34" gate="G$1" x="176.276" y="472.44" smashed="yes" rot="R90">
+<attribute name="NAME" x="174.625" y="470.916" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="174.244" y="474.345" size="1.778" layer="96"/>
 </instance>
-<instance part="R35" gate="G$1" x="190.5" y="472.44" smashed="yes" rot="R180">
-<attribute name="NAME" x="194.31" y="470.9414" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="189.23" y="470.662" size="1.778" layer="96" rot="R180"/>
+<instance part="R35" gate="G$1" x="187.96" y="472.44" smashed="yes" rot="R180">
+<attribute name="NAME" x="191.77" y="470.9414" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="186.69" y="470.662" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="C35" gate="G$1" x="226.06" y="510.54" smashed="yes">
 <attribute name="NAME" x="227.584" y="513.461" size="1.778" layer="95" font="vector"/>
@@ -22686,18 +22750,18 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/IRF9630.pdf"&
 <attribute name="NAME" x="531.368" y="496.824" size="1.778" layer="95"/>
 <attribute name="VALUE" x="530.606" y="500.253" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="BATTERYPIN" gate="-1" x="259.08" y="436.88" smashed="yes" rot="MR0">
-<attribute name="NAME" x="260.35" y="437.769" size="1.778" layer="95" rot="MR180"/>
+<instance part="BATTERYPIN" gate="-1" x="261.62" y="421.64" smashed="yes" rot="R180">
+<attribute name="NAME" x="262.89" y="420.751" size="1.778" layer="95"/>
 </instance>
-<instance part="BATTERYPIN" gate="-2" x="259.08" y="431.8" smashed="yes" rot="MR0">
-<attribute name="NAME" x="260.35" y="432.689" size="1.778" layer="95" rot="MR180"/>
+<instance part="BATTERYPIN" gate="-2" x="261.62" y="426.72" smashed="yes" rot="R180">
+<attribute name="NAME" x="262.89" y="425.831" size="1.778" layer="95"/>
 </instance>
-<instance part="BATTERYPIN" gate="-3" x="259.08" y="426.72" smashed="yes" rot="MR0">
-<attribute name="NAME" x="260.35" y="427.609" size="1.778" layer="95" rot="MR180"/>
+<instance part="BATTERYPIN" gate="-3" x="261.62" y="431.8" smashed="yes" rot="R180">
+<attribute name="NAME" x="262.89" y="430.911" size="1.778" layer="95"/>
 </instance>
-<instance part="BATTERYPIN" gate="-4" x="259.08" y="421.64" smashed="yes" rot="MR0">
-<attribute name="NAME" x="260.35" y="422.529" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="262.89" y="417.957" size="1.778" layer="96" rot="MR0"/>
+<instance part="BATTERYPIN" gate="-4" x="261.62" y="436.88" smashed="yes" rot="R180">
+<attribute name="NAME" x="262.89" y="435.991" size="1.778" layer="95"/>
+<attribute name="VALUE" x="265.43" y="440.563" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="GND12" gate="1" x="243.84" y="414.02" smashed="yes">
 <attribute name="VALUE" x="241.3" y="411.48" size="1.778" layer="96"/>
@@ -22722,9 +22786,9 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/IRF9630.pdf"&
 <attribute name="NAME" x="184.15" y="519.6586" size="1.778" layer="95"/>
 <attribute name="VALUE" x="184.15" y="514.858" size="1.778" layer="96"/>
 </instance>
-<instance part="R19" gate="G$1" x="210.82" y="480.06" smashed="yes">
-<attribute name="NAME" x="207.01" y="481.5586" size="1.778" layer="95"/>
-<attribute name="VALUE" x="207.01" y="476.758" size="1.778" layer="96"/>
+<instance part="R20" gate="G$1" x="198.12" y="480.06" smashed="yes">
+<attribute name="NAME" x="199.39" y="473.71" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="199.39" y="476.25" size="1.778" layer="96" align="center-left"/>
 </instance>
 </instances>
 <busses>
@@ -22936,8 +23000,8 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/IRF9630.pdf"&
 <wire x1="243.84" y1="431.8" x2="243.84" y2="441.96" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="441.96" x2="228.6" y2="441.96" width="0.1524" layer="91"/>
 <junction x="228.6" y="441.96"/>
-<pinref part="BATTERYPIN" gate="-2" pin="KL"/>
-<wire x1="243.84" y1="431.8" x2="254" y2="431.8" width="0.1524" layer="91"/>
+<pinref part="BATTERYPIN" gate="-3" pin="KL"/>
+<wire x1="256.54" y1="431.8" x2="243.84" y2="431.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C7" gate="G$1" pin="1"/>
@@ -23105,8 +23169,8 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/IRF9630.pdf"&
 <segment>
 <wire x1="243.84" y1="421.64" x2="243.84" y2="416.56" width="0.1524" layer="91"/>
 <pinref part="GND12" gate="1" pin="GND"/>
-<pinref part="BATTERYPIN" gate="-4" pin="KL"/>
-<wire x1="243.84" y1="421.64" x2="254" y2="421.64" width="0.1524" layer="91"/>
+<pinref part="BATTERYPIN" gate="-1" pin="KL"/>
+<wire x1="256.54" y1="421.64" x2="243.84" y2="421.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -23747,8 +23811,8 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/IRF9630.pdf"&
 <label x="182.88" y="429.26" size="1.778" layer="95" rot="MR0"/>
 <wire x1="248.92" y1="429.26" x2="187.96" y2="429.26" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="426.72" x2="248.92" y2="429.26" width="0.1524" layer="91"/>
-<pinref part="BATTERYPIN" gate="-3" pin="KL"/>
-<wire x1="248.92" y1="426.72" x2="254" y2="426.72" width="0.1524" layer="91"/>
+<pinref part="BATTERYPIN" gate="-2" pin="KL"/>
+<wire x1="256.54" y1="426.72" x2="248.92" y2="426.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ISET" class="0">
@@ -23795,13 +23859,14 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/IRF9630.pdf"&
 <pinref part="C30" gate="G$1" pin="1"/>
 <wire x1="208.28" y1="448.564" x2="208.28" y2="449.58" width="0.1524" layer="91"/>
 <label x="203.2" y="436.88" size="1.778" layer="95" rot="R180"/>
-<pinref part="L1" gate="G$1" pin="2"/>
-<wire x1="205.74" y1="480.06" x2="203.2" y2="480.06" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="480.06" x2="198.12" y2="480.06" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="459.74" x2="203.2" y2="480.06" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="459.74" x2="203.2" y2="472.44" width="0.1524" layer="91"/>
 <junction x="203.2" y="459.74"/>
-<junction x="203.2" y="480.06"/>
-<pinref part="R19" gate="G$1" pin="1"/>
+<wire x1="203.2" y1="472.44" x2="198.12" y2="472.44" width="0.1524" layer="91"/>
+<pinref part="L1" gate="G$1" pin="2"/>
+<pinref part="R20" gate="G$1" pin="1"/>
+<wire x1="195.58" y1="480.06" x2="198.12" y2="480.06" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="472.44" x2="198.12" y2="480.06" width="0.1524" layer="91"/>
+<junction x="198.12" y="480.06"/>
 </segment>
 </net>
 <net name="ACSET" class="0">
@@ -23861,9 +23926,9 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/IRF9630.pdf"&
 </segment>
 <segment>
 <pinref part="R35" gate="G$1" pin="1"/>
-<wire x1="195.58" y1="472.44" x2="198.12" y2="472.44" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="472.44" x2="198.12" y2="469.9" width="0.1524" layer="91"/>
-<label x="198.12" y="469.9" size="1.778" layer="95" rot="R270"/>
+<wire x1="193.04" y1="472.44" x2="195.58" y2="472.44" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="472.44" x2="195.58" y2="469.9" width="0.1524" layer="91"/>
+<label x="195.58" y="469.9" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
 <net name="VBATT" class="0">
@@ -23899,10 +23964,10 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/IRF9630.pdf"&
 <junction x="248.92" y="472.44"/>
 <wire x1="248.92" y1="452.12" x2="259.08" y2="452.12" width="0.1524" layer="91"/>
 <wire x1="259.08" y1="452.12" x2="259.08" y2="454.66" width="0.1524" layer="91"/>
-<pinref part="BATTERYPIN" gate="-1" pin="KL"/>
-<wire x1="248.92" y1="436.88" x2="254" y2="436.88" width="0.1524" layer="91"/>
 <pinref part="Q3" gate="G$1" pin="D"/>
-<pinref part="R19" gate="G$1" pin="2"/>
+<pinref part="BATTERYPIN" gate="-4" pin="KL"/>
+<wire x1="256.54" y1="436.88" x2="248.92" y2="436.88" width="0.1524" layer="91"/>
+<pinref part="R20" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$21" class="0">
@@ -23954,14 +24019,14 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/IRF9630.pdf"&
 </net>
 <net name="SW" class="0">
 <segment>
-<label x="170.18" y="472.44" size="1.778" layer="95" rot="R180"/>
+<label x="167.64" y="472.44" size="1.778" layer="95" rot="R180"/>
 <pinref part="C34" gate="G$1" pin="1"/>
-<wire x1="175.26" y1="472.44" x2="170.18" y2="472.44" width="0.1524" layer="91"/>
-<wire x1="176.276" y1="472.44" x2="175.26" y2="472.44" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="472.44" x2="167.64" y2="472.44" width="0.1524" layer="91"/>
+<wire x1="173.736" y1="472.44" x2="172.72" y2="472.44" width="0.1524" layer="91"/>
 <pinref part="L1" gate="G$1" pin="1"/>
-<wire x1="177.8" y1="480.06" x2="175.26" y2="480.06" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="480.06" x2="175.26" y2="472.44" width="0.1524" layer="91"/>
-<junction x="175.26" y="472.44"/>
+<wire x1="175.26" y1="480.06" x2="172.72" y2="480.06" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="480.06" x2="172.72" y2="472.44" width="0.1524" layer="91"/>
+<junction x="172.72" y="472.44"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="SW_2"/>
@@ -23978,7 +24043,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/IRF9630.pdf"&
 <segment>
 <pinref part="C34" gate="G$1" pin="2"/>
 <pinref part="R35" gate="G$1" pin="2"/>
-<wire x1="183.896" y1="472.44" x2="185.42" y2="472.44" width="0.1524" layer="91"/>
+<wire x1="181.356" y1="472.44" x2="182.88" y2="472.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="12V_IN" class="0">
