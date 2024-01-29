@@ -19316,13 +19316,6 @@ ultra fast</description>
 <text x="-0.508" y="0.254" size="0.8128" layer="94">IO</text>
 <pin name="VCCIO" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
-<symbol name="VCCINT" urn="urn:adsk.eagle:symbol:26945/1" library_version="1">
-<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
-<text x="-2.54" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<text x="-0.889" y="0.254" size="0.8128" layer="94">INT</text>
-<pin name="VCCINT" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="VCC" urn="urn:adsk.eagle:component:26957/1" prefix="P+" library_version="1">
@@ -19368,19 +19361,6 @@ ultra fast</description>
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="VCCIO" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="VCCINT" urn="urn:adsk.eagle:component:26975/1" prefix="VCC" library_version="1">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="VCCINT" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -20562,181 +20542,6 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="TLV62130ARGTR">
-<description>&lt;3-17V 3A Step-Down Converter with DCS-Control in 3x3 QFN Package&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
-<packages>
-<package name="QFN50P300X300X100-17N">
-<description>&lt;b&gt;RGT0016C&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-1.5" y="0.75" dx="0.8" dy="0.3" layer="1"/>
-<smd name="2" x="-1.5" y="0.25" dx="0.8" dy="0.3" layer="1"/>
-<smd name="3" x="-1.5" y="-0.25" dx="0.8" dy="0.3" layer="1"/>
-<smd name="4" x="-1.5" y="-0.75" dx="0.8" dy="0.3" layer="1"/>
-<smd name="5" x="-0.75" y="-1.5" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="6" x="-0.25" y="-1.5" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="7" x="0.25" y="-1.5" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="8" x="0.75" y="-1.5" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="9" x="1.5" y="-0.75" dx="0.8" dy="0.3" layer="1"/>
-<smd name="10" x="1.5" y="-0.25" dx="0.8" dy="0.3" layer="1"/>
-<smd name="11" x="1.5" y="0.25" dx="0.8" dy="0.3" layer="1"/>
-<smd name="12" x="1.5" y="0.75" dx="0.8" dy="0.3" layer="1"/>
-<smd name="13" x="0.75" y="1.5" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="14" x="0.25" y="1.5" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="15" x="-0.25" y="1.5" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="16" x="-0.75" y="1.5" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="17" x="0" y="0" dx="1.75" dy="1.75" layer="1" rot="R90"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-2.125" y1="2.125" x2="2.125" y2="2.125" width="0.05" layer="51"/>
-<wire x1="2.125" y1="2.125" x2="2.125" y2="-2.125" width="0.05" layer="51"/>
-<wire x1="2.125" y1="-2.125" x2="-2.125" y2="-2.125" width="0.05" layer="51"/>
-<wire x1="-2.125" y1="-2.125" x2="-2.125" y2="2.125" width="0.05" layer="51"/>
-<wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.1" layer="51"/>
-<wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.1" layer="51"/>
-<wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.1" layer="51"/>
-<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.1" layer="51"/>
-<wire x1="-1.5" y1="1" x2="-1" y2="1.5" width="0.1" layer="51"/>
-<circle x="-1.9" y="1.5" radius="0.125" width="0.25" layer="25"/>
-</package>
-</packages>
-<symbols>
-<symbol name="TLV62130ARGTR">
-<wire x1="5.08" y1="30.48" x2="25.4" y2="30.48" width="0.254" layer="94"/>
-<wire x1="25.4" y1="-17.78" x2="25.4" y2="30.48" width="0.254" layer="94"/>
-<wire x1="25.4" y1="-17.78" x2="5.08" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="5.08" y1="30.48" x2="5.08" y2="-17.78" width="0.254" layer="94"/>
-<text x="26.67" y="35.56" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="26.67" y="33.02" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="SW_1" x="0" y="0" length="middle"/>
-<pin name="SW_2" x="0" y="-2.54" length="middle"/>
-<pin name="SW_3" x="0" y="-5.08" length="middle"/>
-<pin name="PG" x="0" y="-7.62" length="middle"/>
-<pin name="FB" x="10.16" y="-22.86" length="middle" rot="R90"/>
-<pin name="AGND" x="12.7" y="-22.86" length="middle" rot="R90"/>
-<pin name="FSW" x="15.24" y="-22.86" length="middle" rot="R90"/>
-<pin name="DEF" x="17.78" y="-22.86" length="middle" rot="R90"/>
-<pin name="PVIN_2" x="30.48" y="0" length="middle" rot="R180"/>
-<pin name="PVIN_1" x="30.48" y="-2.54" length="middle" rot="R180"/>
-<pin name="AVIN" x="30.48" y="-5.08" length="middle" rot="R180"/>
-<pin name="SS/TR" x="30.48" y="-7.62" length="middle" rot="R180"/>
-<pin name="EXPOSED_THERMAL_PAD" x="10.16" y="35.56" length="middle" rot="R270"/>
-<pin name="PGND_2" x="12.7" y="35.56" length="middle" rot="R270"/>
-<pin name="PGND_1" x="15.24" y="35.56" length="middle" rot="R270"/>
-<pin name="VOS" x="17.78" y="35.56" length="middle" rot="R270"/>
-<pin name="EN" x="20.32" y="35.56" length="middle" rot="R270"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="TLV62130ARGTR" prefix="IC">
-<description>&lt;b&gt;3-17V 3A Step-Down Converter with DCS-Control in 3x3 QFN Package&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tlv62130a.pdf"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="TLV62130ARGTR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="QFN50P300X300X100-17N">
-<connects>
-<connect gate="G$1" pin="AGND" pad="6"/>
-<connect gate="G$1" pin="AVIN" pad="10"/>
-<connect gate="G$1" pin="DEF" pad="8"/>
-<connect gate="G$1" pin="EN" pad="13"/>
-<connect gate="G$1" pin="EXPOSED_THERMAL_PAD" pad="17"/>
-<connect gate="G$1" pin="FB" pad="5"/>
-<connect gate="G$1" pin="FSW" pad="7"/>
-<connect gate="G$1" pin="PG" pad="4"/>
-<connect gate="G$1" pin="PGND_1" pad="15"/>
-<connect gate="G$1" pin="PGND_2" pad="16"/>
-<connect gate="G$1" pin="PVIN_1" pad="11"/>
-<connect gate="G$1" pin="PVIN_2" pad="12"/>
-<connect gate="G$1" pin="SS/TR" pad="9"/>
-<connect gate="G$1" pin="SW_1" pad="1"/>
-<connect gate="G$1" pin="SW_2" pad="2"/>
-<connect gate="G$1" pin="SW_3" pad="3"/>
-<connect gate="G$1" pin="VOS" pad="14"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="ARROW_PART_NUMBER" value="TLV62130ARGTR" constant="no"/>
-<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/tlv62130argtr/texas-instruments?region=nac" constant="no"/>
-<attribute name="DESCRIPTION" value="3-17V 3A Step-Down Converter with DCS-Control in 3x3 QFN Package" constant="no"/>
-<attribute name="HEIGHT" value="1mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Texas Instruments" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="TLV62130ARGTR" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="595-TLV62130ARGTR" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV62130ARGTR?qs=iIeLWXrA%252B1W4VUCYARbqlA%3D%3D" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="IHLP2525CZER220M11">
-<description>&lt;Inductor IHLP SMD 2525 22uH&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
-<packages>
-<package name="INDPM6965X300N">
-<description>&lt;b&gt;IHLM2525&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-2.9" y="0" dx="3.4" dy="2.4" layer="1" rot="R90"/>
-<smd name="2" x="2.9" y="0" dx="3.4" dy="2.4" layer="1" rot="R90"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-4.35" y1="3.612" x2="4.35" y2="3.612" width="0.05" layer="51"/>
-<wire x1="4.35" y1="3.612" x2="4.35" y2="-3.612" width="0.05" layer="51"/>
-<wire x1="4.35" y1="-3.612" x2="-4.35" y2="-3.612" width="0.05" layer="51"/>
-<wire x1="-4.35" y1="-3.612" x2="-4.35" y2="3.612" width="0.05" layer="51"/>
-<wire x1="-3.43" y1="3.235" x2="3.43" y2="3.235" width="0.1" layer="51"/>
-<wire x1="3.43" y1="3.235" x2="3.43" y2="-3.235" width="0.1" layer="51"/>
-<wire x1="3.43" y1="-3.235" x2="-3.43" y2="-3.235" width="0.1" layer="51"/>
-<wire x1="-3.43" y1="-3.235" x2="-3.43" y2="3.235" width="0.1" layer="51"/>
-<wire x1="3.43" y1="3.235" x2="-3.43" y2="3.235" width="0.2" layer="21"/>
-<wire x1="-3.43" y1="-3.235" x2="3.43" y2="-3.235" width="0.2" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="IHLP2525CZER220M11">
-<wire x1="5.08" y1="0" x2="7.62" y2="0" width="0.254" layer="94" curve="-175.4"/>
-<wire x1="7.62" y1="0" x2="10.16" y2="0" width="0.254" layer="94" curve="-175.4"/>
-<wire x1="10.16" y1="0" x2="12.7" y2="0" width="0.254" layer="94" curve="-175.4"/>
-<wire x1="12.7" y1="0" x2="15.24" y2="0" width="0.254" layer="94" curve="-175.4"/>
-<text x="16.51" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="16.51" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="1" x="0" y="0" visible="pad" length="middle"/>
-<pin name="2" x="20.32" y="0" visible="pad" length="middle" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="IHLP2525CZER220M11" prefix="L">
-<description>&lt;b&gt;Inductor IHLP SMD 2525 22uH&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/IHLP2525CZER220M11.pdf"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="IHLP2525CZER220M11" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="INDPM6965X300N">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="ARROW_PART_NUMBER" value="IHLP2525CZER220M11" constant="no"/>
-<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/ihlp2525czer220m11/vishay?region=europe" constant="no"/>
-<attribute name="DESCRIPTION" value="Inductor IHLP SMD 2525 22uH" constant="no"/>
-<attribute name="HEIGHT" value="3mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Vishay" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="IHLP2525CZER220M11" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="70-IHLP2525CZER220" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Vishay-Dale/IHLP2525CZER220M11?qs=sy7P%252B1cA09hqmhD2Kelr6g%3D%3D" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="TLV1117-33IDCYR">
 <description>&lt;Single Output LDO, 800mA, Fixed and Adj., Internal Current limit, Thermal Overload Protection&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
@@ -21890,6 +21695,157 @@ Source: &lt;a href="https://www.arrow.com/en/products/wsl1206r0100fek18/vishay"&
 </deviceset>
 </devicesets>
 </library>
+<library name="TPS54228DDAR">
+<description>&lt;4.5V to 18V Input, 2-A Synchronous Step-Down Converter with Eco-mode&amp;#153;&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="SOIC127P600X170-9N">
+<description>&lt;b&gt;DDA (R-PDSO-G8)&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-2.712" y="1.905" dx="1.525" dy="0.65" layer="1"/>
+<smd name="2" x="-2.712" y="0.635" dx="1.525" dy="0.65" layer="1"/>
+<smd name="3" x="-2.712" y="-0.635" dx="1.525" dy="0.65" layer="1"/>
+<smd name="4" x="-2.712" y="-1.905" dx="1.525" dy="0.65" layer="1"/>
+<smd name="5" x="2.712" y="-1.905" dx="1.525" dy="0.65" layer="1"/>
+<smd name="6" x="2.712" y="-0.635" dx="1.525" dy="0.65" layer="1"/>
+<smd name="7" x="2.712" y="0.635" dx="1.525" dy="0.65" layer="1"/>
+<smd name="8" x="2.712" y="1.905" dx="1.525" dy="0.65" layer="1"/>
+<smd name="9" x="0" y="0" dx="3.1" dy="2.4" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-3.725" y1="2.75" x2="3.725" y2="2.75" width="0.05" layer="51"/>
+<wire x1="3.725" y1="2.75" x2="3.725" y2="-2.75" width="0.05" layer="51"/>
+<wire x1="3.725" y1="-2.75" x2="-3.725" y2="-2.75" width="0.05" layer="51"/>
+<wire x1="-3.725" y1="-2.75" x2="-3.725" y2="2.75" width="0.05" layer="51"/>
+<wire x1="-1.95" y1="2.45" x2="1.95" y2="2.45" width="0.1" layer="51"/>
+<wire x1="1.95" y1="2.45" x2="1.95" y2="-2.45" width="0.1" layer="51"/>
+<wire x1="1.95" y1="-2.45" x2="-1.95" y2="-2.45" width="0.1" layer="51"/>
+<wire x1="-1.95" y1="-2.45" x2="-1.95" y2="2.45" width="0.1" layer="51"/>
+<wire x1="-1.95" y1="1.18" x2="-0.68" y2="2.45" width="0.1" layer="51"/>
+<wire x1="-3.475" y1="2.58" x2="-1.95" y2="2.58" width="0.2" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="TPS54228DDAR">
+<wire x1="5.08" y1="2.54" x2="25.4" y2="2.54" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-15.24" x2="25.4" y2="2.54" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-15.24" x2="5.08" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-15.24" width="0.254" layer="94"/>
+<text x="26.67" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="26.67" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="EN" x="0" y="0" length="middle"/>
+<pin name="VFB" x="0" y="-2.54" length="middle"/>
+<pin name="VREG5" x="0" y="-5.08" length="middle"/>
+<pin name="SS" x="0" y="-7.62" length="middle"/>
+<pin name="EP" x="15.24" y="-20.32" length="middle" rot="R90"/>
+<pin name="VIN" x="30.48" y="0" length="middle" rot="R180"/>
+<pin name="VBST" x="30.48" y="-2.54" length="middle" rot="R180"/>
+<pin name="SW" x="30.48" y="-5.08" length="middle" rot="R180"/>
+<pin name="GND" x="30.48" y="-7.62" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TPS54228DDAR" prefix="IC">
+<description>&lt;b&gt;4.5V to 18V Input, 2-A Synchronous Step-Down Converter with Eco-mode&amp;#153;&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.ti.com/lit/gpn/tps54228"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="TPS54228DDAR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOIC127P600X170-9N">
+<connects>
+<connect gate="G$1" pin="EN" pad="1"/>
+<connect gate="G$1" pin="EP" pad="9"/>
+<connect gate="G$1" pin="GND" pad="5"/>
+<connect gate="G$1" pin="SS" pad="4"/>
+<connect gate="G$1" pin="SW" pad="6"/>
+<connect gate="G$1" pin="VBST" pad="7"/>
+<connect gate="G$1" pin="VFB" pad="2"/>
+<connect gate="G$1" pin="VIN" pad="8"/>
+<connect gate="G$1" pin="VREG5" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="ARROW_PART_NUMBER" value="TPS54228DDAR" constant="no"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/tps54228ddar/texas-instruments?region=nac" constant="no"/>
+<attribute name="DESCRIPTION" value="4.5V to 18V Input, 2-A Synchronous Step-Down Converter with Eco-mode&amp;#153;" constant="no"/>
+<attribute name="HEIGHT" value="1.7mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TPS54228DDAR" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-TPS54228DDAR" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS54228DDAR?qs=L4ss%2FyqpMWRs7St6kwWLyQ%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="SRP1265A-4R7M">
+<description>&lt;Inductor SMD shielded AEC-Q200 4.7uH Bourns SRP1265A Series Shielded Wire-wound SMD Inductor with a Carbonyl Powder Core, 4.7 H 20% 13.5A Idc&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="INDM135125X640N">
+<description>&lt;b&gt;SRP1265(A)&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-5.5" y="0" dx="4.9" dy="4" layer="1" rot="R90"/>
+<smd name="2" x="5.5" y="0" dx="4.9" dy="4" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-7.75" y1="6.65" x2="7.75" y2="6.65" width="0.05" layer="51"/>
+<wire x1="7.75" y1="6.65" x2="7.75" y2="-6.65" width="0.05" layer="51"/>
+<wire x1="7.75" y1="-6.65" x2="-7.75" y2="-6.65" width="0.05" layer="51"/>
+<wire x1="-7.75" y1="-6.65" x2="-7.75" y2="6.65" width="0.05" layer="51"/>
+<wire x1="-6.75" y1="6.25" x2="6.75" y2="6.25" width="0.1" layer="51"/>
+<wire x1="6.75" y1="6.25" x2="6.75" y2="-6.25" width="0.1" layer="51"/>
+<wire x1="6.75" y1="-6.25" x2="-6.75" y2="-6.25" width="0.1" layer="51"/>
+<wire x1="-6.75" y1="-6.25" x2="-6.75" y2="6.25" width="0.1" layer="51"/>
+<wire x1="6.75" y1="6.25" x2="-6.75" y2="6.25" width="0.2" layer="21"/>
+<wire x1="-6.75" y1="-6.25" x2="6.75" y2="-6.25" width="0.2" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="SRP1265A-4R7M">
+<wire x1="5.08" y1="0" x2="7.62" y2="0" width="0.254" layer="94" curve="-175.4"/>
+<wire x1="7.62" y1="0" x2="10.16" y2="0" width="0.254" layer="94" curve="-175.4"/>
+<wire x1="10.16" y1="0" x2="12.7" y2="0" width="0.254" layer="94" curve="-175.4"/>
+<wire x1="12.7" y1="0" x2="15.24" y2="0" width="0.254" layer="94" curve="-175.4"/>
+<text x="16.51" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="16.51" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="0" visible="pad" length="middle"/>
+<pin name="2" x="20.32" y="0" visible="pad" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SRP1265A-4R7M" prefix="L">
+<description>&lt;b&gt;Inductor SMD shielded AEC-Q200 4.7uH Bourns SRP1265A Series Shielded Wire-wound SMD Inductor with a Carbonyl Powder Core, 4.7 H 20% 13.5A Idc&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributors/DKDS-12/225124.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="SRP1265A-4R7M" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDM135125X640N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="ARROW_PART_NUMBER" value="SRP1265A-4R7M" constant="no"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/srp1265a-4r7m/bourns?region=nac" constant="no"/>
+<attribute name="DESCRIPTION" value="Inductor SMD shielded AEC-Q200 4.7uH Bourns SRP1265A Series Shielded Wire-wound SMD Inductor with a Carbonyl Powder Core, 4.7 H 20% 13.5A Idc" constant="no"/>
+<attribute name="HEIGHT" value="6.4mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Bourns" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SRP1265A-4R7M" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="652-SRP1265A-4R7M" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Bourns/SRP1265A-4R7M?qs=7z%252BmIopC6%2FJSLqjYt7xEMQ%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -22036,30 +21992,18 @@ Source: &lt;a href="https://www.arrow.com/en/products/wsl1206r0100fek18/vishay"&
 <part name="SUPPLY8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="VCC2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCCIO" device="" value="VCC3.3"/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device="" value="VBATT"/>
-<part name="J1" library="DG128-7.5-02P-14-00AH" deviceset="DG128-7.5-02P-14-00AH" device="" value="DG128-7.5"/>
 <part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="560Ω"/>
 <part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0Ω"/>
 <part name="R22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0Ω"/>
-<part name="VCC3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCCINT" device=""/>
-<part name="VCC4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCCINT" device=""/>
 <part name="VCC5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCCIO" device="" value="VCC3.3"/>
 <part name="GND58" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="IC6" library="TLV62130ARGTR" deviceset="TLV62130ARGTR" device=""/>
-<part name="GND59" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND60" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY9" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device="" value="SYS_VCC"/>
 <part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1210" package3d_urn="urn:adsk.eagle:package:23619/2" value="10uF/25V"/>
-<part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="3300pF"/>
 <part name="GND61" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
-<part name="L3" library="IHLP2525CZER220M11" deviceset="IHLP2525CZER220M11" device=""/>
-<part name="R24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100kΩ"/>
-<part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="22uF/6.3V"/>
-<part name="GND62" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="R24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10kΩ"/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="VCC 5V"/>
-<part name="R25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="680kΩ"/>
-<part name="R44" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="130kΩ"/>
-<part name="GND63" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="IC7" library="TLV1117-33IDCYR" deviceset="TLV1117-33IDCYR" device=""/>
 <part name="GND38" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="D5" library="ES1B-E3_61T" deviceset="ES1B-E3_61T" device=""/>
@@ -22092,6 +22036,24 @@ Source: &lt;a href="https://www.arrow.com/en/products/wsl1206r0100fek18/vishay"&
 <part name="ENCODER" library="con-amp-mt" library_urn="urn:adsk.eagle:library:123" deviceset="S05P" device="" package3d_urn="urn:adsk.eagle:package:5790/1"/>
 <part name="SERIAL" library="con-amp-mt" library_urn="urn:adsk.eagle:library:123" deviceset="S06P" device="" package3d_urn="urn:adsk.eagle:package:5792/1"/>
 <part name="BATTERY" library="con-ptr500" library_urn="urn:adsk.eagle:library:181" deviceset="AK500/4" device="" package3d_urn="urn:adsk.eagle:package:9887/1"/>
+<part name="IC3" library="TPS54228DDAR" deviceset="TPS54228DDAR" device=""/>
+<part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1210" package3d_urn="urn:adsk.eagle:package:23619/2" value="10uF/25V"/>
+<part name="ON-OFF" library="con-amp-mt" library_urn="urn:adsk.eagle:library:123" deviceset="S02P" device="" package3d_urn="urn:adsk.eagle:package:5789/1"/>
+<part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
+<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="22.1kΩ"/>
+<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="124kΩ"/>
+<part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="15pF"/>
+<part name="GND15" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="C21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="5pF"/>
+<part name="GND16" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="C22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="3300pF"/>
+<part name="GND17" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="C25" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="1.0UF" device="-1206-50V-10%" package3d_urn="urn:adsk.eagle:package:41385095/1" value="22uF"/>
+<part name="C26" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="1.0UF" device="-1206-50V-10%" package3d_urn="urn:adsk.eagle:package:41385095/1" value="22uF"/>
+<part name="GND18" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="GND19" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="L2" library="SRP1265A-4R7M" deviceset="SRP1265A-4R7M" device=""/>
+<part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device="" value="SYS_VCC"/>
 </parts>
 <sheets>
 <sheet>
@@ -22107,7 +22069,7 @@ Source: &lt;a href="https://www.arrow.com/en/products/wsl1206r0100fek18/vishay"&
 <text x="386.08" y="271.526" size="2.54" layer="94" align="top-left">128 x 64 Graphic Display Circuit &amp; Connector</text>
 <text x="314.96" y="271.526" size="2.54" layer="94" align="top-left">Headphone &amp; Speaker Circuit</text>
 <wire x1="304.546" y1="563.88" x2="304.8" y2="414.274" width="0.1524" layer="94" style="longdash"/>
-<text x="106.68" y="329.946" size="2.54" layer="94" align="top-left">5V Buck Conventer Circuit</text>
+<text x="91.44" y="312.166" size="2.54" layer="94" align="top-left">5V Buck Conventer Circuit</text>
 <wire x1="304.8" y1="414.274" x2="304.8" y2="375.666" width="0.1524" layer="94" style="longdash"/>
 <wire x1="304.8" y1="375.666" x2="304.8" y2="289.814" width="0.1524" layer="94" style="longdash"/>
 <wire x1="304.8" y1="289.814" x2="304.8" y2="165.1" width="0.1524" layer="94" style="longdash"/>
@@ -22119,7 +22081,7 @@ Source: &lt;a href="https://www.arrow.com/en/products/wsl1206r0100fek18/vishay"&
 <text x="203.2" y="574.04" size="12.7" layer="94">PI METAL DETECTOR CIRCUIT</text>
 <text x="322.58" y="218.186" size="2.54" layer="94" align="top-left">Encoder connector</text>
 <text x="495.3" y="513.08" size="2.54" layer="94">Serial Signal Connection</text>
-<text x="231.14" y="317.246" size="2.54" layer="94" align="top-left">3.3V Linear Voltage Regulator</text>
+<text x="231.14" y="312.166" size="2.54" layer="94" align="top-left">3.3V Linear Voltage Regulator</text>
 <text x="482.6" y="271.526" size="2.54" layer="94" align="top-left">Power Supply Connector</text>
 </plain>
 <instances>
@@ -22525,10 +22487,6 @@ Source: &lt;a href="https://www.arrow.com/en/products/wsl1206r0100fek18/vishay"&
 <attribute name="VALUE" x="411.48" y="238.76" size="1.778" layer="96"/>
 </instance>
 <instance part="P+4" gate="1" x="259.08" y="459.74" smashed="yes" rot="MR0"/>
-<instance part="J1" gate="G$1" x="556.26" y="246.38" smashed="yes" rot="R270">
-<attribute name="NAME" x="563.88" y="242.57" size="1.778" layer="95" rot="R270" align="center-left"/>
-<attribute name="VALUE" x="561.34" y="242.57" size="1.778" layer="96" rot="R270" align="center-left"/>
-</instance>
 <instance part="R12" gate="G$1" x="502.92" y="355.6" smashed="yes" rot="MR180">
 <attribute name="NAME" x="499.11" y="354.1014" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="499.11" y="358.902" size="1.778" layer="96" rot="MR180"/>
@@ -22541,74 +22499,35 @@ Source: &lt;a href="https://www.arrow.com/en/products/wsl1206r0100fek18/vishay"&
 <attribute name="NAME" x="486.41" y="489.1786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="486.41" y="484.378" size="1.778" layer="96"/>
 </instance>
-<instance part="VCC3" gate="G$1" x="541.02" y="256.54" smashed="yes">
-<attribute name="VALUE" x="541.02" y="256.54" size="1.778" layer="96"/>
-</instance>
-<instance part="VCC4" gate="G$1" x="248.92" y="525.78" smashed="yes">
-<attribute name="VALUE" x="248.92" y="528.32" size="1.778" layer="96"/>
-</instance>
 <instance part="VCC5" gate="G$1" x="436.88" y="515.62" smashed="yes">
 <attribute name="VALUE" x="436.88" y="515.62" size="1.778" layer="96"/>
 </instance>
 <instance part="GND58" gate="1" x="515.62" y="467.36" smashed="yes">
 <attribute name="VALUE" x="513.08" y="464.82" size="1.778" layer="96"/>
 </instance>
-<instance part="IC6" gate="G$1" x="124.46" y="271.78" smashed="yes" rot="MR0">
-<attribute name="NAME" x="97.79" y="307.34" size="1.778" layer="95" rot="MR0" align="center-left"/>
-<attribute name="VALUE" x="97.79" y="304.8" size="1.778" layer="96" rot="MR0" align="center-left"/>
+<instance part="GND60" gate="1" x="119.38" y="231.14" smashed="yes">
+<attribute name="VALUE" x="116.84" y="228.6" size="1.778" layer="96"/>
 </instance>
-<instance part="GND59" gate="1" x="127" y="304.8" smashed="yes">
-<attribute name="VALUE" x="124.46" y="302.26" size="1.778" layer="96"/>
+<instance part="SUPPLY9" gate="G$1" x="60.96" y="294.64" smashed="yes">
+<attribute name="VALUE" x="59.055" y="297.815" size="1.778" layer="96"/>
 </instance>
-<instance part="GND60" gate="1" x="111.76" y="236.22" smashed="yes">
-<attribute name="VALUE" x="109.22" y="233.68" size="1.778" layer="96"/>
+<instance part="C10" gate="G$1" x="60.96" y="284.48" smashed="yes">
+<attribute name="NAME" x="62.484" y="284.861" size="1.778" layer="95"/>
+<attribute name="VALUE" x="62.484" y="279.781" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY9" gate="G$1" x="60.96" y="281.94" smashed="yes">
-<attribute name="VALUE" x="59.055" y="285.115" size="1.778" layer="96"/>
+<instance part="GND61" gate="1" x="60.96" y="231.14" smashed="yes">
+<attribute name="VALUE" x="58.42" y="228.6" size="1.778" layer="96"/>
 </instance>
-<instance part="C10" gate="G$1" x="60.96" y="271.78" smashed="yes">
-<attribute name="NAME" x="62.484" y="272.161" size="1.778" layer="95"/>
-<attribute name="VALUE" x="62.484" y="267.081" size="1.778" layer="96"/>
+<instance part="C13" gate="G$1" x="88.9" y="283.464" smashed="yes" rot="MR0">
+<attribute name="NAME" x="90.424" y="280.035" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="90.424" y="285.115" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="C11" gate="G$1" x="87.884" y="264.16" smashed="yes" rot="MR90">
-<attribute name="NAME" x="84.455" y="262.636" size="1.778" layer="95" rot="MR270"/>
-<attribute name="VALUE" x="89.535" y="262.636" size="1.778" layer="96" rot="MR270"/>
+<instance part="R24" gate="G$1" x="106.68" y="284.48" smashed="yes" rot="MR180">
+<attribute name="NAME" x="102.87" y="282.9814" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="102.87" y="287.782" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="GND61" gate="1" x="60.96" y="236.22" smashed="yes">
-<attribute name="VALUE" x="58.42" y="233.68" size="1.778" layer="96"/>
-</instance>
-<instance part="C13" gate="G$1" x="76.2" y="270.764" smashed="yes" rot="MR0">
-<attribute name="NAME" x="77.724" y="267.335" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="77.724" y="272.415" size="1.778" layer="96" rot="MR180"/>
-</instance>
-<instance part="L3" gate="G$1" x="129.54" y="269.24" smashed="yes">
-<attribute name="NAME" x="130.81" y="275.59" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="130.81" y="273.05" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="R24" gate="G$1" x="139.7" y="264.16" smashed="yes" rot="MR180">
-<attribute name="NAME" x="135.89" y="262.6614" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="135.89" y="267.462" size="1.778" layer="96" rot="MR180"/>
-</instance>
-<instance part="C14" gate="G$1" x="185.42" y="251.46" smashed="yes" rot="R180">
-<attribute name="NAME" x="186.944" y="249.301" size="1.778" layer="95"/>
-<attribute name="VALUE" x="183.896" y="256.159" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="GND62" gate="1" x="185.42" y="236.22" smashed="yes">
-<attribute name="VALUE" x="182.88" y="233.68" size="1.778" layer="96"/>
-</instance>
-<instance part="P+5" gate="VCC" x="185.42" y="278.13" smashed="yes">
-<attribute name="VALUE" x="185.42" y="278.13" size="1.778" layer="96"/>
-</instance>
-<instance part="R25" gate="G$1" x="167.64" y="261.62" smashed="yes" rot="R270">
-<attribute name="NAME" x="169.1386" y="265.43" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="164.338" y="265.43" size="1.778" layer="96" rot="R270"/>
-</instance>
-<instance part="R44" gate="G$1" x="167.64" y="246.38" smashed="yes" rot="R270">
-<attribute name="NAME" x="169.1386" y="250.19" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="164.338" y="250.19" size="1.778" layer="96" rot="R270"/>
-</instance>
-<instance part="GND63" gate="1" x="167.64" y="236.22" smashed="yes">
-<attribute name="VALUE" x="165.1" y="233.68" size="1.778" layer="96"/>
+<instance part="P+5" gate="VCC" x="187.96" y="278.13" smashed="yes">
+<attribute name="VALUE" x="187.96" y="278.13" size="1.778" layer="96"/>
 </instance>
 <instance part="IC7" gate="G$1" x="231.14" y="264.16" smashed="yes" rot="MR180">
 <attribute name="NAME" x="237.49" y="256.54" size="1.778" layer="95" rot="MR180" align="center-left"/>
@@ -22823,6 +22742,76 @@ Source: &lt;a href="https://www.arrow.com/en/products/wsl1206r0100fek18/vishay"&
 <instance part="BATTERY" gate="-4" x="259.08" y="436.88" smashed="yes" rot="R180">
 <attribute name="NAME" x="260.35" y="435.991" size="1.778" layer="95"/>
 <attribute name="VALUE" x="262.89" y="440.563" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="IC3" gate="G$1" x="104.14" y="271.78" smashed="yes">
+<attribute name="NAME" x="110.49" y="279.4" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="110.49" y="276.86" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="C8" gate="G$1" x="76.2" y="284.48" smashed="yes">
+<attribute name="NAME" x="77.724" y="284.861" size="1.778" layer="95"/>
+<attribute name="VALUE" x="77.724" y="279.781" size="1.778" layer="96"/>
+</instance>
+<instance part="ON-OFF" gate="-1" x="548.64" y="238.76" smashed="yes" rot="R90">
+<attribute name="NAME" x="547.624" y="238.252" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="551.053" y="239.014" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="ON-OFF" gate="-2" x="553.72" y="238.76" smashed="yes" rot="R90">
+<attribute name="NAME" x="552.704" y="238.252" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="556.133" y="239.014" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="C11" gate="G$1" x="138.176" y="269.24" smashed="yes" rot="R90">
+<attribute name="NAME" x="141.224" y="273.685" size="1.778" layer="95"/>
+<attribute name="VALUE" x="141.224" y="271.145" size="1.778" layer="96"/>
+</instance>
+<instance part="R3" gate="G$1" x="86.36" y="246.38" smashed="yes" rot="R90">
+<attribute name="NAME" x="84.8614" y="242.57" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="89.662" y="242.57" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R4" gate="G$1" x="76.2" y="269.24" smashed="yes" rot="R180">
+<attribute name="NAME" x="80.01" y="267.7414" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="80.01" y="272.542" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="C14" gate="G$1" x="77.724" y="261.62" smashed="yes" rot="R270">
+<attribute name="NAME" x="79.756" y="257.175" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="74.676" y="264.795" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="GND15" gate="1" x="86.36" y="231.14" smashed="yes">
+<attribute name="VALUE" x="83.82" y="228.6" size="1.778" layer="96"/>
+</instance>
+<instance part="C21" gate="G$1" x="93.98" y="255.524" smashed="yes">
+<attribute name="NAME" x="92.075" y="255.524" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="97.155" y="255.524" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND16" gate="1" x="93.98" y="231.14" smashed="yes">
+<attribute name="VALUE" x="91.44" y="228.6" size="1.778" layer="96"/>
+</instance>
+<instance part="C22" gate="G$1" x="101.6" y="255.524" smashed="yes">
+<attribute name="NAME" x="98.425" y="252.476" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="103.505" y="252.476" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="GND17" gate="1" x="101.6" y="231.14" smashed="yes">
+<attribute name="VALUE" x="99.06" y="228.6" size="1.778" layer="96"/>
+</instance>
+<instance part="C25" gate="G$1" x="172.72" y="259.08" smashed="yes">
+<attribute name="NAME" x="174.244" y="256.921" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="174.244" y="262.001" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="C26" gate="G$1" x="182.88" y="259.08" smashed="yes">
+<attribute name="NAME" x="184.404" y="256.921" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="184.404" y="262.001" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="GND18" gate="1" x="172.72" y="233.68" smashed="yes">
+<attribute name="VALUE" x="170.18" y="231.14" size="1.778" layer="96"/>
+</instance>
+<instance part="GND19" gate="1" x="182.88" y="233.68" smashed="yes">
+<attribute name="VALUE" x="180.34" y="231.14" size="1.778" layer="96"/>
+</instance>
+<instance part="L2" gate="G$1" x="149.86" y="266.7" smashed="yes">
+<attribute name="NAME" x="151.13" y="273.05" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="151.13" y="270.51" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="SUPPLY2" gate="G$1" x="248.92" y="525.78" smashed="yes">
+<attribute name="VALUE" x="247.015" y="528.955" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -23117,56 +23106,18 @@ Source: &lt;a href="https://www.arrow.com/en/products/wsl1206r0100fek18/vishay"&
 <pinref part="DISPLAY" gate="-8" pin="S"/>
 </segment>
 <segment>
-<pinref part="IC6" gate="G$1" pin="EXPOSED_THERMAL_PAD"/>
-<wire x1="114.3" y1="307.34" x2="114.3" y2="309.88" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="309.88" x2="127" y2="309.88" width="0.1524" layer="91"/>
-<wire x1="127" y1="309.88" x2="127" y2="307.34" width="0.1524" layer="91"/>
-<pinref part="GND59" gate="1" pin="GND"/>
-<pinref part="IC6" gate="G$1" pin="PGND_2"/>
-<wire x1="111.76" y1="307.34" x2="111.76" y2="309.88" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="309.88" x2="114.3" y2="309.88" width="0.1524" layer="91"/>
-<junction x="114.3" y="309.88"/>
-<pinref part="IC6" gate="G$1" pin="PGND_1"/>
-<wire x1="109.22" y1="307.34" x2="109.22" y2="309.88" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="309.88" x2="111.76" y2="309.88" width="0.1524" layer="91"/>
-<junction x="111.76" y="309.88"/>
-</segment>
-<segment>
-<pinref part="IC6" gate="G$1" pin="AGND"/>
-<pinref part="GND60" gate="1" pin="GND"/>
-<wire x1="111.76" y1="248.92" x2="111.76" y2="246.38" width="0.1524" layer="91"/>
-<pinref part="IC6" gate="G$1" pin="FSW"/>
-<wire x1="111.76" y1="246.38" x2="111.76" y2="238.76" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="248.92" x2="109.22" y2="246.38" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="246.38" x2="111.76" y2="246.38" width="0.1524" layer="91"/>
-<junction x="111.76" y="246.38"/>
-<pinref part="IC6" gate="G$1" pin="DEF"/>
-<wire x1="106.68" y1="248.92" x2="106.68" y2="246.38" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="246.38" x2="109.22" y2="246.38" width="0.1524" layer="91"/>
-<junction x="109.22" y="246.38"/>
-</segment>
-<segment>
-<pinref part="C11" gate="G$1" pin="2"/>
-<wire x1="82.804" y1="264.16" x2="76.2" y2="264.16" width="0.1524" layer="91"/>
 <pinref part="C10" gate="G$1" pin="2"/>
-<wire x1="76.2" y1="264.16" x2="60.96" y2="264.16" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="264.16" x2="60.96" y2="266.7" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="276.86" x2="60.96" y2="276.86" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="276.86" x2="60.96" y2="279.4" width="0.1524" layer="91"/>
 <pinref part="GND61" gate="1" pin="GND"/>
-<wire x1="60.96" y1="238.76" x2="60.96" y2="264.16" width="0.1524" layer="91"/>
-<junction x="60.96" y="264.16"/>
+<wire x1="60.96" y1="233.68" x2="60.96" y2="276.86" width="0.1524" layer="91"/>
+<junction x="60.96" y="276.86"/>
+<pinref part="C8" gate="G$1" pin="2"/>
+<wire x1="76.2" y1="279.4" x2="76.2" y2="276.86" width="0.1524" layer="91"/>
 <pinref part="C13" gate="G$1" pin="2"/>
-<wire x1="76.2" y1="265.684" x2="76.2" y2="264.16" width="0.1524" layer="91"/>
-<junction x="76.2" y="264.16"/>
-</segment>
-<segment>
-<pinref part="C14" gate="G$1" pin="1"/>
-<pinref part="GND62" gate="1" pin="GND"/>
-<wire x1="185.42" y1="248.92" x2="185.42" y2="238.76" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GND63" gate="1" pin="GND"/>
-<pinref part="R44" gate="G$1" pin="2"/>
-<wire x1="167.64" y1="238.76" x2="167.64" y2="241.3" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="278.384" x2="88.9" y2="276.86" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="276.86" x2="88.9" y2="276.86" width="0.1524" layer="91"/>
+<junction x="76.2" y="276.86"/>
 </segment>
 <segment>
 <pinref part="IC7" gate="G$1" pin="ADJ/GND"/>
@@ -23205,6 +23156,42 @@ Source: &lt;a href="https://www.arrow.com/en/products/wsl1206r0100fek18/vishay"&
 <pinref part="GND12" gate="1" pin="GND"/>
 <pinref part="BATTERY" gate="-1" pin="KL"/>
 <wire x1="243.84" y1="421.64" x2="254" y2="421.64" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND60" gate="1" pin="GND"/>
+<pinref part="IC3" gate="G$1" pin="EP"/>
+<wire x1="119.38" y1="233.68" x2="119.38" y2="248.92" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="G$1" pin="GND"/>
+<wire x1="119.38" y1="248.92" x2="119.38" y2="251.46" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="264.16" x2="137.16" y2="264.16" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="264.16" x2="137.16" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="248.92" x2="119.38" y2="248.92" width="0.1524" layer="91"/>
+<junction x="119.38" y="248.92"/>
+</segment>
+<segment>
+<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="GND15" gate="1" pin="GND"/>
+<wire x1="86.36" y1="241.3" x2="86.36" y2="233.68" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C21" gate="G$1" pin="2"/>
+<pinref part="GND16" gate="1" pin="GND"/>
+<wire x1="93.98" y1="250.444" x2="93.98" y2="233.68" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND17" gate="1" pin="GND"/>
+<pinref part="C22" gate="G$1" pin="2"/>
+<wire x1="101.6" y1="233.68" x2="101.6" y2="250.444" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C25" gate="G$1" pin="2"/>
+<pinref part="GND18" gate="1" pin="GND"/>
+<wire x1="172.72" y1="256.54" x2="172.72" y2="236.22" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C26" gate="G$1" pin="2"/>
+<pinref part="GND19" gate="1" pin="GND"/>
+<wire x1="182.88" y1="256.54" x2="182.88" y2="236.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -23268,8 +23255,9 @@ Source: &lt;a href="https://www.arrow.com/en/products/wsl1206r0100fek18/vishay"&
 <segment>
 <pinref part="SUPPLY19" gate="G$1" pin="VCC"/>
 <wire x1="568.96" y1="248.92" x2="568.96" y2="246.38" width="0.1524" layer="91"/>
-<wire x1="568.96" y1="246.38" x2="556.26" y2="246.38" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="1"/>
+<wire x1="568.96" y1="246.38" x2="553.72" y2="246.38" width="0.1524" layer="91"/>
+<pinref part="ON-OFF" gate="-2" pin="S"/>
+<wire x1="553.72" y1="246.38" x2="553.72" y2="243.84" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="P+13" gate="VCC" pin="VCC"/>
@@ -23290,54 +23278,49 @@ Source: &lt;a href="https://www.arrow.com/en/products/wsl1206r0100fek18/vishay"&
 <pinref part="ENCODER" gate="-2" pin="S"/>
 </segment>
 <segment>
-<pinref part="C10" gate="G$1" pin="1"/>
-<wire x1="60.96" y1="274.32" x2="60.96" y2="276.86" width="0.1524" layer="91"/>
 <pinref part="SUPPLY9" gate="G$1" pin="VCC"/>
-<wire x1="60.96" y1="279.4" x2="60.96" y2="276.86" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="276.86" x2="76.2" y2="276.86" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="276.86" x2="88.9" y2="276.86" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="276.86" x2="88.9" y2="269.24" width="0.1524" layer="91"/>
-<junction x="60.96" y="276.86"/>
-<pinref part="IC6" gate="G$1" pin="AVIN"/>
-<wire x1="93.98" y1="266.7" x2="91.44" y2="266.7" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="266.7" x2="91.44" y2="269.24" width="0.1524" layer="91"/>
-<pinref part="IC6" gate="G$1" pin="PVIN_1"/>
-<wire x1="91.44" y1="269.24" x2="93.98" y2="269.24" width="0.1524" layer="91"/>
-<pinref part="IC6" gate="G$1" pin="PVIN_2"/>
-<wire x1="93.98" y1="271.78" x2="91.44" y2="271.78" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="271.78" x2="91.44" y2="269.24" width="0.1524" layer="91"/>
-<junction x="91.44" y="269.24"/>
-<pinref part="IC6" gate="G$1" pin="EN"/>
-<wire x1="104.14" y1="307.34" x2="104.14" y2="309.88" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="309.88" x2="91.44" y2="309.88" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="309.88" x2="91.44" y2="271.78" width="0.1524" layer="91"/>
-<junction x="91.44" y="271.78"/>
-<wire x1="88.9" y1="269.24" x2="91.44" y2="269.24" width="0.1524" layer="91"/>
+<pinref part="C10" gate="G$1" pin="1"/>
+<wire x1="60.96" y1="287.02" x2="60.96" y2="289.56" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="289.56" x2="60.96" y2="292.1" width="0.1524" layer="91"/>
 <pinref part="C13" gate="G$1" pin="1"/>
-<wire x1="76.2" y1="273.304" x2="76.2" y2="276.86" width="0.1524" layer="91"/>
-<junction x="76.2" y="276.86"/>
+<wire x1="88.9" y1="286.004" x2="88.9" y2="289.56" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="289.56" x2="88.9" y2="289.56" width="0.1524" layer="91"/>
+<pinref part="C8" gate="G$1" pin="1"/>
+<wire x1="76.2" y1="287.02" x2="76.2" y2="289.56" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="289.56" x2="60.96" y2="289.56" width="0.1524" layer="91"/>
+<junction x="76.2" y="289.56"/>
+<junction x="60.96" y="289.56"/>
+<pinref part="IC3" gate="G$1" pin="VIN"/>
+<wire x1="137.16" y1="271.78" x2="134.62" y2="271.78" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="289.56" x2="137.16" y2="289.56" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="289.56" x2="137.16" y2="271.78" width="0.1524" layer="91"/>
+<junction x="88.9" y="289.56"/>
 </segment>
 <segment>
 <pinref part="P+5" gate="VCC" pin="VCC"/>
-<wire x1="185.42" y1="275.59" x2="185.42" y2="269.24" width="0.1524" layer="91"/>
-<pinref part="IC6" gate="G$1" pin="VOS"/>
-<wire x1="106.68" y1="307.34" x2="106.68" y2="312.42" width="0.1524" layer="91"/>
-<pinref part="L3" gate="G$1" pin="2"/>
-<wire x1="149.86" y1="269.24" x2="160.02" y2="269.24" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="312.42" x2="160.02" y2="312.42" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="312.42" x2="160.02" y2="269.24" width="0.1524" layer="91"/>
-<junction x="160.02" y="269.24"/>
-<pinref part="R24" gate="G$1" pin="2"/>
-<wire x1="144.78" y1="264.16" x2="160.02" y2="264.16" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="264.16" x2="160.02" y2="269.24" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="275.59" x2="187.96" y2="266.7" width="0.1524" layer="91"/>
+<pinref part="C25" gate="G$1" pin="1"/>
+<wire x1="172.72" y1="264.16" x2="172.72" y2="266.7" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="266.7" x2="177.8" y2="266.7" width="0.1524" layer="91"/>
+<pinref part="C26" gate="G$1" pin="1"/>
+<wire x1="177.8" y1="266.7" x2="182.88" y2="266.7" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="266.7" x2="182.88" y2="264.16" width="0.1524" layer="91"/>
+<pinref part="L2" gate="G$1" pin="2"/>
+<wire x1="170.18" y1="266.7" x2="172.72" y2="266.7" width="0.1524" layer="91"/>
+<junction x="172.72" y="266.7"/>
+<wire x1="182.88" y1="266.7" x2="187.96" y2="266.7" width="0.1524" layer="91"/>
+<junction x="182.88" y="266.7"/>
 <pinref part="C14" gate="G$1" pin="2"/>
-<wire x1="185.42" y1="256.54" x2="185.42" y2="269.24" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="269.24" x2="167.64" y2="269.24" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="269.24" x2="160.02" y2="269.24" width="0.1524" layer="91"/>
-<junction x="185.42" y="269.24"/>
-<pinref part="R25" gate="G$1" pin="1"/>
-<wire x1="167.64" y1="266.7" x2="167.64" y2="269.24" width="0.1524" layer="91"/>
-<junction x="167.64" y="269.24"/>
+<wire x1="72.644" y1="261.62" x2="68.58" y2="261.62" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="261.62" x2="68.58" y2="269.24" width="0.1524" layer="91"/>
+<pinref part="R4" gate="G$1" pin="2"/>
+<wire x1="68.58" y1="269.24" x2="71.12" y2="269.24" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="269.24" x2="66.04" y2="269.24" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="269.24" x2="66.04" y2="226.06" width="0.1524" layer="91"/>
+<junction x="68.58" y="269.24"/>
+<wire x1="66.04" y1="226.06" x2="177.8" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="226.06" x2="177.8" y2="266.7" width="0.1524" layer="91"/>
+<junction x="177.8" y="266.7"/>
 </segment>
 <segment>
 <pinref part="P+2" gate="VCC" pin="VCC"/>
@@ -23358,6 +23341,42 @@ Source: &lt;a href="https://www.arrow.com/en/products/wsl1206r0100fek18/vishay"&
 <pinref part="R5" gate="G$1" pin="1"/>
 <pinref part="P+6" gate="VCC" pin="VCC"/>
 <wire x1="447.04" y1="337.82" x2="447.04" y2="332.74" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="218.44" y1="500.38" x2="218.44" y2="518.16" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="518.16" x2="203.2" y2="518.16" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="518.16" x2="226.06" y2="518.16" width="0.1524" layer="91"/>
+<junction x="218.44" y="518.16"/>
+<pinref part="C35" gate="G$1" pin="1"/>
+<wire x1="226.06" y1="518.16" x2="226.06" y2="515.62" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="518.16" x2="248.92" y2="518.16" width="0.1524" layer="91"/>
+<junction x="226.06" y="518.16"/>
+<wire x1="203.2" y1="513.08" x2="203.2" y2="485.14" width="0.1524" layer="91"/>
+<pinref part="C28" gate="G$1" pin="1"/>
+<wire x1="213.36" y1="510.54" x2="213.36" y2="513.08" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="513.08" x2="203.2" y2="513.08" width="0.1524" layer="91"/>
+<label x="203.2" y="485.14" size="1.778" layer="95"/>
+<wire x1="203.2" y1="513.08" x2="203.2" y2="518.16" width="0.1524" layer="91"/>
+<junction x="203.2" y="513.08"/>
+<wire x1="248.92" y1="523.24" x2="248.92" y2="518.16" width="0.1524" layer="91"/>
+<pinref part="Q3" gate="G$1" pin="S"/>
+<pinref part="R21" gate="G$1" pin="1"/>
+<wire x1="195.58" y1="510.54" x2="195.58" y2="518.16" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="518.16" x2="195.58" y2="518.16" width="0.1524" layer="91"/>
+<junction x="203.2" y="518.16"/>
+<pinref part="R1" gate="G$1" pin="2"/>
+<junction x="195.58" y="518.16"/>
+<pinref part="SUPPLY2" gate="G$1" pin="VCC"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="PVCC_1"/>
+<wire x1="101.6" y1="426.72" x2="99.06" y2="426.72" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="PVCC_2"/>
+<wire x1="101.6" y1="429.26" x2="99.06" y2="429.26" width="0.1524" layer="91"/>
+<label x="96.52" y="429.26" size="1.778" layer="95" rot="MR0"/>
+<wire x1="99.06" y1="429.26" x2="96.52" y2="429.26" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="426.72" x2="99.06" y2="429.26" width="0.1524" layer="91"/>
+<junction x="99.06" y="429.26"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -24277,93 +24296,6 @@ Source: &lt;a href="https://www.arrow.com/en/products/wsl1206r0100fek18/vishay"&
 <pinref part="SERIAL" gate="-6" pin="S"/>
 </segment>
 </net>
-<net name="VCCINT" class="0">
-<segment>
-<wire x1="553.72" y1="246.38" x2="541.02" y2="246.38" width="0.1524" layer="91"/>
-<wire x1="541.02" y1="246.38" x2="541.02" y2="254" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="2"/>
-<pinref part="VCC3" gate="G$1" pin="VCCINT"/>
-</segment>
-<segment>
-<wire x1="218.44" y1="500.38" x2="218.44" y2="518.16" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="518.16" x2="203.2" y2="518.16" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="518.16" x2="226.06" y2="518.16" width="0.1524" layer="91"/>
-<junction x="218.44" y="518.16"/>
-<pinref part="C35" gate="G$1" pin="1"/>
-<wire x1="226.06" y1="518.16" x2="226.06" y2="515.62" width="0.1524" layer="91"/>
-<wire x1="226.06" y1="518.16" x2="248.92" y2="518.16" width="0.1524" layer="91"/>
-<junction x="226.06" y="518.16"/>
-<wire x1="203.2" y1="513.08" x2="203.2" y2="485.14" width="0.1524" layer="91"/>
-<pinref part="C28" gate="G$1" pin="1"/>
-<wire x1="213.36" y1="510.54" x2="213.36" y2="513.08" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="513.08" x2="203.2" y2="513.08" width="0.1524" layer="91"/>
-<label x="203.2" y="485.14" size="1.778" layer="95"/>
-<wire x1="203.2" y1="513.08" x2="203.2" y2="518.16" width="0.1524" layer="91"/>
-<junction x="203.2" y="513.08"/>
-<pinref part="VCC4" gate="G$1" pin="VCCINT"/>
-<wire x1="248.92" y1="523.24" x2="248.92" y2="518.16" width="0.1524" layer="91"/>
-<pinref part="Q3" gate="G$1" pin="S"/>
-<pinref part="R21" gate="G$1" pin="1"/>
-<wire x1="195.58" y1="510.54" x2="195.58" y2="518.16" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="518.16" x2="195.58" y2="518.16" width="0.1524" layer="91"/>
-<junction x="203.2" y="518.16"/>
-<pinref part="R1" gate="G$1" pin="2"/>
-<junction x="195.58" y="518.16"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="PVCC_1"/>
-<wire x1="101.6" y1="426.72" x2="99.06" y2="426.72" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="PVCC_2"/>
-<wire x1="101.6" y1="429.26" x2="99.06" y2="429.26" width="0.1524" layer="91"/>
-<label x="96.52" y="429.26" size="1.778" layer="95" rot="MR0"/>
-<wire x1="99.06" y1="429.26" x2="96.52" y2="429.26" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="426.72" x2="99.06" y2="429.26" width="0.1524" layer="91"/>
-<junction x="99.06" y="429.26"/>
-</segment>
-</net>
-<net name="N$49" class="0">
-<segment>
-<pinref part="IC6" gate="G$1" pin="SW_3"/>
-<wire x1="124.46" y1="266.7" x2="127" y2="266.7" width="0.1524" layer="91"/>
-<pinref part="IC6" gate="G$1" pin="SW_1"/>
-<wire x1="124.46" y1="271.78" x2="127" y2="271.78" width="0.1524" layer="91"/>
-<wire x1="127" y1="271.78" x2="127" y2="269.24" width="0.1524" layer="91"/>
-<pinref part="IC6" gate="G$1" pin="SW_2"/>
-<wire x1="127" y1="269.24" x2="127" y2="266.7" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="269.24" x2="127" y2="269.24" width="0.1524" layer="91"/>
-<junction x="127" y="269.24"/>
-<pinref part="L3" gate="G$1" pin="1"/>
-<wire x1="129.54" y1="269.24" x2="127" y2="269.24" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$19" class="0">
-<segment>
-<pinref part="C11" gate="G$1" pin="1"/>
-<pinref part="IC6" gate="G$1" pin="SS/TR"/>
-<wire x1="90.424" y1="264.16" x2="93.98" y2="264.16" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$28" class="0">
-<segment>
-<pinref part="IC6" gate="G$1" pin="PG"/>
-<pinref part="R24" gate="G$1" pin="1"/>
-<wire x1="124.46" y1="264.16" x2="134.62" y2="264.16" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$30" class="0">
-<segment>
-<pinref part="R25" gate="G$1" pin="2"/>
-<pinref part="R44" gate="G$1" pin="1"/>
-<wire x1="167.64" y1="251.46" x2="167.64" y2="254" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="254" x2="167.64" y2="256.54" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="254" x2="157.48" y2="254" width="0.1524" layer="91"/>
-<junction x="167.64" y="254"/>
-<wire x1="157.48" y1="254" x2="157.48" y2="246.38" width="0.1524" layer="91"/>
-<pinref part="IC6" gate="G$1" pin="FB"/>
-<wire x1="114.3" y1="246.38" x2="114.3" y2="248.92" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="246.38" x2="114.3" y2="246.38" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$5" class="0">
 <segment>
 <pinref part="Q9" gate="G$1" pin="B"/>
@@ -24398,10 +24330,83 @@ Source: &lt;a href="https://www.arrow.com/en/products/wsl1206r0100fek18/vishay"&
 <net name="N$29" class="0">
 <segment>
 <wire x1="353.06" y1="264.16" x2="350.52" y2="264.16" width="0.1524" layer="91"/>
-<wire x1="350.52" y1="264.16" x2="350.52" y2="241.3" width="0.1524" layer="91"/>
-<wire x1="350.52" y1="241.3" x2="353.06" y2="241.3" width="0.1524" layer="91"/>
-<pinref part="SPEAKER" gate="-2" pin="S"/>
 <pinref part="HEADPHONE" gate="-4" pin="S"/>
+<pinref part="SPEAKER" gate="-2" pin="S"/>
+<wire x1="353.06" y1="241.3" x2="350.52" y2="241.3" width="0.1524" layer="91"/>
+<wire x1="350.52" y1="241.3" x2="350.52" y2="264.16" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$17" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="EN"/>
+<wire x1="104.14" y1="271.78" x2="99.06" y2="271.78" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="271.78" x2="99.06" y2="284.48" width="0.1524" layer="91"/>
+<pinref part="R24" gate="G$1" pin="1"/>
+<wire x1="99.06" y1="284.48" x2="101.6" y2="284.48" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="ON-OFF" class="0">
+<segment>
+<pinref part="R24" gate="G$1" pin="2"/>
+<wire x1="111.76" y1="284.48" x2="119.38" y2="284.48" width="0.1524" layer="91"/>
+<label x="119.38" y="284.48" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="ON-OFF" gate="-1" pin="S"/>
+<wire x1="548.64" y1="243.84" x2="548.64" y2="246.38" width="0.1524" layer="91"/>
+<wire x1="548.64" y1="246.38" x2="541.02" y2="246.38" width="0.1524" layer="91"/>
+<wire x1="541.02" y1="246.38" x2="541.02" y2="251.46" width="0.1524" layer="91"/>
+<label x="541.02" y="251.46" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$18" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="VBST"/>
+<pinref part="C11" gate="G$1" pin="1"/>
+<wire x1="134.62" y1="269.24" x2="135.636" y2="269.24" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$19" class="0">
+<segment>
+<pinref part="C11" gate="G$1" pin="2"/>
+<wire x1="143.256" y1="269.24" x2="144.78" y2="269.24" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="269.24" x2="144.78" y2="266.7" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="G$1" pin="SW"/>
+<wire x1="134.62" y1="266.7" x2="144.78" y2="266.7" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="266.7" x2="149.86" y2="266.7" width="0.1524" layer="91"/>
+<junction x="144.78" y="266.7"/>
+<pinref part="L2" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$24" class="0">
+<segment>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="81.28" y1="269.24" x2="86.36" y2="269.24" width="0.1524" layer="91"/>
+<pinref part="C14" gate="G$1" pin="1"/>
+<wire x1="86.36" y1="269.24" x2="86.36" y2="261.62" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="261.62" x2="80.264" y2="261.62" width="0.1524" layer="91"/>
+<pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="86.36" y1="251.46" x2="86.36" y2="261.62" width="0.1524" layer="91"/>
+<junction x="86.36" y="261.62"/>
+<pinref part="IC3" gate="G$1" pin="VFB"/>
+<wire x1="104.14" y1="269.24" x2="86.36" y2="269.24" width="0.1524" layer="91"/>
+<junction x="86.36" y="269.24"/>
+</segment>
+</net>
+<net name="N$30" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="VREG5"/>
+<wire x1="104.14" y1="266.7" x2="93.98" y2="266.7" width="0.1524" layer="91"/>
+<pinref part="C21" gate="G$1" pin="1"/>
+<wire x1="93.98" y1="266.7" x2="93.98" y2="258.064" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$33" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="SS"/>
+<wire x1="104.14" y1="264.16" x2="101.6" y2="264.16" width="0.1524" layer="91"/>
+<pinref part="C22" gate="G$1" pin="1"/>
+<wire x1="101.6" y1="264.16" x2="101.6" y2="258.064" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
