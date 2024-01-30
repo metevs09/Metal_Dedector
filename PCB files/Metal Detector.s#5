@@ -22649,13 +22649,13 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <attribute name="NAME" x="179.07" y="511.81" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="179.07" y="514.35" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="SPEAKER" gate="-1" x="355.6" y="236.22" smashed="yes" rot="R180">
-<attribute name="NAME" x="356.108" y="235.204" size="1.778" layer="95"/>
-<attribute name="VALUE" x="355.346" y="238.633" size="1.778" layer="96" rot="R180"/>
+<instance part="SPEAKER" gate="-1" x="358.14" y="236.22" smashed="yes" rot="R180">
+<attribute name="NAME" x="358.648" y="235.204" size="1.778" layer="95"/>
+<attribute name="VALUE" x="357.886" y="238.633" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="SPEAKER" gate="-2" x="355.6" y="241.3" smashed="yes" rot="R180">
-<attribute name="NAME" x="356.108" y="240.284" size="1.778" layer="95"/>
-<attribute name="VALUE" x="355.346" y="243.713" size="1.778" layer="96" rot="R180"/>
+<instance part="SPEAKER" gate="-2" x="358.14" y="241.3" smashed="yes" rot="R180">
+<attribute name="NAME" x="358.648" y="240.284" size="1.778" layer="95"/>
+<attribute name="VALUE" x="357.886" y="243.713" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="DISPLAY" gate="-1" x="406.4" y="220.98" smashed="yes" rot="R90">
 <attribute name="NAME" x="405.384" y="220.472" size="1.778" layer="95" rot="R270"/>
@@ -23157,7 +23157,7 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 </segment>
 <segment>
 <pinref part="SUPPLY4" gate="1" pin="GND"/>
-<wire x1="350.52" y1="236.22" x2="345.44" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="353.06" y1="236.22" x2="345.44" y2="236.22" width="0.1524" layer="91"/>
 <wire x1="345.44" y1="236.22" x2="345.44" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="353.06" y1="248.92" x2="345.44" y2="248.92" width="0.1524" layer="91"/>
 <wire x1="345.44" y1="248.92" x2="345.44" y2="236.22" width="0.1524" layer="91"/>
@@ -23336,10 +23336,10 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="68.58" y1="269.24" x2="71.12" y2="269.24" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="269.24" x2="66.04" y2="269.24" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="269.24" x2="66.04" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="269.24" x2="66.04" y2="226.06" width="0.1524" layer="91"/>
 <junction x="68.58" y="269.24"/>
-<wire x1="66.04" y1="220.98" x2="177.8" y2="220.98" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="220.98" x2="177.8" y2="266.7" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="226.06" x2="177.8" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="226.06" x2="177.8" y2="266.7" width="0.1524" layer="91"/>
 <junction x="177.8" y="266.7"/>
 </segment>
 <segment>
@@ -24352,9 +24352,10 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <net name="N$29" class="0">
 <segment>
 <wire x1="353.06" y1="264.16" x2="350.52" y2="264.16" width="0.1524" layer="91"/>
-<wire x1="350.52" y1="264.16" x2="350.52" y2="241.3" width="0.1524" layer="91"/>
-<pinref part="SPEAKER" gate="-2" pin="S"/>
 <pinref part="HEADPHONE" gate="-4" pin="S"/>
+<pinref part="SPEAKER" gate="-2" pin="S"/>
+<wire x1="353.06" y1="241.3" x2="350.52" y2="241.3" width="0.1524" layer="91"/>
+<wire x1="350.52" y1="241.3" x2="350.52" y2="264.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$17" class="0">

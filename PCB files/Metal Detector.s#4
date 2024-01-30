@@ -19316,13 +19316,6 @@ ultra fast</description>
 <text x="-0.508" y="0.254" size="0.8128" layer="94">IO</text>
 <pin name="VCCIO" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
-<symbol name="VCCINT" urn="urn:adsk.eagle:symbol:26945/1" library_version="1">
-<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
-<text x="-2.54" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<text x="-0.889" y="0.254" size="0.8128" layer="94">INT</text>
-<pin name="VCCINT" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="VCC" urn="urn:adsk.eagle:component:26957/1" prefix="P+" library_version="1">
@@ -19368,19 +19361,6 @@ ultra fast</description>
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="VCCIO" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="VCCINT" urn="urn:adsk.eagle:component:26975/1" prefix="VCC" library_version="1">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="VCCINT" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -22015,7 +21995,6 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="560Ω"/>
 <part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0Ω"/>
 <part name="R22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0Ω"/>
-<part name="VCC4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCCINT" device=""/>
 <part name="VCC5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCCIO" device="" value="VCC3.3"/>
 <part name="GND58" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND60" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -22074,6 +22053,7 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <part name="GND18" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND19" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="L2" library="SRP1265A-4R7M" deviceset="SRP1265A-4R7M" device=""/>
+<part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device="" value="SYS_VCC"/>
 </parts>
 <sheets>
 <sheet>
@@ -22519,9 +22499,6 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <attribute name="NAME" x="486.41" y="489.1786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="486.41" y="484.378" size="1.778" layer="96"/>
 </instance>
-<instance part="VCC4" gate="G$1" x="248.92" y="525.78" smashed="yes">
-<attribute name="VALUE" x="248.92" y="528.32" size="1.778" layer="96"/>
-</instance>
 <instance part="VCC5" gate="G$1" x="436.88" y="515.62" smashed="yes">
 <attribute name="VALUE" x="436.88" y="515.62" size="1.778" layer="96"/>
 </instance>
@@ -22832,6 +22809,9 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <instance part="L2" gate="G$1" x="149.86" y="266.7" smashed="yes">
 <attribute name="NAME" x="151.13" y="273.05" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="151.13" y="270.51" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="SUPPLY2" gate="G$1" x="248.92" y="525.78" smashed="yes">
+<attribute name="VALUE" x="247.015" y="528.955" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -23336,10 +23316,10 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="68.58" y1="269.24" x2="71.12" y2="269.24" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="269.24" x2="66.04" y2="269.24" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="269.24" x2="66.04" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="269.24" x2="66.04" y2="226.06" width="0.1524" layer="91"/>
 <junction x="68.58" y="269.24"/>
-<wire x1="66.04" y1="220.98" x2="177.8" y2="220.98" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="220.98" x2="177.8" y2="266.7" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="226.06" x2="177.8" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="226.06" x2="177.8" y2="266.7" width="0.1524" layer="91"/>
 <junction x="177.8" y="266.7"/>
 </segment>
 <segment>
@@ -23361,6 +23341,42 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <pinref part="R5" gate="G$1" pin="1"/>
 <pinref part="P+6" gate="VCC" pin="VCC"/>
 <wire x1="447.04" y1="337.82" x2="447.04" y2="332.74" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="218.44" y1="500.38" x2="218.44" y2="518.16" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="518.16" x2="203.2" y2="518.16" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="518.16" x2="226.06" y2="518.16" width="0.1524" layer="91"/>
+<junction x="218.44" y="518.16"/>
+<pinref part="C35" gate="G$1" pin="1"/>
+<wire x1="226.06" y1="518.16" x2="226.06" y2="515.62" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="518.16" x2="248.92" y2="518.16" width="0.1524" layer="91"/>
+<junction x="226.06" y="518.16"/>
+<wire x1="203.2" y1="513.08" x2="203.2" y2="485.14" width="0.1524" layer="91"/>
+<pinref part="C28" gate="G$1" pin="1"/>
+<wire x1="213.36" y1="510.54" x2="213.36" y2="513.08" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="513.08" x2="203.2" y2="513.08" width="0.1524" layer="91"/>
+<label x="203.2" y="485.14" size="1.778" layer="95"/>
+<wire x1="203.2" y1="513.08" x2="203.2" y2="518.16" width="0.1524" layer="91"/>
+<junction x="203.2" y="513.08"/>
+<wire x1="248.92" y1="523.24" x2="248.92" y2="518.16" width="0.1524" layer="91"/>
+<pinref part="Q3" gate="G$1" pin="S"/>
+<pinref part="R21" gate="G$1" pin="1"/>
+<wire x1="195.58" y1="510.54" x2="195.58" y2="518.16" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="518.16" x2="195.58" y2="518.16" width="0.1524" layer="91"/>
+<junction x="203.2" y="518.16"/>
+<pinref part="R1" gate="G$1" pin="2"/>
+<junction x="195.58" y="518.16"/>
+<pinref part="SUPPLY2" gate="G$1" pin="VCC"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="PVCC_1"/>
+<wire x1="101.6" y1="426.72" x2="99.06" y2="426.72" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="PVCC_2"/>
+<wire x1="101.6" y1="429.26" x2="99.06" y2="429.26" width="0.1524" layer="91"/>
+<label x="96.52" y="429.26" size="1.778" layer="95" rot="MR0"/>
+<wire x1="99.06" y1="429.26" x2="96.52" y2="429.26" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="426.72" x2="99.06" y2="429.26" width="0.1524" layer="91"/>
+<junction x="99.06" y="429.26"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -24278,44 +24294,6 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <label x="502.92" y="497.84" size="1.778" layer="95"/>
 <wire x1="525.78" y1="497.84" x2="495.3" y2="497.84" width="0.1524" layer="91"/>
 <pinref part="SERIAL" gate="-6" pin="S"/>
-</segment>
-</net>
-<net name="VCCINT" class="0">
-<segment>
-<wire x1="218.44" y1="500.38" x2="218.44" y2="518.16" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="518.16" x2="203.2" y2="518.16" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="518.16" x2="226.06" y2="518.16" width="0.1524" layer="91"/>
-<junction x="218.44" y="518.16"/>
-<pinref part="C35" gate="G$1" pin="1"/>
-<wire x1="226.06" y1="518.16" x2="226.06" y2="515.62" width="0.1524" layer="91"/>
-<wire x1="226.06" y1="518.16" x2="248.92" y2="518.16" width="0.1524" layer="91"/>
-<junction x="226.06" y="518.16"/>
-<wire x1="203.2" y1="513.08" x2="203.2" y2="485.14" width="0.1524" layer="91"/>
-<pinref part="C28" gate="G$1" pin="1"/>
-<wire x1="213.36" y1="510.54" x2="213.36" y2="513.08" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="513.08" x2="203.2" y2="513.08" width="0.1524" layer="91"/>
-<label x="203.2" y="485.14" size="1.778" layer="95"/>
-<wire x1="203.2" y1="513.08" x2="203.2" y2="518.16" width="0.1524" layer="91"/>
-<junction x="203.2" y="513.08"/>
-<pinref part="VCC4" gate="G$1" pin="VCCINT"/>
-<wire x1="248.92" y1="523.24" x2="248.92" y2="518.16" width="0.1524" layer="91"/>
-<pinref part="Q3" gate="G$1" pin="S"/>
-<pinref part="R21" gate="G$1" pin="1"/>
-<wire x1="195.58" y1="510.54" x2="195.58" y2="518.16" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="518.16" x2="195.58" y2="518.16" width="0.1524" layer="91"/>
-<junction x="203.2" y="518.16"/>
-<pinref part="R1" gate="G$1" pin="2"/>
-<junction x="195.58" y="518.16"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="PVCC_1"/>
-<wire x1="101.6" y1="426.72" x2="99.06" y2="426.72" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="PVCC_2"/>
-<wire x1="101.6" y1="429.26" x2="99.06" y2="429.26" width="0.1524" layer="91"/>
-<label x="96.52" y="429.26" size="1.778" layer="95" rot="MR0"/>
-<wire x1="99.06" y1="429.26" x2="96.52" y2="429.26" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="426.72" x2="99.06" y2="429.26" width="0.1524" layer="91"/>
-<junction x="99.06" y="429.26"/>
 </segment>
 </net>
 <net name="N$5" class="0">

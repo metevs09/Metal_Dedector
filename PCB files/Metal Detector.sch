@@ -17510,22 +17510,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="0" y="0.889" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-0.889" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
 </package>
-<package name="1210" urn="urn:adsk.eagle:footprint:41385042/1" library_version="2">
-<description>&lt;p&gt;&lt;b&gt;Generic 3225 (1210) package&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
-<wire x1="-1.5365" y1="1.1865" x2="1.5365" y2="1.1865" width="0.127" layer="51"/>
-<wire x1="1.5365" y1="1.1865" x2="1.5365" y2="-1.1865" width="0.127" layer="51"/>
-<wire x1="1.5365" y1="-1.1865" x2="-1.5365" y2="-1.1865" width="0.127" layer="51"/>
-<wire x1="-1.5365" y1="-1.1865" x2="-1.5365" y2="1.1865" width="0.127" layer="51"/>
-<wire x1="-2.59" y1="1.45" x2="2.59" y2="1.45" width="0.0508" layer="39"/>
-<wire x1="2.59" y1="1.45" x2="2.59" y2="-1.45" width="0.0508" layer="39"/>
-<wire x1="2.59" y1="-1.45" x2="-2.59" y2="-1.45" width="0.0508" layer="39"/>
-<wire x1="-2.59" y1="-1.45" x2="-2.59" y2="1.45" width="0.0508" layer="39"/>
-<smd name="1" x="-1.755" y="0" dx="1.27" dy="2.06" layer="1"/>
-<smd name="2" x="1.755" y="0" dx="1.27" dy="2.06" layer="1"/>
-<text x="0" y="1.397" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.397" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-</package>
 </packages>
 <packages3d>
 <package3d name="0402" urn="urn:adsk.eagle:package:41385089/1" type="box" library_version="2">
@@ -17561,13 +17545,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <packageinstance name="0805"/>
 </packageinstances>
 </package3d>
-<package3d name="1210" urn="urn:adsk.eagle:package:41385094/1" type="box" library_version="2">
-<description>&lt;p&gt;&lt;b&gt;Generic 3225 (1210) package&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="1210"/>
-</packageinstances>
-</package3d>
 </packages3d>
 <symbols>
 <symbol name="CAP" urn="urn:adsk.eagle:symbol:41385051/1" library_version="2">
@@ -17582,105 +17559,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="10UF" urn="urn:adsk.eagle:component:41385124/1" prefix="C" library_version="2">
-<description>&lt;h3&gt;10.0µF ceramic capacitors&lt;/h3&gt;
-&lt;p&gt;A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="CAP" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-0603-6.3V-20%" package="0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:41385090/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CAP-11015"/>
-<attribute name="VALUE" value="10uF"/>
-</technology>
-</technologies>
-</device>
-<device name="-1206-6.3V-20%" package="1206">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:41385095/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CAP-10057"/>
-<attribute name="VALUE" value="10uF"/>
-</technology>
-</technologies>
-</device>
-<device name="-0805-10V-10%" package="0805">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:41385092/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CAP-11330"/>
-<attribute name="VALUE" value="10uF"/>
-</technology>
-</technologies>
-</device>
-<device name="-1210-50V-20%" package="1210">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:41385094/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CAP-09824"/>
-<attribute name="VALUE" value="10uF"/>
-</technology>
-</technologies>
-</device>
-<device name="-0805-25V-10%" package="0805">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:41385092/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CAP-14259"/>
-<attribute name="VALUE" value="10uF"/>
-</technology>
-</technologies>
-</device>
-<device name="-0402T-6.3V-20%" package="0402-TIGHT">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:41385069/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CAP-14848" constant="no"/>
-<attribute name="VALUE" value="10uF" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="1.0UF" urn="urn:adsk.eagle:component:41385140/1" prefix="C" library_version="2">
 <description>&lt;h3&gt;1µF ceramic capacitors&lt;/h3&gt;
 &lt;p&gt;A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.&lt;/p&gt;</description>
@@ -19972,7 +19850,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/3224W-1-104E.
 <part name="Q1" library="IRF740" deviceset="IRF740" device=""/>
 <part name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4148" device="DO35-7" package3d_urn="urn:adsk.eagle:package:43339/2"/>
 <part name="D3" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4148" device="DO35-7" package3d_urn="urn:adsk.eagle:package:43339/2"/>
-<part name="C7" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="10UF" device="-0402T-6.3V-20%" package3d_urn="urn:adsk.eagle:package:41385069/1" value="10uF"/>
 <part name="IC4" library="ESP32-WROOM-32UE-N4" deviceset="ESP32-WROOM-32UE-N4" device=""/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND13" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -20055,7 +19932,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/3224W-1-104E.
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="4.3kΩ"/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device="" value="SYS_VCC"/>
 <part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="1Ω"/>
-<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="1mΩ"/>
+<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="0.01Ω"/>
 <part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="1kΩ"/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="15pF"/>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
@@ -20114,8 +19991,8 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/3224W-1-104E.
 <part name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0Ω"/>
 <part name="R20" library="WSL1206R0100FEK18" deviceset="WSL1206R0100FEK18" device=""/>
 <part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="20Ω"/>
-<part name="R30" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10KΩ"/>
-<part name="R31" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10KΩ"/>
+<part name="R30" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10kΩ"/>
+<part name="R31" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10kΩ"/>
 <part name="R33" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="2.2kΩ"/>
 <part name="R1" library="WSL1206R0100FEK18" deviceset="WSL1206R0100FEK18" device="" value="WSL1206R0200FEK18"/>
 <part name="SPEAKER" library="con-amp-mt" library_urn="urn:adsk.eagle:library:123" deviceset="S02P" device="" package3d_urn="urn:adsk.eagle:package:5789/1"/>
@@ -20143,6 +20020,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/3224W-1-104E.
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device="" value="SYS_VCC"/>
 <part name="L3" library="SRU8043-330Y" deviceset="SRU8043-330Y" device="" value="SRU8043-4R7Y"/>
 <part name="R8" library="3224W-1-104E" deviceset="3224W-1-104E" device=""/>
+<part name="C39" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -20189,10 +20067,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/3224W-1-104E.
 <instance part="D3" gate="G$1" x="459.74" y="350.52" smashed="yes" rot="R270">
 <attribute name="NAME" x="457.6826" y="355.6" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="456.9714" y="345.44" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="C7" gate="G$1" x="533.4" y="379.73" smashed="yes" rot="R180">
-<attribute name="NAME" x="539.496" y="376.809" size="1.778" layer="95" font="vector" rot="R180"/>
-<attribute name="VALUE" x="539.496" y="381.889" size="1.778" layer="96" font="vector" rot="R180"/>
 </instance>
 <instance part="IC4" gate="G$1" x="378.46" y="508" smashed="yes">
 <attribute name="NAME" x="407.67" y="513.08" size="1.778" layer="95" align="center-left"/>
@@ -20902,6 +20776,10 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/3224W-1-104E.
 <attribute name="NAME" x="511.81" y="375.92" size="1.778" layer="95" rot="R180" align="center-left"/>
 <attribute name="VALUE" x="511.81" y="373.38" size="1.778" layer="96" rot="R180" align="center-left"/>
 </instance>
+<instance part="C39" gate="G$1" x="533.4" y="379.984" smashed="yes">
+<attribute name="NAME" x="534.924" y="380.365" size="1.778" layer="95"/>
+<attribute name="VALUE" x="533.4" y="375.285" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -21116,11 +20994,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/3224W-1-104E.
 <wire x1="243.84" y1="431.8" x2="254" y2="431.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C7" gate="G$1" pin="1"/>
-<pinref part="GND34" gate="1" pin="GND"/>
-<wire x1="533.4" y1="374.65" x2="533.4" y2="373.38" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="Q1" gate="G$1" pin="S"/>
 <pinref part="GND11" gate="1" pin="GND"/>
 <wire x1="426.72" y1="325.12" x2="426.72" y2="322.58" width="0.1524" layer="91"/>
@@ -21282,6 +21155,11 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/3224W-1-104E.
 <pinref part="GND19" gate="1" pin="GND"/>
 <wire x1="182.88" y1="256.54" x2="182.88" y2="236.22" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="C39" gate="G$1" pin="2"/>
+<pinref part="GND34" gate="1" pin="GND"/>
+<wire x1="533.4" y1="374.904" x2="533.4" y2="373.38" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="VCC" class="0">
 <segment>
@@ -21314,11 +21192,11 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/3224W-1-104E.
 <pinref part="P+1" gate="VCC" pin="VCC"/>
 <wire x1="525.78" y1="388.62" x2="525.78" y2="383.54" width="0.1524" layer="91"/>
 <pinref part="R10" gate="G$1" pin="2"/>
-<pinref part="C7" gate="G$1" pin="2"/>
 <wire x1="525.78" y1="383.54" x2="525.78" y2="378.46" width="0.1524" layer="91"/>
-<wire x1="533.4" y1="382.27" x2="533.4" y2="383.54" width="0.1524" layer="91"/>
+<wire x1="533.4" y1="382.524" x2="533.4" y2="383.54" width="0.1524" layer="91"/>
 <wire x1="533.4" y1="383.54" x2="525.78" y2="383.54" width="0.1524" layer="91"/>
 <junction x="525.78" y="383.54"/>
+<pinref part="C39" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="A" pin="V+"/>

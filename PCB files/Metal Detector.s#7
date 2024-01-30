@@ -22089,7 +22089,7 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <text x="386.08" y="271.526" size="2.54" layer="94" align="top-left">128 x 64 Graphic Display Circuit &amp; Connector</text>
 <text x="314.96" y="271.526" size="2.54" layer="94" align="top-left">Headphone &amp; Speaker Circuit</text>
 <wire x1="304.546" y1="563.88" x2="304.8" y2="414.274" width="0.1524" layer="94" style="longdash"/>
-<text x="106.68" y="329.946" size="2.54" layer="94" align="top-left">5V Buck Conventer Circuit</text>
+<text x="91.44" y="312.166" size="2.54" layer="94" align="top-left">5V Buck Conventer Circuit</text>
 <wire x1="304.8" y1="414.274" x2="304.8" y2="375.666" width="0.1524" layer="94" style="longdash"/>
 <wire x1="304.8" y1="375.666" x2="304.8" y2="289.814" width="0.1524" layer="94" style="longdash"/>
 <wire x1="304.8" y1="289.814" x2="304.8" y2="165.1" width="0.1524" layer="94" style="longdash"/>
@@ -22101,7 +22101,7 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <text x="203.2" y="574.04" size="12.7" layer="94">PI METAL DETECTOR CIRCUIT</text>
 <text x="322.58" y="218.186" size="2.54" layer="94" align="top-left">Encoder connector</text>
 <text x="495.3" y="513.08" size="2.54" layer="94">Serial Signal Connection</text>
-<text x="231.14" y="317.246" size="2.54" layer="94" align="top-left">3.3V Linear Voltage Regulator</text>
+<text x="231.14" y="312.166" size="2.54" layer="94" align="top-left">3.3V Linear Voltage Regulator</text>
 <text x="482.6" y="271.526" size="2.54" layer="94" align="top-left">Power Supply Connector</text>
 </plain>
 <instances>
@@ -22649,13 +22649,13 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <attribute name="NAME" x="179.07" y="511.81" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="179.07" y="514.35" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="SPEAKER" gate="-1" x="337.82" y="236.22" smashed="yes" rot="R180">
-<attribute name="NAME" x="338.328" y="235.204" size="1.778" layer="95"/>
-<attribute name="VALUE" x="337.566" y="238.633" size="1.778" layer="96" rot="R180"/>
+<instance part="SPEAKER" gate="-1" x="355.6" y="236.22" smashed="yes" rot="R180">
+<attribute name="NAME" x="356.108" y="235.204" size="1.778" layer="95"/>
+<attribute name="VALUE" x="355.346" y="238.633" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="SPEAKER" gate="-2" x="337.82" y="241.3" smashed="yes" rot="R180">
-<attribute name="NAME" x="338.328" y="240.284" size="1.778" layer="95"/>
-<attribute name="VALUE" x="337.566" y="243.713" size="1.778" layer="96" rot="R180"/>
+<instance part="SPEAKER" gate="-2" x="355.6" y="241.3" smashed="yes" rot="R180">
+<attribute name="NAME" x="356.108" y="240.284" size="1.778" layer="95"/>
+<attribute name="VALUE" x="355.346" y="243.713" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="DISPLAY" gate="-1" x="406.4" y="220.98" smashed="yes" rot="R90">
 <attribute name="NAME" x="405.384" y="220.472" size="1.778" layer="95" rot="R270"/>
@@ -23157,7 +23157,7 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 </segment>
 <segment>
 <pinref part="SUPPLY4" gate="1" pin="GND"/>
-<wire x1="332.74" y1="236.22" x2="345.44" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="350.52" y1="236.22" x2="345.44" y2="236.22" width="0.1524" layer="91"/>
 <wire x1="345.44" y1="236.22" x2="345.44" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="353.06" y1="248.92" x2="345.44" y2="248.92" width="0.1524" layer="91"/>
 <wire x1="345.44" y1="248.92" x2="345.44" y2="236.22" width="0.1524" layer="91"/>
@@ -24353,7 +24353,6 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <segment>
 <wire x1="353.06" y1="264.16" x2="350.52" y2="264.16" width="0.1524" layer="91"/>
 <wire x1="350.52" y1="264.16" x2="350.52" y2="241.3" width="0.1524" layer="91"/>
-<wire x1="350.52" y1="241.3" x2="332.74" y2="241.3" width="0.1524" layer="91"/>
 <pinref part="SPEAKER" gate="-2" pin="S"/>
 <pinref part="HEADPHONE" gate="-4" pin="S"/>
 </segment>

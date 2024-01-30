@@ -19316,13 +19316,6 @@ ultra fast</description>
 <text x="-0.508" y="0.254" size="0.8128" layer="94">IO</text>
 <pin name="VCCIO" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
-<symbol name="VCCINT" urn="urn:adsk.eagle:symbol:26945/1" library_version="1">
-<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
-<text x="-2.54" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<text x="-0.889" y="0.254" size="0.8128" layer="94">INT</text>
-<pin name="VCCINT" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="VCC" urn="urn:adsk.eagle:component:26957/1" prefix="P+" library_version="1">
@@ -19368,19 +19361,6 @@ ultra fast</description>
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="VCCIO" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="VCCINT" urn="urn:adsk.eagle:component:26975/1" prefix="VCC" library_version="1">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="VCCINT" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -21801,31 +21781,43 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps54228"&gt; Datasheet &lt;/a&gt;
 </deviceset>
 </devicesets>
 </library>
-<library name="SRP1265A-4R7M">
-<description>&lt;Inductor SMD shielded AEC-Q200 4.7uH Bourns SRP1265A Series Shielded Wire-wound SMD Inductor with a Carbonyl Powder Core, 4.7 H 20% 13.5A Idc&lt;/b&gt;&lt;p&gt;
+<library name="SRU8043-330Y">
+<description>&lt;33 H Shielded Drum Core, Wirewound Inductor 1.7 A 100mOhm Nonstandard&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
 <packages>
-<package name="INDM135125X640N">
-<description>&lt;b&gt;SRP1265(A)&lt;/b&gt;&lt;br&gt;
+<package name="SRU8043330Y">
+<description>&lt;b&gt;SRU8043-330Y-1&lt;/b&gt;&lt;br&gt;
 </description>
-<smd name="1" x="-5.5" y="0" dx="4.9" dy="4" layer="1" rot="R90"/>
-<smd name="2" x="5.5" y="0" dx="4.9" dy="4" layer="1" rot="R90"/>
+<smd name="1" x="-3.9" y="0" dx="3.2" dy="2" layer="1" rot="R90"/>
+<smd name="2" x="3.9" y="0" dx="3.2" dy="2" layer="1" rot="R90"/>
 <text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
 <text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-7.75" y1="6.65" x2="7.75" y2="6.65" width="0.05" layer="51"/>
-<wire x1="7.75" y1="6.65" x2="7.75" y2="-6.65" width="0.05" layer="51"/>
-<wire x1="7.75" y1="-6.65" x2="-7.75" y2="-6.65" width="0.05" layer="51"/>
-<wire x1="-7.75" y1="-6.65" x2="-7.75" y2="6.65" width="0.05" layer="51"/>
-<wire x1="-6.75" y1="6.25" x2="6.75" y2="6.25" width="0.1" layer="51"/>
-<wire x1="6.75" y1="6.25" x2="6.75" y2="-6.25" width="0.1" layer="51"/>
-<wire x1="6.75" y1="-6.25" x2="-6.75" y2="-6.25" width="0.1" layer="51"/>
-<wire x1="-6.75" y1="-6.25" x2="-6.75" y2="6.25" width="0.1" layer="51"/>
-<wire x1="6.75" y1="6.25" x2="-6.75" y2="6.25" width="0.2" layer="21"/>
-<wire x1="-6.75" y1="-6.25" x2="6.75" y2="-6.25" width="0.2" layer="21"/>
+<wire x1="-5.9" y1="5" x2="5.9" y2="5" width="0.1" layer="51"/>
+<wire x1="5.9" y1="5" x2="5.9" y2="-5" width="0.1" layer="51"/>
+<wire x1="5.9" y1="-5" x2="-5.9" y2="-5" width="0.1" layer="51"/>
+<wire x1="-5.9" y1="-5" x2="-5.9" y2="5" width="0.1" layer="51"/>
+<wire x1="-4" y1="2" x2="-2" y2="4" width="0.1" layer="51"/>
+<wire x1="-2" y1="4" x2="2" y2="4" width="0.1" layer="51"/>
+<wire x1="2" y1="4" x2="4" y2="2" width="0.1" layer="51"/>
+<wire x1="4" y1="2" x2="4" y2="-2" width="0.1" layer="51"/>
+<wire x1="4" y1="-2" x2="2" y2="-4" width="0.1" layer="51"/>
+<wire x1="2" y1="-4" x2="-2" y2="-4" width="0.1" layer="51"/>
+<wire x1="-2" y1="-4" x2="-4" y2="-2" width="0.1" layer="51"/>
+<wire x1="-4" y1="-2" x2="-4" y2="2" width="0.1" layer="51"/>
+<wire x1="-4" y1="2" x2="-2" y2="4" width="0.2" layer="21"/>
+<wire x1="-2" y1="4" x2="2" y2="4" width="0.2" layer="21"/>
+<wire x1="2" y1="4" x2="4" y2="2" width="0.2" layer="21"/>
+<wire x1="-4" y1="-2" x2="-2" y2="-4" width="0.2" layer="21"/>
+<wire x1="-2" y1="-4" x2="2" y2="-4" width="0.2" layer="21"/>
+<wire x1="2" y1="-4" x2="4" y2="-2" width="0.2" layer="21"/>
+<wire x1="-5.4" y1="0" x2="-5.4" y2="0" width="0.1" layer="21"/>
+<wire x1="-5.4" y1="0" x2="-5.5" y2="0" width="0.1" layer="21" curve="180"/>
+<wire x1="-5.5" y1="0" x2="-5.5" y2="0" width="0.1" layer="21"/>
+<wire x1="-5.5" y1="0" x2="-5.4" y2="0" width="0.1" layer="21" curve="180"/>
 </package>
 </packages>
 <symbols>
-<symbol name="SRP1265A-4R7M">
+<symbol name="SRU8043-330Y">
 <wire x1="5.08" y1="0" x2="7.62" y2="0" width="0.254" layer="94" curve="-175.4"/>
 <wire x1="7.62" y1="0" x2="10.16" y2="0" width="0.254" layer="94" curve="-175.4"/>
 <wire x1="10.16" y1="0" x2="12.7" y2="0" width="0.254" layer="94" curve="-175.4"/>
@@ -21837,28 +21829,28 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps54228"&gt; Datasheet &lt;/a&gt;
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="SRP1265A-4R7M" prefix="L">
-<description>&lt;b&gt;Inductor SMD shielded AEC-Q200 4.7uH Bourns SRP1265A Series Shielded Wire-wound SMD Inductor with a Carbonyl Powder Core, 4.7 H 20% 13.5A Idc&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributors/DKDS-12/225124.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<deviceset name="SRU8043-330Y" prefix="L">
+<description>&lt;b&gt;33 H Shielded Drum Core, Wirewound Inductor 1.7 A 100mOhm Nonstandard&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.bourns.com/docs/product-datasheets/sru8043.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
-<gate name="G$1" symbol="SRP1265A-4R7M" x="0" y="0"/>
+<gate name="G$1" symbol="SRU8043-330Y" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="INDM135125X640N">
+<device name="" package="SRU8043330Y">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="ARROW_PART_NUMBER" value="SRP1265A-4R7M" constant="no"/>
-<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/srp1265a-4r7m/bourns?region=nac" constant="no"/>
-<attribute name="DESCRIPTION" value="Inductor SMD shielded AEC-Q200 4.7uH Bourns SRP1265A Series Shielded Wire-wound SMD Inductor with a Carbonyl Powder Core, 4.7 H 20% 13.5A Idc" constant="no"/>
-<attribute name="HEIGHT" value="6.4mm" constant="no"/>
+<attribute name="ARROW_PART_NUMBER" value="SRU8043-330Y" constant="no"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/sru8043-330y/bourns?region=europe" constant="no"/>
+<attribute name="DESCRIPTION" value="33 H Shielded Drum Core, Wirewound Inductor 1.7 A 100mOhm Nonstandard" constant="no"/>
+<attribute name="HEIGHT" value="4.6mm" constant="no"/>
 <attribute name="MANUFACTURER_NAME" value="Bourns" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="SRP1265A-4R7M" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="652-SRP1265A-4R7M" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Bourns/SRP1265A-4R7M?qs=7z%252BmIopC6%2FJSLqjYt7xEMQ%3D%3D" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SRU8043-330Y" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="652-SRU8043-330Y" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Bourns/SRU8043-330Y?qs=3fQS%252B%2FKBkgz%2FMxFC%2FAjkIg%3D%3D" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -22015,7 +22007,6 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="560Ω"/>
 <part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0Ω"/>
 <part name="R22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0Ω"/>
-<part name="VCC4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCCINT" device=""/>
 <part name="VCC5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCCIO" device="" value="VCC3.3"/>
 <part name="GND58" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND60" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -22073,7 +22064,8 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <part name="C26" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="1.0UF" device="-1206-50V-10%" package3d_urn="urn:adsk.eagle:package:41385095/1" value="22uF"/>
 <part name="GND18" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND19" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="L2" library="SRP1265A-4R7M" deviceset="SRP1265A-4R7M" device=""/>
+<part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device="" value="SYS_VCC"/>
+<part name="L3" library="SRU8043-330Y" deviceset="SRU8043-330Y" device="" value="SRU8043-4R7Y"/>
 </parts>
 <sheets>
 <sheet>
@@ -22519,9 +22511,6 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <attribute name="NAME" x="486.41" y="489.1786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="486.41" y="484.378" size="1.778" layer="96"/>
 </instance>
-<instance part="VCC4" gate="G$1" x="248.92" y="525.78" smashed="yes">
-<attribute name="VALUE" x="248.92" y="528.32" size="1.778" layer="96"/>
-</instance>
 <instance part="VCC5" gate="G$1" x="436.88" y="515.62" smashed="yes">
 <attribute name="VALUE" x="436.88" y="515.62" size="1.778" layer="96"/>
 </instance>
@@ -22829,9 +22818,12 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <instance part="GND19" gate="1" x="182.88" y="233.68" smashed="yes">
 <attribute name="VALUE" x="180.34" y="231.14" size="1.778" layer="96"/>
 </instance>
-<instance part="L2" gate="G$1" x="149.86" y="266.7" smashed="yes">
-<attribute name="NAME" x="151.13" y="273.05" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="151.13" y="270.51" size="1.778" layer="96" align="center-left"/>
+<instance part="SUPPLY2" gate="G$1" x="248.92" y="525.78" smashed="yes">
+<attribute name="VALUE" x="247.015" y="528.955" size="1.778" layer="96"/>
+</instance>
+<instance part="L3" gate="G$1" x="149.86" y="266.7" smashed="yes">
+<attribute name="NAME" x="166.37" y="273.05" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="166.37" y="270.51" size="1.778" layer="96" align="center-left"/>
 </instance>
 </instances>
 <busses>
@@ -23325,7 +23317,6 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <pinref part="C26" gate="G$1" pin="1"/>
 <wire x1="177.8" y1="266.7" x2="182.88" y2="266.7" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="266.7" x2="182.88" y2="264.16" width="0.1524" layer="91"/>
-<pinref part="L2" gate="G$1" pin="2"/>
 <wire x1="170.18" y1="266.7" x2="172.72" y2="266.7" width="0.1524" layer="91"/>
 <junction x="172.72" y="266.7"/>
 <wire x1="182.88" y1="266.7" x2="187.96" y2="266.7" width="0.1524" layer="91"/>
@@ -23341,6 +23332,7 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <wire x1="66.04" y1="226.06" x2="177.8" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="226.06" x2="177.8" y2="266.7" width="0.1524" layer="91"/>
 <junction x="177.8" y="266.7"/>
+<pinref part="L3" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="P+2" gate="VCC" pin="VCC"/>
@@ -23361,6 +23353,42 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <pinref part="R5" gate="G$1" pin="1"/>
 <pinref part="P+6" gate="VCC" pin="VCC"/>
 <wire x1="447.04" y1="337.82" x2="447.04" y2="332.74" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="218.44" y1="500.38" x2="218.44" y2="518.16" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="518.16" x2="203.2" y2="518.16" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="518.16" x2="226.06" y2="518.16" width="0.1524" layer="91"/>
+<junction x="218.44" y="518.16"/>
+<pinref part="C35" gate="G$1" pin="1"/>
+<wire x1="226.06" y1="518.16" x2="226.06" y2="515.62" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="518.16" x2="248.92" y2="518.16" width="0.1524" layer="91"/>
+<junction x="226.06" y="518.16"/>
+<wire x1="203.2" y1="513.08" x2="203.2" y2="485.14" width="0.1524" layer="91"/>
+<pinref part="C28" gate="G$1" pin="1"/>
+<wire x1="213.36" y1="510.54" x2="213.36" y2="513.08" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="513.08" x2="203.2" y2="513.08" width="0.1524" layer="91"/>
+<label x="203.2" y="485.14" size="1.778" layer="95"/>
+<wire x1="203.2" y1="513.08" x2="203.2" y2="518.16" width="0.1524" layer="91"/>
+<junction x="203.2" y="513.08"/>
+<wire x1="248.92" y1="523.24" x2="248.92" y2="518.16" width="0.1524" layer="91"/>
+<pinref part="Q3" gate="G$1" pin="S"/>
+<pinref part="R21" gate="G$1" pin="1"/>
+<wire x1="195.58" y1="510.54" x2="195.58" y2="518.16" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="518.16" x2="195.58" y2="518.16" width="0.1524" layer="91"/>
+<junction x="203.2" y="518.16"/>
+<pinref part="R1" gate="G$1" pin="2"/>
+<junction x="195.58" y="518.16"/>
+<pinref part="SUPPLY2" gate="G$1" pin="VCC"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="PVCC_1"/>
+<wire x1="101.6" y1="426.72" x2="99.06" y2="426.72" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="PVCC_2"/>
+<wire x1="101.6" y1="429.26" x2="99.06" y2="429.26" width="0.1524" layer="91"/>
+<label x="96.52" y="429.26" size="1.778" layer="95" rot="MR0"/>
+<wire x1="99.06" y1="429.26" x2="96.52" y2="429.26" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="426.72" x2="99.06" y2="429.26" width="0.1524" layer="91"/>
+<junction x="99.06" y="429.26"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -24280,44 +24308,6 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <pinref part="SERIAL" gate="-6" pin="S"/>
 </segment>
 </net>
-<net name="VCCINT" class="0">
-<segment>
-<wire x1="218.44" y1="500.38" x2="218.44" y2="518.16" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="518.16" x2="203.2" y2="518.16" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="518.16" x2="226.06" y2="518.16" width="0.1524" layer="91"/>
-<junction x="218.44" y="518.16"/>
-<pinref part="C35" gate="G$1" pin="1"/>
-<wire x1="226.06" y1="518.16" x2="226.06" y2="515.62" width="0.1524" layer="91"/>
-<wire x1="226.06" y1="518.16" x2="248.92" y2="518.16" width="0.1524" layer="91"/>
-<junction x="226.06" y="518.16"/>
-<wire x1="203.2" y1="513.08" x2="203.2" y2="485.14" width="0.1524" layer="91"/>
-<pinref part="C28" gate="G$1" pin="1"/>
-<wire x1="213.36" y1="510.54" x2="213.36" y2="513.08" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="513.08" x2="203.2" y2="513.08" width="0.1524" layer="91"/>
-<label x="203.2" y="485.14" size="1.778" layer="95"/>
-<wire x1="203.2" y1="513.08" x2="203.2" y2="518.16" width="0.1524" layer="91"/>
-<junction x="203.2" y="513.08"/>
-<pinref part="VCC4" gate="G$1" pin="VCCINT"/>
-<wire x1="248.92" y1="523.24" x2="248.92" y2="518.16" width="0.1524" layer="91"/>
-<pinref part="Q3" gate="G$1" pin="S"/>
-<pinref part="R21" gate="G$1" pin="1"/>
-<wire x1="195.58" y1="510.54" x2="195.58" y2="518.16" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="518.16" x2="195.58" y2="518.16" width="0.1524" layer="91"/>
-<junction x="203.2" y="518.16"/>
-<pinref part="R1" gate="G$1" pin="2"/>
-<junction x="195.58" y="518.16"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="PVCC_1"/>
-<wire x1="101.6" y1="426.72" x2="99.06" y2="426.72" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="PVCC_2"/>
-<wire x1="101.6" y1="429.26" x2="99.06" y2="429.26" width="0.1524" layer="91"/>
-<label x="96.52" y="429.26" size="1.778" layer="95" rot="MR0"/>
-<wire x1="99.06" y1="429.26" x2="96.52" y2="429.26" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="426.72" x2="99.06" y2="429.26" width="0.1524" layer="91"/>
-<junction x="99.06" y="429.26"/>
-</segment>
-</net>
 <net name="N$5" class="0">
 <segment>
 <pinref part="Q9" gate="G$1" pin="B"/>
@@ -24395,9 +24385,9 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <wire x1="144.78" y1="269.24" x2="144.78" y2="266.7" width="0.1524" layer="91"/>
 <pinref part="IC3" gate="G$1" pin="SW"/>
 <wire x1="134.62" y1="266.7" x2="144.78" y2="266.7" width="0.1524" layer="91"/>
-<wire x1="144.78" y1="266.7" x2="149.86" y2="266.7" width="0.1524" layer="91"/>
+<pinref part="L3" gate="G$1" pin="1"/>
+<wire x1="149.86" y1="266.7" x2="144.78" y2="266.7" width="0.1524" layer="91"/>
 <junction x="144.78" y="266.7"/>
-<pinref part="L2" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$24" class="0">
