@@ -2,6 +2,7 @@
 
 This project provides a comprehensive reference for building a pulse induction metal detector. It includes the general system scheme, hardware design files, PCB designs, CAM files for manufacturing, and a USB to UART module for ESP32 integration.
 
+![Metal Detector](https://github.com/user-attachments/assets/62b2c15e-c024-4212-9ba5-208b94c42c4e)
 
 ## Overview
 The Metal Detector project is designed to help enthusiasts and professionals understand and implement a pulse induction metal detector. The repository contains:
