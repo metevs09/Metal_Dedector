@@ -18,7 +18,7 @@ The Metal Detector project is designed to help enthusiasts and professionals und
 - ESP32 Interface: Provides a USB to UART bridge for interfacing with ESP32-based systems.
   
 ## Repository Structure
-
+```
 Metal_Dedector/
 - ├── CAM file/              # CAM files for PCB manufacturing
 - ├── PCB files/             # PCB design files and layouts
@@ -26,7 +26,7 @@ Metal_Dedector/
 - ├── Metal Dedektör.drawio   # Schematic diagram created with draw.io
 - ├── README.md              # This README file
 - └── SECURITY.md            # Security policy information
-
+```
 ## Getting Started
 
 ### Prerequisites
